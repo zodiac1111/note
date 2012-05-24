@@ -6,10 +6,10 @@
 gcc<code> gcc -v<code>:
 >http://gcc.gnu.org/install/configure.html 如何安装gcc:配置选项
 
-	使用内建 specs。
+	使用内建 				#specs Using built-in specs
 	COLLECT_GCC=gcc
 	COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.7.0/lto-wrapper
-	目标：x86_64-redhat-linux
+	目标(Target)：x86_64-redhat-linux
 	配置为：../configure			#以下为gcc配置参数 
 	 --prefix=/usr 			#安装的目录 
 	 --mandir=/usr/share/man 

@@ -1,5 +1,8 @@
 #minicom不能输入的问题
-把流控去掉试试<br>
+
+>minicom是一个文本模式的终端模拟器,for类unix系统类似window下的超级终端.
+
+###把流控去掉试试<br>
 
 1. Ctrl +A 
 * Z 
@@ -11,7 +14,8 @@
 #Linux下minicom的配置和使用方法
 
 >http://hi.baidu.com/zengzhaonong/blog/item/8427c633c835de40ac4b5f47.html
-2007年09月10日 星期一 19:26
+
+@2007年09月10日 星期一 19:26
 安装配置minicom
 
 	--------------------------------------------------
