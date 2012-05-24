@@ -4,6 +4,7 @@
 	Linux localhost.localdomain 3.3.6-3.fc17.x86_64 #1 SMP Wed May 16 21:21:18 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
 
 gcc<code> gcc -v<code>:
+>http://gcc.gnu.org/install/configure.html 如何安装gcc:配置选项
 
 	使用内建 specs。
 	COLLECT_GCC=gcc
@@ -13,13 +14,13 @@ gcc<code> gcc -v<code>:
 	 --prefix=/usr 			#安装的目录 
 	 --mandir=/usr/share/man 
 	 --infodir=/usr/share/info
-	 --with-bugurl=http://bugzilla.redhat.com/bugzilla 
+	 --with-bugurl=http://bugzilla.redhat.com/bugzilla #经销商选项(二进制版)
 	 --enable-bootstrap 
 	 --enable-shared
 	 --enable-threads=posix 
 	 --enable-checking=release
-	 --disable-build-with-cxx 
-	 --disable-build-poststage1-with-cxx
+	 --disable-build-with-cxx 		#[不]使用C++编译器替代旧的c编译器build
+	 --disable-build-poststage1-with-cxx		#在STAGE1期间所选择编译语言种类,Mostly useful for compiler development.
 	 --with-system-zlib 
 	 --enable-__cxa_atexit
 	 --disable-libunwind-exceptions 
