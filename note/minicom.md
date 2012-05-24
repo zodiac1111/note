@@ -19,11 +19,14 @@
    如果有usbserial，说明系统支持USB转串口。 
 
 安装minicom (Fedora自带有minicom，此步可以跳过)
-   apt-get install minicom
-   apt-get install lrzsz
+
+	apt-get install minicom
+	apt-get install lrzsz
 配置minicom
-   # minicom -s
-   Serial port setup [Enter]
+
+	# minicom -s
+	Serial port setup [Enter]
+
     +-------------------------------------------------------------+
     | A -    Serial Device      : /dev/ttyUSB0                    |
     | B - Lockfile Location     : /var/lock                       |
