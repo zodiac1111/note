@@ -8,14 +8,14 @@
  
 1.用文本编辑器打开<code>/etc/profile</code><br>
 2.在profile文件末尾加入：<br>
-<code> 
-JAVA_HOME=/usr/share/jdk1.5.0_05<br>
-PATH=$JAVA_HOME/bin:$PATH<br>
-CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar<br>
-export JAVA_HOME<br>
-export PATH<br>
-export CLASSPATH<br>
-</code>
+
+	JAVA_HOME=/usr/share/jdk1.5.0_05
+	PATH=$JAVA_HOME/bin:$PATH
+	CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+	export JAVA_HOME
+	export PATH
+	export CLASSPATH
+
 3. 重新登录
  
 注解：
@@ -32,13 +32,14 @@ export CLASSPATH<br>
  
 1. 用文本编辑器打开用户目录下的.bashrc文件(我修改的是**~/.bash_profile**文件)
 2. 在.bashrc文件末尾加入：<br>
-<code>set JAVA_HOME=/usr/share/jdk1.5.0_05<br>
-export JAVA_HOME<br>
-set PATH=$JAVA_HOME/bin:$PATH<br>
-export PATH<br>
-set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar<br>
-export CLASSPATH<br>
-</code>
+
+	set JAVA_HOME=/usr/share/jdk1.5.0_05<br>
+	export JAVA_HOME<br>
+	set PATH=$JAVA_HOME/bin:$PATH<br>
+	export PATH<br>
+	set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar<br>
+	export CLASSPATH<br>
+
 3. 重新登录
 4. ps: Linux-使环境变量**马上生效**的命令>http://www.cnblogs.com/babyblue/archive/2006/02/14/519179.html
 
@@ -49,8 +50,7 @@ export CLASSPATH<br>
 不赞成使用这种方法，因为换个shell，你的设置就无效了，因此这种方法仅仅是临时使用，以后要使用的时候又要重新设置，比较麻烦。
  
 只需在shell终端执行下列命令：
-<code>
-export JAVA_HOME=/usr/share/jdk1.5.0_05
-export PATH=$JAVA_HOME/bin:$PATH
-export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-</code>
+
+	export JAVA_HOME=/usr/share/jdk1.5.0_05
+	export PATH=$JAVA_HOME/bin:$PATH
+	export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
