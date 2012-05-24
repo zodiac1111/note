@@ -1,0 +1,56 @@
+#Linux操作系统下三种配置环境变量的方法
+>http://www.linuxeden.com/html/sysadmin/20080424/56879.html
+
+现在使用linux的朋友越来越多了，在linux下做开发首先就是需要配置环境变量，下面以配置java环境变量为例介绍三种配置环境变量的方法。
+ 
+##1.修改/etc/profile文件
+如果你的计算机仅仅作为开发使用时推荐使用这种方法，因为所有用户的shell都有权使用这些环境变量，可能会给系统带来安全性问题。
+ 
+1.用文本编辑器打开<code>/etc/profile</code><br>
+2.在profile文件末尾加入：<br>
+<code> 
+JAVA_HOME=/usr/share/jdk1.5.0_05<br>
+PATH=$JAVA_HOME/bin:$PATH<br>
+CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar<br>
+export JAVA_HOME<br>
+export PATH<br>
+export CLASSPATH<br>
+</code>
+3. 重新登录
+ 
+注解：
+
+* 你要将 <code>/usr/share/jdk1.5.0_05jdk</code> 改为你的jdk安装目录
+* linux下用冒号“:”来分隔路径
+* $PATH / $CLASSPATH / $JAVA_HOME 是用来引用原来的环境变量的值,在设置环境变量时特别要注意不能把原来的值给覆盖掉了，这是一种常见的错误。
+* CLASSPATH中当前目录“.”不能丢,把当前目录丢掉也是常见的错误。
+* export是把这三个变量导出为全局变量。
+* 大小写必须严格区分。
+ 
+##2. 修改.bashrc文件　　
+这种方法更为安全，它可以把使用这些环境变量的权限控制到用户级别，如果你需要给某个用户权限使用这些环境变量，你只需要修改其个人用户主目录下的.bashrc文件就可以了。
+ 
+1. 用文本编辑器打开用户目录下的.bashrc文件(我修改的是**~/.bash_profile**文件)
+2. 在.bashrc文件末尾加入：<br>
+<code>set JAVA_HOME=/usr/share/jdk1.5.0_05<br>
+export JAVA_HOME<br>
+set PATH=$JAVA_HOME/bin:$PATH<br>
+export PATH<br>
+set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar<br>
+export CLASSPATH<br>
+</code>
+3. 重新登录
+4. ps: Linux-使环境变量**马上生效**的命令>http://www.cnblogs.com/babyblue/archive/2006/02/14/519179.html
+
+<code>source <filename> ~/.bash_profile</code> 
+仅对**当前**(输入这条命令的)终端(终端模拟器之中一个终端)有效.
+
+##3. 直接在shell下设置变量
+不赞成使用这种方法，因为换个shell，你的设置就无效了，因此这种方法仅仅是临时使用，以后要使用的时候又要重新设置，比较麻烦。
+ 
+只需在shell终端执行下列命令：
+<code>
+export JAVA_HOME=/usr/share/jdk1.5.0_05
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+</code>
