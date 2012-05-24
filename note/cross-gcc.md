@@ -1,3 +1,10 @@
+#简明构建交叉编译器指导提示(gcc)
+>http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre
+
+
+
+
+****
 #构建GCC交叉编译器
 >http://wiki.osdev.org/GCC_Cross-Compiler
 ##1.gcc
