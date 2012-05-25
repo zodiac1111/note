@@ -8,4 +8,4 @@ openocd -f 借口文件.cfg -f target文件.cfg //文件默认安装在/usr/loac
 一些指令 halt [毫秒] 默认5毫秒 挂起系统
 file_iminge_load ? [bin] 加载镜像文件 
 resume ? PC |addr 执行
- exit 退出 :D
+ exit 退出 :D 
