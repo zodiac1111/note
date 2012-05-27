@@ -19,8 +19,9 @@
 安装配置minicom
 
 	--------------------------------------------------
+
 	# lsmod | grep usbserial (如果直接使用串口线，而没有用到USB转串口设备，此步可以跳过)
-   如果有usbserial，说明系统支持USB转串口。 
+如果有usbserial，说明系统支持USB转串口。 
 
 安装minicom (Fedora自带有minicom，此步可以跳过)
 
