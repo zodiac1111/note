@@ -1,0 +1,144 @@
+127.0.0.1		localhost.localdomain localhost
+::1		localhost6.localdomain6 localhost6
+
+123.58.173.89 mirrors.163.com
+203.208.46.146 drive.google.com
+74.125.71.94 drive.google.com
+74.125.227.2 docs.google.com
+74.125.227.2 docs0.google.com
+74.125.227.2 docs1.google.com
+74.125.227.2 docs2.google.com
+74.125.227.2 docs3.google.com
+74.125.227.2 spreadsheets.google.com
+74.125.227.2 spreadsheets0.google.com
+74.125.227.2 spreadsheets1.google.com
+74.125.227.2 spreadsheets2.google.com
+74.125.227.2 spreadsheets3.google.com
+
+#https:// ??0527
+72.14.203.104  www.google.com
+
+#google searve @0527
+203.208.39.22 webcache.googleusercontent.com 
+203.208.39.22 mail.google.com 
+203.208.39.22 www.google.com.hk 
+203.208.39.22 www.google.com
+#/end google
+
+#Twitter
+
+2001:778:0:ffff:64:0:c73b:9452 twitter.com
+
+2001:778:0:ffff:64:0:c73b:9454 ads.twitter.com
+
+2404:6800:8005::79 advertising.twitter.com
+
+2001:778:0:ffff:64:0:c73b:945c assets0.twitter.com
+
+2001:778:0:ffff:64:0:c73b:945c assets1.twitter.com
+
+2001:778:0:ffff:64:0:c73b:945c assets2.twitter.com
+
+2001:778:0:ffff:64:0:c73b:945c assets3.twitter.com
+
+2001:778:0:ffff:64:0:c73b:945c assets4.twitter.com
+
+2001:778:0:ffff:64:0:c73b:9457 api.twitter.com
+
+2001:778:0:ffff:64:0:215:5d37 cdn.api.twitter.com
+
+2001:778:0:ffff:64:0:5c7a:ce32 urls.api.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 business.twitter.com
+
+2001:778:0:ffff:64:0:c73b:9589 dev.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 fly.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 help.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 m.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 media.twitter.com
+
+2001:778:0:ffff:64:0:c73b:9460 mobile.twitter.com
+
+2001:778:0:ffff:64:0:c73b:9454 oauth.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 pic.twitter.com
+
+2001:778:0:ffff:64:0:215:5d37 platform.twitter.com
+
+2001:778:0:ffff:64:0:5c7a:ce20 anywhere.platform.twitter.com
+
+2001:778:0:ffff:64:0:5c7a:ce20 platform0.twitter.com
+
+2001:778:0:ffff:64:0:5c7a:ce29 platform1.twitter.com
+
+2001:778:0:ffff:64:0:5c7a:ce28 platform2.twitter.com
+
+2001:778:0:ffff:64:0:5c7a:ce21 platform3.twitter.com
+
+2001:778:0:ffff:64:0:c73b:9454 scribe.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94c9 search.twitter.com
+
+2001:778:0:ffff:64:0:c73b:945c static.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d4 static-site.twitter.com
+
+2001:778:0:ffff:64:0:4820:e708 status.twitter.com
+
+2001:778:0:ffff:64:0:c73b:948a stream.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94ce support.twitter.com
+
+2001:778:0:ffff:64:0:c73b:948b userstream.twitter.com
+
+2001:778:0:ffff:64:0:c73b:94d5 upload.twitter.com
+
+2001:778:0:ffff:64:0:c73b:9452 www.twitter.com
+
+2001:778:0:ffff:64:0:c73b:940c t.co
+
+2001:778:0:ffff:64:0:c73b:940a twttr.com
+
+2001:778:0:ffff:64:0:c73b:9452 www.twttr.com
+
+2001:778:0:ffff:64:0:c73b:9452 translate.twttr.com
+
+2001:778:0:ffff:64:0:5c7a:32aa twimg0-a.akamaihd.net
+
+2001:778:0:ffff:64:0:5c7a:3290 a0.twimg.com
+
+2001:778:0:ffff:64:0:5c7a:32b0 a1.twimg.com
+
+2001:778:0:ffff:64:0:5c7a:32a1 a2.twimg.com
+
+2001:778:0:ffff:64:0:5c7a:32bb a3.twimg.com
+
+2001:778:0:ffff:64:0:b8a9:4f21 a4.twimg.com
+
+2001:778:0:ffff:64:0:5c7a:32b8 a5.twimg.com
+
+2001:778:0:ffff:64:0:215:5d37 p.twimg.com
+
+2001:778:0:ffff:64:0:cdfb:db19 s.twimg.com
+
+2001:778:0:ffff:64:0:b8a9:4f21 si0.twimg.com
+
+2001:778:0:ffff:64:0:215:6f90 si1.twimg.com
+
+2001:778:0:ffff:64:0:b8a9:4f21 si2.twimg.com
+
+2001:778:0:ffff:64:0:215:6f90 si3.twimg.com
+
+2001:778:0:ffff:64:0:b8a9:4f21 si4.twimg.com
+
+2001:778:0:ffff:64:0:215:6f90 si5.twimg.com
+
+2001:778:0:ffff:64:0:b8a9:4f21 widgets.twimg.com
+
+
+
+
