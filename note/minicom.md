@@ -4,7 +4,7 @@
 
 ###把流控去掉试试<br>
 
-1. Ctrl +A 
+* Ctrl +A 
 * Z 
 * O 
 *  serial port setup 
