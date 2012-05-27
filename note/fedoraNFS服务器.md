@@ -9,7 +9,7 @@
 ##配置可用NFS的目录
 
 使用您喜欢的文本编辑器编辑/etc/exports 文件
-例如:<coede>vi /etc/exports</code>
+例如:<code>vi /etc/exports</code>
 
 	/mnt			127.0.0.1(ro,sync)
 	共享目录			主机名	(权限)  
