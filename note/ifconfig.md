@@ -1,11 +1,17 @@
-ip   和子网掩码   执行这个命令：ifconfig   eth0   10.10.10.220   netmask   255.255.255.0 
-网关的设定执行这个命令：   route   add   default   gw   10.10.10.6 
+ip   和子网掩码   执行这个命令：<br>
+	<code>ifconfig   eth0   10.10.10.220   netmask   255.255.255.0 </code><br>
+网关的设定执行这个命令:<br>
+	<code>route   add   default   gw   10.10.10.6</code> 
 把这两个命令写到/etc/rc.local   或者/etc/rc.d/rc.local   里面都可以的，这样就可以永久保存
 
 
+我的<b>备份指令</b>(路由)
+
+	ifconfig   eth0  192.168.18.26   netmask   255.255.255.0
+ 	route   add   default   gw   192.168.18.1
 
 
-
+<font stysl color=8888>asda
 
 
 如果执行了上面的命令后，还不可以的话，可能就是你的网卡没有激活， 
