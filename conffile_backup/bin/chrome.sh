@@ -1,6 +1,6 @@
 #!/bin/sh
 #浏览器访问路径
-#http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html?path=Linux_x64/
+# http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html?path=Linux_x64/
 
 wget -4N http://commondatastorage.googleapis.com/chromium-browser-continuous/Linux_x64/LAST_CHANGE
 LAST=`cat ~/LAST_CHANGE` 
