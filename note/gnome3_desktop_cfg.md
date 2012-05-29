@@ -16,7 +16,7 @@
 	Categories: 程序在Application面板中所属的分类 
 	StartupNotify: 设置是否现实程序启动和关闭的提示，默认为true
 	Icon: 程序图标的路径，如果只填写名字，
-		那么gnome会在 /usr/share/icons 里面寻找这个图片
+		那么gnome会在 /usr/share/icons 里面寻找这个图片(雾?)
 
 ####以增加 ReText 快捷方式为例：
 
@@ -31,7 +31,8 @@
 	Categories=Development;
 	X-KDE-SubstituteUID=false
 	MimeType=text/plain;
-
+####实例文件
+ 见 ../备份图标
 
 
 

@@ -5,6 +5,7 @@ ConsoleKit-libs.x86_64           0.4.5-2.fc17       @koji-override-0/$releasever
 GConf2.x86_64                    3.2.5-1.fc17       @koji-override-0/$releasever
 GeoIP.x86_64                     1.4.8-2.1.fc17     @fedora                     
 ImageMagick.x86_64               6.7.5.6-3.fc17     @fedora                     
+ImageMagick-c++.x86_64           6.7.5.6-3.fc17     @fedora                     
 Judy.x86_64                      1.0.5-4.fc17       @fedora                     
 LibRaw.x86_64                    0.14.3-4.fc17      @fedora                     
 ModemManager.x86_64              0.5.2.0-1.fc17     @koji-override-0/$releasever
@@ -80,6 +81,7 @@ alsa-lib.x86_64                  1.0.25-3.fc17      @koji-override-0/$releasever
 alsa-plugins-pulseaudio.x86_64   1.0.25-3.fc17      @fedora                     
 alsa-tools-firmware.x86_64       1.0.25-2.fc17      @koji-override-0/$releasever
 alsa-utils.x86_64                1.0.25-8.fc17      @fedora                     
+amrwb.x86_64                     7.0.0.3-6.fc17     @rpmfusion-nonfree          
 anaconda.x86_64                  17.29-1.fc17       @fedora                     
 anaconda-yum-plugins.noarch      1:1.0-7.fc17       @koji-override-0/$releasever
 anthy.x86_64                     9100h-17.fc17      @koji-override-0/$releasever
@@ -137,6 +139,7 @@ at-spi2-atk.x86_64               2.4.0-2.fc17       @fedora
 at-spi2-core.x86_64              2.4.2-1.fc17       @updates-testing            
 atk.x86_64                       2.4.0-1.fc17       @koji-override-0/$releasever
 atkmm.x86_64                     2.22.6-1.fc17      @koji-override-0/$releasever
+atlas.x86_64                     3.8.4-3.fc17       @fedora                     
 atmel-firmware.noarch            1.3-9.fc17         @koji-override-0/$releasever
 attica.x86_64                    0.3.0-3.fc17       @fedora                     
 attr.x86_64                      2.4.46-5.fc17      @koji-override-0/$releasever
@@ -146,6 +149,8 @@ audit-libs-python.x86_64         2.2.1-1.fc17       @fedora
 authconfig.x86_64                6.2.1-1.fc17       @koji-override-0/$releasever
 authconfig-gtk.x86_64            6.2.1-1.fc17       @koji-override-0/$releasever
 autoconf.noarch                  2.68-3.fc17        @fedora                     
+autocorr-en.noarch               1:3.5.3.2-3.fc17   @updates                    
+autocorr-zh.noarch               1:3.5.3.2-3.fc17   @updates                    
 automake.noarch                  1.11.3-1.fc17      @fedora                     
 avahi.x86_64                     0.6.30-7.fc17      @koji-override-0/$releasever
 avahi-autoipd.x86_64             0.6.30-7.fc17      @koji-override-0/$releasever
@@ -155,8 +160,7 @@ avahi-libs.x86_64                0.6.30-7.fc17      @koji-override-0/$releasever
 avahi-ui-gtk3.x86_64             0.6.30-7.fc17      @koji-override-0/$releasever
 b43-fwcutter.x86_64              015-2.fc17         @koji-override-0/$releasever
 b43-openfwwf.noarch              5.2-7.fc17         @koji-override-0/$releasever
-banshee.x86_64                   2.4.0-1.fc17       @fedora                     
-banshee-musicbrainz.x86_64       2.4.0-1.fc17       @fedora                     
+babl.x86_64                      0.1.10-3.fc17      @fedora                     
 baobab.x86_64                    3.4.1-2.fc17       @fedora                     
 basesystem.noarch                10.0-6.fc17        @koji-override-0/$releasever
 bash.x86_64                      4.2.28-1.fc17      @updates-testing            
@@ -296,11 +300,10 @@ dbus.x86_64                      1:1.4.10-4.fc17    @koji-override-0/$releasever
 dbus-glib.x86_64                 0.92-3.fc17        @koji-override-0/$releasever
 dbus-libs.x86_64                 1:1.4.10-4.fc17    @koji-override-0/$releasever
 dbus-python.x86_64               0.83.0-9.fc17      @koji-override-0/$releasever
-dbus-sharp.x86_64                1:0.7.0-5.fc17     @fedora                     
-dbus-sharp-glib.x86_64           0.5.0-3.fc17       @fedora                     
 dbus-x11.x86_64                  1:1.4.10-4.fc17    @koji-override-0/$releasever
 dbusmenu-qt.x86_64               0.9.0-3.fc17       @fedora                     
 dconf.x86_64                     0.12.1-1.fc17      @updates-testing            
+dee.x86_64                       1.0.0-1.fc17       @fedora                     
 deja-dup.x86_64                  20.2-2.fc17        @fedora                     
 dejavu-fonts-common.noarch       2.33-3.fc17        @koji-override-0/$releasever
 dejavu-lgc-sans-fonts.noarch     2.33-3.fc17        @fedora                     
@@ -312,6 +315,7 @@ dejavu-sans-mono-fonts.noarch    2.33-3.fc17        @koji-override-0/$releasever
 dejavu-serif-fonts.noarch        2.33-3.fc17        @koji-override-0/$releasever
 deltarpm.x86_64                  3.6-0.7.20110223git.fc17
                                                     @koji-override-0/$releasever
+desktop-backgrounds-basic.noarch 17.0.0-1.fc17      @fedora                     
 desktop-backgrounds-gnome.noarch 17.0.0-1.fc17      @koji-override-0/$releasever
 desktop-file-utils.x86_64        0.19-6.fc17        @koji-override-0/$releasever
 device-mapper.x86_64             1.02.74-6.fc17     @fedora                     
@@ -332,6 +336,8 @@ dialog.x86_64                    1.1-15.20110707.fc17
                                                     @koji-override-0/$releasever
 diffutils.x86_64                 3.2-6.fc17         @koji-override-0/$releasever
 dirac-libs.x86_64                1.0.2-8.fc17       @fedora                     
+directfb.x86_64                  1.5.3-5.fc17       @fedora                     
+dmidecode.x86_64                 1:2.11-8.fc17      @fedora                     
 dmraid.x86_64                    1.0.0.rc16-16.fc17 @koji-override-0/$releasever
 dmraid-events.x86_64             1.0.0.rc16-16.fc17 @koji-override-0/$releasever
 dnsmasq.x86_64                   2.59-5.fc17        @koji-override-0/$releasever
@@ -391,6 +397,8 @@ exempi.x86_64                    2.2.0-1.fc17       @koji-override-0/$releasever
 exiv2-libs.x86_64                0.22-5.fc17        @fedora                     
 expat.x86_64                     2.1.0-1.fc17       @fedora                     
 expect.x86_64                    5.45-6.fc17        @fedora                     
+faac.x86_64                      1.28-4.fc17        @rpmfusion-nonfree          
+faad2.x86_64                     1:2.7-2.fc17       @rpmfusion-free             
 faad2-libs.x86_64                1:2.7-2.fc17       @rpmfusion-free             
 farstream.x86_64                 0.1.2-2.fc17       @fedora                     
 fcoe-utils.x86_64                1.0.22-2.fc17      @koji-override-0/$releasever
@@ -425,6 +433,9 @@ flac.x86_64                      1.2.1-9.fc17       @koji-override-0/$releasever
 flash-plugin.x86_64              11.2.202.233-release
                                                     @adobe-linux-x86_64         
 flite.x86_64                     1.3-17.fc17        @koji-override-0/$releasever
+fluid-soundfont-common.noarch    3.1-8.fc17         @fedora                     
+fluid-soundfont-lite-patches.noarch
+                                 3.1-8.fc17         @fedora                     
 folks.x86_64                     1:0.6.9-1.fc17     @fedora                     
 fontconfig.x86_64                2.8.0-7.fc17       @updates-testing            
 fontconfig-devel.x86_64          2.8.0-7.fc17       @updates-testing            
@@ -450,7 +461,6 @@ gcc-c++.x86_64                   4.7.0-5.fc17       @fedora
 gconf-editor.x86_64              3.0.1-2.fc17       @fedora                     
 gcr.x86_64                       3.4.1-2.fc17       @fedora                     
 gd.x86_64                        2.0.35-16.fc17     @koji-override-0/$releasever
-gdata-sharp.x86_64               1.4.0.2-7.fc17     @fedora                     
 gdb.x86_64                       7.4.50.20120120-46.fc17
                                                     @updates-testing            
 gdb-doc.noarch                   7.4.50.20120120-42.fc17
@@ -460,6 +470,7 @@ gdisk.x86_64                     0.8.4-1.fc17       @updates-testing
 gdk-pixbuf2.x86_64               2.26.1-1.fc17      @fedora                     
 gdm.x86_64                       1:3.4.1-1.fc17     @fedora                     
 gedit.x86_64                     2:3.4.1-2.fc17     @fedora                     
+gegl.x86_64                      0.2.0-1.fc17       @fedora                     
 genisoimage.x86_64               1.1.11-10.fc17     @koji-override-0/$releasever
 geoclue.x86_64                   0.12.0-10.fc17     @koji-override-0/$releasever
 gettext.x86_64                   0.18.1.1-12.fc17   @koji-override-0/$releasever
@@ -506,13 +517,13 @@ ghostscript.x86_64               9.05-1.fc17        @koji-override-0/$releasever
 ghostscript-cups.x86_64          9.05-1.fc17        @koji-override-0/$releasever
 ghostscript-fonts.noarch         5.50-28.fc17       @koji-override-0/$releasever
 giflib.x86_64                    4.1.6-5.fc17       @koji-override-0/$releasever
-gio-sharp.x86_64                 0.3-4.fc17         @fedora                     
-git.x86_64                       1.7.10.1-1.fc17    @fedora                     
-git-cola.noarch                  1.7.6-1.fc17       @fedora                     
-git-gui.noarch                   1.7.10.1-1.fc17    @fedora                     
-gitk.noarch                      1.7.10.1-1.fc17    @fedora                     
+gimp.x86_64                      2:2.8.0-1.fc17     @updates                    
+gimp-libs.x86_64                 2:2.8.0-1.fc17     @updates                    
+git.x86_64                       1.7.10.2-1.fc17    @updates                    
+git-cola.noarch                  1.7.7-1.fc17       @updates                    
+git-gui.noarch                   1.7.10.2-1.fc17    @updates                    
+gitk.noarch                      1.7.10.2-1.fc17    @updates                    
 gjs.x86_64                       1.32.0-1.fc17      @koji-override-0/$releasever
-gkeyfile-sharp.x86_64            0.1-9.fc17         @fedora                     
 glib.x86_64                      1:1.2.10-36.fc17   @fedora                     
 glib-devel.x86_64                1:1.2.10-36.fc17   @fedora                     
 glib-networking.x86_64           2.32.3-1.fc17      @updates-testing            
@@ -520,6 +531,7 @@ glib2.x86_64                     2.32.3-1.fc17      @updates-testing
 glibc.i686                       2.15-37.fc17       @fedora                     
 glibc.x86_64                     2.15-37.fc17       @fedora                     
 glibc-common.x86_64              2.15-37.fc17       @fedora                     
+glibc-devel.i686                 2.15-37.fc17       @fedora                     
 glibc-devel.x86_64               2.15-37.fc17       @fedora                     
 glibc-headers.x86_64             2.15-37.fc17       @fedora                     
 glibmm24.x86_64                  2.32.0-1.fc17      @fedora                     
@@ -528,6 +540,7 @@ glx-utils.x86_64                 7.10-6.20101028.fc17
 gmime.x86_64                     2.6.9-1.fc17       @updates-testing            
 gmp.x86_64                       1:5.0.2-6.fc17     @fedora                     
 gmp-devel.x86_64                 1:5.0.2-6.fc17     @fedora                     
+gmyth.x86_64                     0.7.1-18.fc17      @fedora                     
 gnome-backgrounds.noarch         3.4.2-1.fc17       @updates-testing            
 gnome-bluetooth.x86_64           1:3.4.0-2.fc17     @fedora                     
 gnome-bluetooth-libs.x86_64      1:3.4.0-2.fc17     @fedora                     
@@ -556,9 +569,11 @@ gnome-power-manager.x86_64       3.4.0-1.fc17       @koji-override-0/$releasever
 gnome-python2.x86_64             2.28.1-8.fc17      @koji-override-0/$releasever
 gnome-python2-canvas.x86_64      2.28.1-8.fc17      @koji-override-0/$releasever
 gnome-python2-desktop.x86_64     2.32.0-9.fc17      @koji-override-0/$releasever
+gnome-python2-extras.x86_64      2.25.3-38.fc17     @fedora                     
 gnome-python2-gconf.x86_64       2.28.1-8.fc17      @koji-override-0/$releasever
 gnome-python2-gnomekeyring.x86_64
                                  2.32.0-9.fc17      @koji-override-0/$releasever
+gnome-python2-gtkspell.x86_64    2.25.3-38.fc17     @fedora                     
 gnome-python2-libwnck.x86_64     2.32.0-9.fc17      @koji-override-0/$releasever
 gnome-screensaver.x86_64         3.4.1-1.fc17       @fedora                     
 gnome-screenshot.x86_64          3.4.1-2.fc17       @fedora                     
@@ -566,7 +581,6 @@ gnome-search-tool.x86_64         3.4.0-1.fc17       @koji-override-0/$releasever
 gnome-session.x86_64             3.4.2-1.fc17       @updates-testing            
 gnome-session-xsession.x86_64    3.4.2-1.fc17       @updates-testing            
 gnome-settings-daemon.x86_64     3.4.2-1.fc17       @updates-testing            
-gnome-sharp.x86_64               2.24.1-9.fc17      @fedora                     
 gnome-shell.x86_64               3.4.1-5.fc17       @updates-testing            
 gnome-system-log.x86_64          1:3.4.1-2.fc17     @fedora                     
 gnome-system-monitor.x86_64      3.4.1-2.fc17       @fedora                     
@@ -584,6 +598,7 @@ goldendict.x86_64                1.0.1-4.fc16       @fedora
 gperftools-libs.x86_64           2.0-5.fc17         @fedora                     
 gpgme.x86_64                     1.3.0-8.fc17       @updates-testing            
 gpm-libs.x86_64                  1.20.6-22.fc17     @fedora                     
+graphite2.x86_64                 1.1.1-2.fc17       @fedora                     
 grep.x86_64                      2.12-1.fc17        @fedora                     
 grilo.x86_64                     0.1.18-3.fc17      @koji-override-0/$releasever
 grilo-plugins.x86_64             0.1.18-3.fc17      @koji-override-0/$releasever
@@ -597,15 +612,20 @@ gsettings-desktop-schemas.x86_64 3.4.2-1.fc17       @updates-testing
 gsm.x86_64                       1.0.13-6.fc17      @koji-override-0/$releasever
 gssdp.x86_64                     0.12.1-2.fc17      @koji-override-0/$releasever
 gstreamer.x86_64                 0.10.36-1.fc17     @koji-override-0/$releasever
+gstreamer-ffmpeg.x86_64          0.10.13-2.fc17     @rpmfusion-free             
+gstreamer-plugins-bad.x86_64     0.10.22-4.fc17     @rpmfusion-free             
 gstreamer-plugins-bad-free.x86_64
                                  0.10.23-2.fc17     @koji-override-0/$releasever
+gstreamer-plugins-bad-free-extras.x86_64
+                                 0.10.23-2.fc17     @fedora                     
+gstreamer-plugins-bad-nonfree.x86_64
+                                 0.10.22-3.fc17     @rpmfusion-nonfree          
 gstreamer-plugins-base.x86_64    0.10.36-1.fc17     @koji-override-0/$releasever
 gstreamer-plugins-good.x86_64    0.10.31-1.fc17     @koji-override-0/$releasever
+gstreamer-plugins-ugly.x86_64    0.10.19-1.fc17     @rpmfusion-free             
 gstreamer-python.x86_64          0.10.19-3.fc17     @koji-override-0/$releasever
 gstreamer-rtsp.x86_64            0.10.8-2.fc17      @koji-override-0/$releasever
 gstreamer-tools.x86_64           0.10.36-1.fc17     @koji-override-0/$releasever
-gtk-sharp-beans.x86_64           2.14.0-7.fc17      @fedora                     
-gtk-sharp2.x86_64                2.12.11-5.fc17     @fedora                     
 gtk-vnc2.x86_64                  0.5.0-2.fc17       @koji-override-0/$releasever
 gtk2.x86_64                      2.24.10-1.fc17     @koji-override-0/$releasever
 gtk2-engines.x86_64              2.20.2-4.fc17      @koji-override-0/$releasever
@@ -615,8 +635,8 @@ gtk3-immodule-xim.x86_64         3.4.3-2.fc17       @fedora
 gtkhtml3.x86_64                  4.4.2-1.fc17       @updates-testing            
 gtkmm30.x86_64                   3.4.0-1.fc17       @fedora                     
 gtksourceview3.x86_64            3.4.2-1.fc17       @updates-testing            
+gtkspell.x86_64                  2.0.16-4.fc17      @fedora                     
 gucharmap.x86_64                 3.4.1.1-2.fc17     @fedora                     
-gudev-sharp.x86_64               0.1-8.fc17         @fedora                     
 guile.x86_64                     5:1.8.8-4.fc17.2   @koji-override-0/$releasever
 gupnp.x86_64                     0.18.3-1.fc17      @fedora                     
 gupnp-av.x86_64                  0.10.2-1.fc17      @fedora                     
@@ -631,6 +651,8 @@ gvfs-gphoto2.x86_64              1.12.3-1.fc17      @fedora
 gvfs-obexftp.x86_64              1.12.3-1.fc17      @fedora                     
 gvfs-smb.x86_64                  1.12.3-1.fc17      @fedora                     
 gvnc.x86_64                      0.5.0-2.fc17       @koji-override-0/$releasever
+gwibber.x86_64                   1:3.3.2-1.fc17     @fedora                     
+gxmessage.x86_64                 2.20.0-2.fc17      @fedora                     
 gzip.x86_64                      1.4-6.fc17         @koji-override-0/$releasever
 hardlink.x86_64                  1:1.0-13.fc17      @koji-override-0/$releasever
 herqq.x86_64                     1.0.0-3.fc17       @fedora                     
@@ -639,10 +661,14 @@ hfsplus-tools.x86_64             540.1.linux3-1.fc17
                                                     @koji-override-0/$releasever
 hicolor-icon-theme.noarch        0.12-4.fc17        @koji-override-0/$releasever
 hostname.x86_64                  3.10-1.fc17        @koji-override-0/$releasever
+hotot-qt.x86_64                  0.9.7-2.1          @rpm-sphere                 
 hplip-common.x86_64              3.12.4-2.fc17      @fedora                     
 hplip-libs.x86_64                3.12.4-2.fc17      @fedora                     
 hunspell.x86_64                  1.3.2-4.fc17       @fedora                     
+hunspell-en.noarch               0.20110318-2.fc17  @fedora                     
 hwdata.noarch                    0.234-2.fc17       @koji-override-0/$releasever
+hyphen.x86_64                    2.8.3-1.fc17       @fedora                     
+hyphen-en.noarch                 2.8.3-1.fc17       @fedora                     
 ibus.x86_64                      1.4.99.20120428-2.fc17
                                                     @updates-testing            
 ibus-anthy.x86_64                1.4.99.20120327-1.fc17
@@ -655,12 +681,11 @@ ibus-gtk3.x86_64                 1.4.99.20120428-2.fc17
 ibus-hangul.x86_64               1.4.1-2.fc17       @updates-testing            
 ibus-libs.x86_64                 1.4.99.20120428-2.fc17
                                                     @updates-testing            
-ibus-m17n.x86_64                 1.3.3-11.fc17      @fedora                     
 ibus-pinyin.x86_64               1.4.0-16.fc17      @fedora                     
 ibus-pinyin-db-android.noarch    1.4.0-16.fc17      @fedora                     
 ibus-rawcode.x86_64              1.3.1.20100707-7.fc17
                                                     @koji-override-0/$releasever
-ibus-sunpinyin.x86_64            2.0.3-4.fc17       @fedora                     
+ibus-sunpinyin.x86_64            2.0.4-0.1.fc17     @updates                    
 icedax.x86_64                    1.1.11-10.fc17     @koji-override-0/$releasever
 ilmbase.x86_64                   1.0.2-4.fc17       @fedora                     
 im-chooser.x86_64                1.5.2.2-1.fc17     @fedora                     
@@ -673,7 +698,6 @@ info.x86_64                      4.13a-16.fc17      @koji-override-0/$releasever
 initscripts.x86_64               9.37-1.fc17        @koji-override-0/$releasever
 insight.x86_64                   7.4.50-1.20120403cvs.fc17
                                                     @fedora                     
-iok.x86_64                       2.1.2-1.fc17       @fedora                     
 iproute.x86_64                   3.3.0-2.fc17       @fedora                     
 iptables.x86_64                  1.4.12.2-5.fc17    @fedora                     
 iptstate.x86_64                  2.2.2-7.fc17       @fedora                     
@@ -703,7 +727,11 @@ iwl6000g2b-firmware.noarch       17.168.5.2-2.fc17  @koji-override-0/$releasever
 iwl6050-firmware.noarch          41.28.5.1-4.fc17   @koji-override-0/$releasever
 jack-audio-connection-kit.x86_64 1.9.8-8.fc17       @fedora                     
 jasper-libs.x86_64               1.900.1-19.fc17    @koji-override-0/$releasever
+java-1.7.0-openjdk.x86_64        1:1.7.0.3-2.1.fc17.6
+                                                    @fedora                     
+jline.noarch                     1.0-1.fc17         @fedora                     
 jomolhari-fonts.noarch           0.003-11.fc17      @koji-override-0/$releasever
+jpackage-utils.x86_64            1.7.5-18.fc17      @fedora                     
 jre.x86_64                       1.7.0_04-fcs       installed                   
 js.x86_64                        1:1.8.5-9.fc17     @koji-override-0/$releasever
 json-c.x86_64                    0.9-4.fc17         @koji-override-0/$releasever
@@ -728,8 +756,10 @@ kdevplatform.x86_64              1.3.1-1.fc17       @fedora
 kdevplatform-libs.x86_64         1.3.1-1.fc17       @fedora                     
 kernel.x86_64                    3.3.0-1.fc17       @koji-override-0/$releasever
 kernel.x86_64                    3.3.6-3.fc17       @updates-testing            
+kernel.x86_64                    3.3.7-1.fc17       @updates                    
 kernel-devel.x86_64              3.3.4-5.fc17       @fedora                     
-kernel-headers.x86_64            3.3.4-5.fc17       @fedora                     
+kernel-devel.x86_64              3.3.7-1.fc17       @updates                    
+kernel-headers.x86_64            3.3.7-1.fc17       @updates                    
 keyutils.x86_64                  1.5.5-2.fc17       @koji-override-0/$releasever
 keyutils-libs.x86_64             1.5.5-2.fc17       @koji-override-0/$releasever
 khmeros-base-fonts.noarch        5.0-12.fc17        @koji-override-0/$releasever
@@ -824,6 +854,7 @@ libcgroup.x86_64                 0.38-1.fc17        @koji-override-0/$releasever
 libchamplain.x86_64              0.12.2-1.fc17      @koji-override-0/$releasever
 libchamplain-gtk.x86_64          0.12.2-1.fc17      @koji-override-0/$releasever
 libchewing.x86_64                0.3.3-2.fc17       @koji-override-0/$releasever
+libcmis.x86_64                   0.1.0-2.fc17       @fedora                     
 libcollection.x86_64             0.6.1-8.fc17       @koji-override-0/$releasever
 libcom_err.x86_64                1.42-4.fc17        @fedora                     
 libconfig.x86_64                 1.4.8-2.fc17       @koji-override-0/$releasever
@@ -845,8 +876,11 @@ libdmx.x86_64                    1.1.2-1.fc17       @koji-override-0/$releasever
 libdrm.x86_64                    2.4.33-3.fc17      @updates-testing            
 libdrm-devel.x86_64              2.4.33-3.fc17      @updates-testing            
 libdv.x86_64                     1.0.0-13.fc17      @koji-override-0/$releasever
+libdvdcss.x86_64                 1.2.11-6.fc17      @atrpms                     
+libdvdcss2.x86_64                1.2.11-6.fc17      @atrpms                     
 libdvdnav.x86_64                 4.2.0-2.fc17       @koji-override-0/$releasever
 libdvdread.x86_64                4.2.0-2.fc17       @koji-override-0/$releasever
+libebml.x86_64                   1.2.2-2.fc17       @fedora                     
 libedit.x86_64                   3.0-6.20110802cvs.fc17
                                                     @koji-override-0/$releasever
 liberation-fonts-common.noarch   1.07.2-4.fc17      @updates-testing            
@@ -857,6 +891,7 @@ libertas-usb8388-firmware.noarch 2:5.110.22.p23-6.fc17
                                                     @koji-override-0/$releasever
 libevent.x86_64                  2.0.18-1.fc17      @updates-testing            
 libexif.x86_64                   0.6.20-2.fc17      @koji-override-0/$releasever
+libexttextcat.x86_64             3.2.0-1.fc17       @fedora                     
 libffado.x86_64                  2.1.0-0.8.20120325.svn2088.fc17
                                                     @fedora                     
 libffi.x86_64                    3.0.10-2.fc17      @koji-override-0/$releasever
@@ -870,8 +905,10 @@ libgcc.x86_64                    4.7.0-5.fc17       @fedora
 libgcrypt.x86_64                 1.5.0-3.fc17       @koji-override-0/$releasever
 libgdata.x86_64                  0.12.0-1.fc17      @fedora                     
 libgdiplus.x86_64                2.10-2.fc16        @fedora                     
+libgee.x86_64                    0.7.2-1.fc17       @fedora                     
 libgee06.x86_64                  0.6.4-1.fc17       @koji-override-0/$releasever
 libgexiv2.x86_64                 0.4.1-1.fc17       @fedora                     
+libgfortran.x86_64               4.7.0-5.fc17       @fedora                     
 libglade2.x86_64                 2.6.4-8.fc17       @koji-override-0/$releasever
 libgnome.x86_64                  2.32.1-3.fc17      @fedora                     
 libgnome-keyring.x86_64          3.4.1-2.fc17       @fedora                     
@@ -882,7 +919,6 @@ libgomp.x86_64                   4.7.0-5.fc17       @fedora
 libgpg-error.x86_64              1.10-2.fc17        @koji-override-0/$releasever
 libgphoto2.x86_64                2.4.14-1.fc17      @updates-testing            
 libgpod.x86_64                   0.8.2-4.fc17       @fedora                     
-libgpod-sharp.x86_64             0.8.2-4.fc17       @fedora                     
 libgsf.x86_64                    1.14.21-3.fc17     @koji-override-0/$releasever
 libgssglue.x86_64                0.3-1.fc17         @fedora                     
 libgtop2.x86_64                  2.28.4-2.fc17      @koji-override-0/$releasever
@@ -911,13 +947,19 @@ liblinebreak.x86_64              2.1-2.fc17         @fedora
 liblockfile.x86_64               1.08-12.fc17       @fedora                     
 liblouis.x86_64                  2.4.1-1.fc17       @koji-override-0/$releasever
 liblouis-python.noarch           2.4.1-1.fc17       @koji-override-0/$releasever
+liblp_solve.x86_64               5.5.0.13-3.1       @rpm-sphere                 
+libmad.x86_64                    0.15.1b-14.fc17    @rpmfusion-free             
 libmash.x86_64                   0.2.0-7.fc17       @koji-override-0/$releasever
 libmatchbox.x86_64               1.9-9.fc17         @koji-override-0/$releasever
+libmatroska.x86_64               1.3.0-2.fc17       @fedora                     
 libmcpp.x86_64                   2.7.2-7.fc17       @koji-override-0/$releasever
+libmimic.x86_64                  1.0.4-5.fc17       @rpmfusion-free             
+libmms.x86_64                    0.6.2-2.fc17       @rpmfusion-free             
 libmng.x86_64                    1.0.10-6.fc17      @fedora                     
 libmodman.x86_64                 2.0.1-4.fc17       @fedora                     
 libmodplug.x86_64                1:0.8.8.4-2.fc17   @koji-override-0/$releasever
 libmount.x86_64                  2.21.1-1.fc17      @fedora                     
+libmp4v2.x86_64                  1.5.0.1-12.fc17    @fedora                     
 libmpc.x86_64                    0.9-2.fc17.2       @fedora                     
 libmpc-devel.x86_64              0.9-2.fc17.2       @fedora                     
 libmpcdec.x86_64                 1.2.6-8.fc17       @koji-override-0/$releasever
@@ -935,9 +977,11 @@ libnice.x86_64                   0.1.2-1.fc17       @fedora
 libnl.x86_64                     1.1-15.fc17        @koji-override-0/$releasever
 libnl3.x86_64                    3.2.7-1.fc17       @koji-override-0/$releasever
 libnotify.x86_64                 0.7.5-1.fc17       @koji-override-0/$releasever
+libntlm.x86_64                   1.3-2.fc17         @fedora                     
 liboauth.x86_64                  0.9.6-1.fc17       @koji-override-0/$releasever
 libofa.x86_64                    0.9.3-20.fc17      @koji-override-0/$releasever
 libogg.x86_64                    2:1.3.0-1.fc17     @updates-testing            
+libopenraw.x86_64                0.0.8-7.fc17       @fedora                     
 libosinfo.x86_64                 0.1.1-1.fc17       @fedora                     
 libotf.x86_64                    0.9.12-3.fc17      @fedora                     
 libpath_utils.x86_64             0.2.1-8.fc17       @koji-override-0/$releasever
@@ -960,6 +1004,17 @@ libquvi-scripts.noarch           0.4.4-1.fc17       @fedora
 libqzeitgeist.x86_64             0.8.0-6.fc17       @fedora                     
 libraw1394.x86_64                2.0.7-2.fc17       @koji-override-0/$releasever
 libref_array.x86_64              0.1.2-8.fc17       @koji-override-0/$releasever
+libreoffice-calc.x86_64          1:3.5.3.2-3.fc17   @updates                    
+libreoffice-core.x86_64          1:3.5.3.2-3.fc17   @updates                    
+libreoffice-draw.x86_64          1:3.5.3.2-3.fc17   @updates                    
+libreoffice-graphicfilter.x86_64 1:3.5.3.2-3.fc17   @updates                    
+libreoffice-langpack-zh-Hans.x86_64
+                                 1:3.5.3.2-3.fc17   @updates                    
+libreoffice-opensymbol-fonts.noarch
+                                 1:3.5.3.2-3.fc17   @updates                    
+libreoffice-pdfimport.x86_64     1:3.5.3.2-3.fc17   @updates                    
+libreoffice-ure.x86_64           1:3.5.3.2-3.fc17   @updates                    
+libreoffice-writer.x86_64        1:3.5.3.2-3.fc17   @updates                    
 libreport.x86_64                 2.0.10-3.fc17      @fedora                     
 libreport-filesystem.x86_64      2.0.10-3.fc17      @fedora                     
 libreport-gtk.x86_64             2.0.10-3.fc17      @fedora                     
@@ -984,6 +1039,7 @@ libsemanage-python.x86_64        2.1.6-3.fc17       @koji-override-0/$releasever
 libsepol.x86_64                  2.1.5-3.fc17       @fedora                     
 libsexy.x86_64                   0.1.11-19.fc17     @fedora                     
 libshout.x86_64                  2.2.2-7.fc17       @koji-override-0/$releasever
+libsidplay.x86_64                1.36.60-5.fc17     @fedora                     
 libsigc++20.x86_64               2.2.10-2.fc17      @koji-override-0/$releasever
 libsilc.x86_64                   1.1.10-6.fc17      @koji-override-0/$releasever
 libsmbclient.x86_64              2:3.6.5-86.fc17.1  @fedora                     
@@ -993,6 +1049,7 @@ libsocialweb.x86_64              0.25.20-3.fc17     @koji-override-0/$releasever
 libsocialweb-keys.noarch         0.25.20-3.fc17     @koji-override-0/$releasever
 libsoup.x86_64                   2.38.1-1.fc17      @fedora                     
 libspectre.x86_64                0.2.6-5.fc17       @koji-override-0/$releasever
+libspiro.x86_64                  20071029-6.fc17    @fedora                     
 libss.x86_64                     1.42-4.fc17        @fedora                     
 libssh2.x86_64                   1.4.1-2.fc17       @fedora                     
 libsss_sudo.x86_64               1.8.3-11.fc17      @updates-testing            
@@ -1006,12 +1063,14 @@ libtevent.x86_64                 0.9.15-1.fc17      @koji-override-0/$releasever
 libthai.x86_64                   0.1.14-5.fc17      @koji-override-0/$releasever
 libtheora.x86_64                 1:1.1.1-3.fc17     @koji-override-0/$releasever
 libtiff.x86_64                   3.9.5-3.fc17       @fedora                     
+libtimidity.x86_64               0.1.0-10.fc17      @fedora                     
 libtirpc.x86_64                  0.2.2-2.1.fc17     @fedora                     
 libtool-ltdl.x86_64              2.4.2-3.fc17       @koji-override-0/$releasever
 libudev.x86_64                   182-1.fc17         @fedora                     
 libudisks2.x86_64                1.94.0-4.fc17      @fedora                     
 libunistring.x86_64              0.9.3-3.fc17       @koji-override-0/$releasever
 libunwind.x86_64                 1.0.1-3.fc17       @fedora                     
+libupnp.x86_64                   1.6.13-3.fc17      @fedora                     
 libusb.i686                      1:0.1.3-10.fc17    @fedora                     
 libusb.x86_64                    1:0.1.3-10.fc17    @koji-override-0/$releasever
 libusb-devel.x86_64              1:0.1.3-10.fc17    @fedora                     
@@ -1026,15 +1085,23 @@ libuuid.x86_64                   2.21.1-1.fc17      @fedora
 libv4l.x86_64                    0.8.7-1.fc17       @fedora                     
 libva.x86_64                     1.0.15-2.fc17      @fedora                     
 libvdpau.x86_64                  0.4.1-7.fc17       @fedora                     
+libvisio.x86_64                  0.0.16-1.fc17      @fedora                     
 libvisual.x86_64                 0.4.0-11.fc17      @koji-override-0/$releasever
+libvncserver.x86_64              0.9.8.2-4.fc17     @fedora                     
 libvorbis.x86_64                 1:1.3.3-1.fc17     @koji-override-0/$releasever
 libvpx.x86_64                    1.0.0-1.fc17       @koji-override-0/$releasever
 libwacom.x86_64                  0.5-3.fc17         @fedora                     
 libwacom-data.noarch             0.5-3.fc17         @fedora                     
+libwayland-client.x86_64         0.85.0-1.fc17      @fedora                     
+libwayland-server.x86_64         0.85.0-1.fc17      @fedora                     
 libwbclient.x86_64               2:3.6.5-86.fc17.1  @fedora                     
+libwmf.x86_64                    0.2.8.4-32.fc17    @fedora                     
 libwmf-lite.x86_64               0.2.8.4-32.fc17    @fedora                     
 libwnck.x86_64                   2.30.7-3.fc17      @koji-override-0/$releasever
 libwnck3.x86_64                  3.4.2-1.fc17       @updates-testing            
+libwpd.x86_64                    0.9.4-3.fc17       @fedora                     
+libwpg.x86_64                    0.2.0-4.fc17       @fedora                     
+libwps.x86_64                    0.2.4-3.fc17       @fedora                     
 libwvstreams.x86_64              4.6.1-4.fc17       @koji-override-0/$releasever
 libxcb.x86_64                    1.8.1-1.fc17       @updates-testing            
 libxcb-devel.x86_64              1.8.1-1.fc17       @updates-testing            
@@ -1046,6 +1113,7 @@ libxml2-python.x86_64            2.7.8-7.fc17       @koji-override-0/$releasever
 libxslt.x86_64                   1.1.26-9.fc17      @koji-override-0/$releasever
 libyaml.x86_64                   0.1.4-2.fc17       @fedora                     
 libzeitgeist.x86_64              0.3.12-1.fc17      @fedora                     
+liferea.x86_64                   1:1.8.5-1.fc17     @fedora                     
 linux-atm-libs.x86_64            2.5.1-4.fc17       @koji-override-0/$releasever
 linux-firmware.noarch            20120206-0.3.git06c8f81.fc17
                                                     @fedora                     
@@ -1055,6 +1123,8 @@ lklug-fonts.noarch               0.6-6.20090803cvs.fc17
                                                     @koji-override-0/$releasever
 lldpad.x86_64                    0.9.44-1.fc17      @koji-override-0/$releasever
 llvm-libs.x86_64                 3.0-13.fc17        @updates-testing            
+lm_sensors.x86_64                3.3.2-2.fc17       @updates                    
+lm_sensors-libs.x86_64           3.3.2-2.fc17       @updates                    
 lockdev.x86_64                   1.0.4-0.4.20111007git.fc17
                                                     @koji-override-0/$releasever
 logrotate.x86_64                 3.8.1-3.fc17       @koji-override-0/$releasever
@@ -1068,21 +1138,26 @@ lohit-punjabi-fonts.noarch       2.5.1-2.fc17       @updates-testing
 lohit-tamil-fonts.noarch         2.5.0-3.fc17       @fedora                     
 lohit-telugu-fonts.noarch        2.5.1-2.fc17       @updates-testing            
 lrzsz.x86_64                     0.12.20-30.fc17    @koji-override-0/$releasever
+lsdvd.x86_64                     0.16-15.fc17       @fedora                     
 lsof.x86_64                      4.85-2.fc17        @koji-override-0/$releasever
 lua.x86_64                       5.1.4-10.fc17      @koji-override-0/$releasever
+lucene.noarch                    2.9.4-8.fc17       @fedora                     
 lvm2.x86_64                      2.02.95-6.fc17     @fedora                     
 lvm2-libs.x86_64                 2.02.95-6.fc17     @fedora                     
 lx.x86_64                        20030328-7.fc17    @koji-override-0/$releasever
 lzo.x86_64                       2.06-2.fc17        @koji-override-0/$releasever
+lzo-minilzo.x86_64               2.06-2.fc17        @fedora                     
 m17n-contrib.noarch              1.1.13-5.fc17      @fedora                     
 m17n-db.noarch                   1.6.3-3.fc17       @koji-override-0/$releasever
 m17n-lib.x86_64                  1.6.3-2.fc17       @koji-override-0/$releasever
 m4.x86_64                        1.4.16-3.fc17      @koji-override-0/$releasever
 mactel-boot.x86_64               0.9-6.fc17         @updates-testing            
 mailcap.noarch                   2.1.39-1.fc17      @koji-override-0/$releasever
+mailx.x86_64                     12.5-5.fc17        @fedora                     
 make.x86_64                      1:3.82-9.fc17      @koji-override-0/$releasever
 makebootfat.x86_64               1.4-13.fc17        @koji-override-0/$releasever
 man-db.x86_64                    2.6.0.2-6.fc17     @fedora                     
+man-pages.noarch                 3.35-2.fc17        @fedora                     
 matchbox-window-manager.x86_64   1.2-9.20070628svn.fc17
                                                     @koji-override-0/$releasever
 mcelog.x86_64                    2:1.0-0.4.6e4e2a00.fc17
@@ -1094,10 +1169,12 @@ media-player-info.noarch         16-1.fc17          @koji-override-0/$releasever
 memtest86+.x86_64                4.20-6.fc17        @koji-override-0/$releasever
 mesa-dri-drivers.x86_64          8.0.2-8.fc17       @fedora                     
 mesa-dri-filesystem.x86_64       8.0.2-8.fc17       @fedora                     
+mesa-libEGL.x86_64               8.0.2-8.fc17       @fedora                     
 mesa-libGL.x86_64                8.0.2-8.fc17       @fedora                     
 mesa-libGL-devel.x86_64          8.0.2-8.fc17       @fedora                     
 mesa-libGLU.x86_64               8.0.2-8.fc17       @fedora                     
 mesa-libGLU-devel.x86_64         8.0.2-8.fc17       @fedora                     
+mesa-libgbm.x86_64               8.0.2-8.fc17       @fedora                     
 mesa-libglapi.x86_64             8.0.2-8.fc17       @fedora                     
 mesa-libxatracker.x86_64         8.0.2-8.fc17       @fedora                     
 metacity.x86_64                  2.34.3-1.fc17      @fedora                     
@@ -1107,10 +1184,10 @@ mingetty.x86_64                  1.08-10.fc17       @koji-override-0/$releasever
 minicom.x86_64                   2.5-8.fc17         @fedora                     
 miredo-client.x86_64             1.1.7-7.fc17       @fedora                     
 miredo-libs.x86_64               1.1.7-7.fc17       @fedora                     
+mjpegtools-libs.x86_64           2.0.0-4.fc17       @rpmfusion-free             
 mlocate.x86_64                   0.25-1.fc17        @koji-override-0/$releasever
 mobile-broadband-provider-info.noarch
                                  1.20110218-2.fc17  @koji-override-0/$releasever
-mono-addins.x86_64               0.6.2-5.fc17       @fedora                     
 mono-core.x86_64                 2.10.8-2.fc17      @fedora                     
 mono-data.x86_64                 2.10.8-2.fc17      @fedora                     
 mono-data-sqlite.x86_64          2.10.8-2.fc17      @fedora                     
@@ -1120,7 +1197,6 @@ mono-wcf.x86_64                  2.10.8-2.fc17      @fedora
 mono-web.x86_64                  2.10.8-2.fc17      @fedora                     
 mono-winforms.x86_64             2.10.8-2.fc17      @fedora                     
 mono-winfx.x86_64                2.10.8-2.fc17      @fedora                     
-mono-zeroconf.x86_64             0.9.0-7.fc17       @fedora                     
 mousetweaks.x86_64               3.4.2-1.fc17       @updates-testing            
 mozilla-filesystem.x86_64        1.9-7.fc17         @koji-override-0/$releasever
 mpc.x86_64                       0.22-1.fc17        @fedora                     
@@ -1135,8 +1211,14 @@ mtdev.x86_64                     1.1.0-3.20110105.fc17
                                                     @koji-override-0/$releasever
 mtools.x86_64                    4.0.17-2.fc17      @koji-override-0/$releasever
 mutter.x86_64                    3.4.1-3.fc17       @fedora                     
+mx.x86_64                        3.2.3-1.fc17       @fedora                     
+mysql-libs.x86_64                5.5.23-1.fc17      @fedora                     
+mythes.x86_64                    1.2.2-2.fc17       @fedora                     
 nautilus.x86_64                  3.4.2-5.fc17       @updates-testing            
 nautilus-extensions.x86_64       3.4.2-5.fc17       @updates-testing            
+nautilus-image-converter.x86_64  0.3.1-0.3.git430afce31.fc17
+                                                    @fedora                     
+nautilus-open-terminal.x86_64    0.19-4.fc17        @fedora                     
 nautilus-sendto.x86_64           1:3.0.3-1.fc17     @updates-testing            
 nc.x86_64                        1.103-3.fc17       @koji-override-0/$releasever
 ncftp.x86_64                     2:3.2.5-3.fc17     @koji-override-0/$releasever
@@ -1150,8 +1232,6 @@ ncurses-libs.i686                5.9-4.20120204.fc17
                                                     @fedora                     
 ncurses-libs.x86_64              5.9-4.20120204.fc17
                                                     @koji-override-0/$releasever
-ndesk-dbus.x86_64                0.6.1a-10.fc17     @fedora                     
-ndesk-dbus-glib.x86_64           0.4.1-11.fc17      @fedora                     
 neon.x86_64                      0.29.6-2.fc17      @koji-override-0/$releasever
 net-snmp-libs.x86_64             1:5.7.1-4.fc17     @koji-override-0/$releasever
 net-tools.x86_64                 1.60-134.20120127git.fc17
@@ -1163,8 +1243,6 @@ nfs-utils.x86_64                 1:1.2.6-0.fc17     @updates-testing
 nhn-nanum-gothic-fonts.noarch    3.020-1.fc17       @koji-override-0/$releasever
 notification-daemon.x86_64       0.7.4-1.fc17       @koji-override-0/$releasever
 notify-python.x86_64             0.1.1-20.fc17      @koji-override-0/$releasever
-notify-sharp.x86_64              0.4.0-0.16.20100411svn.fc17
-                                                    @fedora                     
 nspr.x86_64                      4.9-2.fc17         @fedora                     
 nss.x86_64                       3.13.4-3.fc17      @fedora                     
 nss-mdns.x86_64                  0.10-10.fc17       @koji-override-0/$releasever
@@ -1184,8 +1262,11 @@ obexd.x86_64                     0.44-1.fc17        @koji-override-0/$releasever
 openal-soft.x86_64               1.14-1.fc17        @fedora                     
 opencc.x86_64                    0.3.0-1.fc17       @koji-override-0/$releasever
 openconnect.x86_64               3.20-1.fc17        @updates-testing            
+opencore-amr.x86_64              0.1.3-2.fc17       @rpmfusion-free             
+opencv.x86_64                    2.3.1-8.fc17       @fedora                     
 openjpeg-libs.x86_64             1.4-12.fc17        @fedora                     
 openldap.x86_64                  2.4.31-2.fc17      @updates-testing            
+openni.x86_64                    1.3.2.1-3.fc17     @fedora                     
 openobex.x86_64                  1.5-4.fc17         @koji-override-0/$releasever
 openocd.x86_64                   0.5.0-2.fc17       @fedora                     
 openssh.x86_64                   5.9p1-22.fc17      @fedora                     
@@ -1211,6 +1292,8 @@ parted.x86_64                    3.0-9.fc17         @fedora
 passwd.x86_64                    0.78.99-1.fc17     @koji-override-0/$releasever
 passwdqc.x86_64                  1.2.2-3.fc17       @koji-override-0/$releasever
 passwdqc-lib.x86_64              1.2.2-3.fc17       @koji-override-0/$releasever
+patch.x86_64                     2.6.1-12.fc17      @fedora                     
+pax.x86_64                       3.4-13.fc17        @fedora                     
 pbm2l2030.x86_64                 1.4-7.fc17         @koji-override-0/$releasever
 pbm2l7k.x86_64                   990321-9.fc17      @koji-override-0/$releasever
 pciutils.x86_64                  3.1.9-1.fc17       @koji-override-0/$releasever
@@ -1221,11 +1304,16 @@ pcsc-lite-libs.x86_64            1.8.3-1.fc17       @fedora
 perl.x86_64                      4:5.14.2-211.fc17  @koji-override-0/$releasever
 perl-Cairo.x86_64                1.090-1.fc17       @fedora                     
 perl-Carp.noarch                 1.22-2.fc17        @koji-override-0/$releasever
-perl-Compress-Raw-Bzip2.x86_64   2.049-1.fc17       @fedora                     
-perl-Compress-Raw-Zlib.x86_64    2.049-1.fc17       @fedora                     
+perl-Class-ISA.noarch            0.36-1007.fc17     @fedora                     
+perl-Compress-Raw-Bzip2.x86_64   2.052-1.fc17       @updates                    
+perl-Compress-Raw-Zlib.x86_64    2.052-1.fc17       @updates                    
+perl-Digest.noarch               1.17-2.fc17        @fedora                     
+perl-Digest-MD5.x86_64           2.51-211.fc17      @fedora                     
 perl-Encode-Locale.noarch        1.02-5.fc17        @fedora                     
 perl-Error.noarch                1:0.17016-7.fc17   @fedora                     
-perl-Git.noarch                  1.7.10.1-1.fc17    @fedora                     
+perl-File-BaseDir.noarch         0.03-11.fc17       @fedora                     
+perl-File-DesktopEntry.noarch    0.04-15.fc17       @fedora                     
+perl-Git.noarch                  1.7.10.2-1.fc17    @updates                    
 perl-Glib.x86_64                 1.241-2.fc17       @fedora                     
 perl-Gtk2.x86_64                 1.241-2.fc17       @fedora                     
 perl-Gtk2-GladeXML.x86_64        1.007-11.fc17      @fedora                     
@@ -1234,12 +1322,14 @@ perl-HTML-Tagset.noarch          3.20-10.fc17       @fedora
 perl-HTML-Tree.noarch            1:4.2-4.fc17       @fedora                     
 perl-HTTP-Date.noarch            6.00-3.fc17        @fedora                     
 perl-HTTP-Message.noarch         6.03-1.fc17        @fedora                     
-perl-IO-Compress.noarch          2.049-1.fc17       @fedora                     
+perl-IO-Compress.noarch          2.052-1.fc17       @updates                    
 perl-LWP-MediaTypes.noarch       6.01-4.fc17        @fedora                     
+perl-Locale-Codes.noarch         3.21-1.fc17        @fedora                     
 perl-Module-Pluggable.noarch     1:3.90-211.fc17    @koji-override-0/$releasever
 perl-Pango.x86_64                1.221-4.fc17       @fedora                     
 perl-PathTools.x86_64            3.33-211.fc17      @koji-override-0/$releasever
 perl-Pod-Escapes.noarch          1:1.04-211.fc17    @koji-override-0/$releasever
+perl-Pod-Perldoc.noarch          3.17-2.fc17        @updates                    
 perl-Pod-Simple.noarch           1:3.16-211.fc17    @koji-override-0/$releasever
 perl-Scalar-List-Utils.x86_64    1.25-1.fc17        @fedora                     
 perl-Socket.x86_64               2.001-1.fc17       @fedora                     
@@ -1248,6 +1338,7 @@ perl-URI.noarch                  1.60-1.fc17        @fedora
 perl-gettext.x86_64              1.05-24.fc17       @fedora                     
 perl-libs.x86_64                 4:5.14.2-211.fc17  @koji-override-0/$releasever
 perl-macros.x86_64               4:5.14.2-211.fc17  @koji-override-0/$releasever
+perl-parent.noarch               1:0.225-211.fc17   @fedora                     
 perl-threads.x86_64              1.86-2.fc17        @koji-override-0/$releasever
 perl-threads-shared.x86_64       1.40-2.fc17        @koji-override-0/$releasever
 phonon.x86_64                    4.6.0-3.fc17       @fedora                     
@@ -1322,6 +1413,7 @@ pygobject3.x86_64                3.2.2-1.fc17       @updates-testing
 pygpgme.x86_64                   0.2-2.fc17         @koji-override-0/$releasever
 pygtk2.x86_64                    2.24.0-4.fc17      @koji-override-0/$releasever
 pygtk2-libglade.x86_64           2.24.0-4.fc17      @koji-override-0/$releasever
+pykde4.x86_64                    4.8.3-2.fc17       @fedora                     
 pykickstart.noarch               1.99.7-1.fc17      @koji-override-0/$releasever
 pyliblzma.x86_64                 0.5.3-6.fc17       @koji-override-0/$releasever
 pyparted.x86_64                  3.8-3.fc17         @koji-override-0/$releasever
@@ -1339,6 +1431,7 @@ python-cups.x86_64               1.9.61-2.fc17      @fedora
 python-decorator.noarch          3.3.3-1.fc17       @fedora                     
 python-deltarpm.x86_64           3.6-0.7.20110223git.fc17
                                                     @koji-override-0/$releasever
+python-distutils-extra.noarch    2.32-1.fc17        @fedora                     
 python-docutils.noarch           0.8.1-2.fc17       @fedora                     
 python-ethtool.x86_64            0.7-3.fc17         @koji-override-0/$releasever
 python-feedparser.noarch         5.1-1.fc17         @koji-override-0/$releasever
@@ -1357,6 +1450,7 @@ python-markdown2.noarch          1.1.1-1.fc17       @fedora
 python-markupsafe.x86_64         0.11-4.fc17        @koji-override-0/$releasever
 python-meh.noarch                0.12-1.fc17        @koji-override-0/$releasever
 python-nss.x86_64                0.12-3.fc17        @koji-override-0/$releasever
+python-oauth.noarch              1.0.1-4.fc17       @fedora                     
 python-paste.noarch              1.7.5.1-6.20111221hg1498.fc17
                                                     @koji-override-0/$releasever
 python-pwquality.x86_64          1.0.0-2.fc17       @koji-override-0/$releasever
@@ -1374,6 +1468,7 @@ python-xlib.noarch               0.15-0.6.rc1.fc17  @koji-override-0/$releasever
 python3.x86_64                   3.2.3-5.fc17       @fedora                     
 python3-libs.x86_64              3.2.3-5.fc17       @fedora                     
 python3-markdown.noarch          2.1.1-1.fc17       @fedora                     
+pywebkitgtk.x86_64               1.1.8-3.fc17       @fedora                     
 pyxdg.noarch                     0.19-4.fc17        @koji-override-0/$releasever
 qca2.x86_64                      2.0.3-3.fc17       @fedora                     
 qemu.x86_64                      2:1.0-17.fc17      @fedora                     
@@ -1408,7 +1503,7 @@ qtemu.x86_64                     1.0.5-4.1          @rpm-sphere
 qtlockedfile.x86_64              2.4-4.fc17         @fedora                     
 qtsingleapplication.x86_64       2.6.1-6.fc17       @fedora                     
 qtsoap.x86_64                    2.7-3.fc17         @fedora                     
-qtwebkit.x86_64                  2.2.1-4.fc17       @fedora                     
+qtwebkit.x86_64                  2.2.1-6.fc17       @updates                    
 quazip.x86_64                    0.4.4-1.fc17       @fedora                     
 raptor2.x86_64                   2.0.7-1.fc17       @fedora                     
 rarian.x86_64                    0.8.1-7.fc17       @fedora                     
@@ -1419,11 +1514,13 @@ rdist.x86_64                     1:6.1.5-53.fc17    @koji-override-0/$releasever
 readline.i686                    6.2-4.fc17         @fedora                     
 readline.x86_64                  6.2-4.fc17         @koji-override-0/$releasever
 readline-devel.x86_64            6.2-4.fc17         @fedora                     
+redhat-lsb.x86_64                4.0-11.fc17        @fedora                     
 redhat-menus.noarch              12.0.2-4.fc17      @koji-override-0/$releasever
 redland.x86_64                   1.0.15-1.fc17      @fedora                     
 redland-virtuoso.x86_64          1.0.15-1.fc17      @fedora                     
 rest.x86_64                      0.7.12-2.fc17      @koji-override-0/$releasever
 retext.noarch                    3.0-4.1            @rpm-sphere                 
+rhino.noarch                     1.7R3-4.fc17       @fedora                     
 rhythmbox.x86_64                 2.96-3.fc17        @fedora                     
 rmt.x86_64                       1:0.4-0.12.b44.fc17
                                                     @koji-override-0/$releasever
@@ -1444,6 +1541,8 @@ rt73usb-firmware.noarch          1.8-9.fc17         @koji-override-0/$releasever
 rtkit.x86_64                     0.10-2.fc17        @koji-override-0/$releasever
 ruby-libs.x86_64                 1.9.3.194-10.1.fc17
                                                     @fedora                     
+samba.x86_64                     2:3.6.5-86.fc17.1  @fedora                     
+samba-common.x86_64              2:3.6.5-86.fc17.1  @fedora                     
 sane-backends.x86_64             1.0.22-10.fc17     @updates-testing            
 sane-backends-drivers-scanners.x86_64
                                  1.0.22-10.fc17     @updates-testing            
@@ -1481,10 +1580,13 @@ sil-padauk-fonts.noarch          2.4-8.fc17         @koji-override-0/$releasever
 simple-scan.x86_64               3.4.1-1.fc17       @fedora                     
 sip.x86_64                       4.13.2-1.fc17      @fedora                     
 slang.x86_64                     2.2.4-3.fc17       @koji-override-0/$releasever
+slim.x86_64                      1.3.3-2.fc17       @fedora                     
+slv2.x86_64                      0.6.6-8.fc17       @fedora                     
 smc-fonts-common.noarch          5.0.1-2.fc17       @fedora                     
 smc-meera-fonts.noarch           5.0.1-2.fc17       @fedora                     
 smolt.noarch                     1.4.3-6.fc17       @koji-override-0/$releasever
 smolt-firstboot.noarch           1.4.3-6.fc17       @koji-override-0/$releasever
+smolt-gui.noarch                 1.4.3-6.fc17       @fedora                     
 smp_utils.x86_64                 0.97-1.fc17        @fedora                     
 smp_utils-libs.x86_64            0.97-1.fc17        @fedora                     
 smplayer.x86_64                  0.8.0-2.fc17       @rpmfusion-free             
@@ -1493,6 +1595,7 @@ soprano.x86_64                   2.7.5-1.fc17       @fedora
 sos.noarch                       2.2-3.fc17         @koji-override-0/$releasever
 sound-juicer.x86_64              3.4.0-1.fc17       @koji-override-0/$releasever
 sound-theme-freedesktop.noarch   0.7-4.fc17         @koji-override-0/$releasever
+soundtouch.x86_64                1.4.0-5.fc17       @fedora                     
 sox.x86_64                       14.3.2-3.fc17      @koji-override-0/$releasever
 speech-dispatcher.x86_64         0.7.1-7.fc17       @koji-override-0/$releasever
 speech-dispatcher-python.x86_64  0.7.1-7.fc17       @koji-override-0/$releasever
@@ -1511,14 +1614,18 @@ strigi-libs.x86_64               0.7.7-3.fc17       @fedora
 stunnel.x86_64                   4.50-2.fc17        @koji-override-0/$releasever
 subversion-libs.x86_64           1.7.4-6.fc17       @fedora                     
 sudo.x86_64                      1.8.3p1-7.fc17     @updates-testing            
-sunpinyin.x86_64                 2.0.3-4.fc17       @fedora                     
-sunpinyin-data-le.noarch         2.0.3-4.fc17       @fedora                     
+sudoku-savant.x86_64             1.3-6.fc17         @fedora                     
+suitesparse.x86_64               3.6.1-3.fc17       @fedora                     
+sunpinyin.x86_64                 2.0.4-0.1.fc17     @updates                    
+sunpinyin-data-le.noarch         2.0.4-0.1.fc17     @updates                    
 sushi.x86_64                     0.4.1-1.fc17       @fedora                     
 symlinks.x86_64                  1.4-5.fc17         @koji-override-0/$releasever
 syslinux.x86_64                  4.05-1.fc17        @koji-override-0/$releasever
 syslinux-extlinux.x86_64         4.05-1.fc17        @fedora                     
 syslinux-tftpboot.x86_64         4.05-1.fc17        @fedora                     
+system-config-boot.x86_64        1.0-2.fc17         @fedora                     
 system-config-date.noarch        1.9.67-2.fc17      @koji-override-0/$releasever
+system-config-date-docs.noarch   1.0.10-3.fc17      @fedora                     
 system-config-firewall.noarch    1.2.29-7.fc17      @fedora                     
 system-config-firewall-base.noarch
                                  1.2.29-7.fc17      @fedora                     
@@ -1527,27 +1634,37 @@ system-config-firewall-tui.noarch
 system-config-keyboard.x86_64    1.3.1-8.fc17       @koji-override-0/$releasever
 system-config-keyboard-base.x86_64
                                  1.3.1-8.fc17       @koji-override-0/$releasever
+system-config-language.noarch    1.3.5-10.fc17      @fedora                     
 system-config-network-tui.noarch 1.6.3-2.fc17       @koji-override-0/$releasever
 system-config-nfs.noarch         1.3.51-3.fc17      @fedora                     
 system-config-nfs-docs.noarch    1.0.9-3.fc17       @fedora                     
 system-config-printer.x86_64     1.3.9-1.fc17       @koji-override-0/$releasever
+system-config-printer-kde.x86_64 7:4.8.3-1.fc17     @fedora                     
 system-config-printer-libs.x86_64
                                  1.3.9-1.fc17       @koji-override-0/$releasever
 system-config-printer-udev.x86_64
                                  1.3.9-1.fc17       @koji-override-0/$releasever
+system-config-rootpassword.noarch
+                                 1.99.6-4.fc17      @fedora                     
+system-config-samba.noarch       1.2.97-1.fc17      @updates                    
+system-config-samba-docs.noarch  1.0.9-3.fc17       @fedora                     
 system-config-services.noarch    0.101.7-2.fc17     @fedora                     
 system-config-services-docs.noarch
                                  1.1.9-3.fc17       @fedora                     
 system-config-users.noarch       1.2.115-1.fc17     @fedora                     
+system-config-users-docs.noarch  1.0.9-3.fc17       @fedora                     
 system-setup-keyboard.x86_64     0.8.8-2.fc17       @koji-override-0/$releasever
+system-switch-displaymanager.noarch
+                                 1.2-8.fc17         @fedora                     
 system-switch-java.noarch        1.1.5-4.fc17       @fedora                     
 systemd.x86_64                   44-9.fc17          @updates-testing            
 systemd-sysv.x86_64              44-9.fc17          @updates-testing            
 sysvinit-tools.x86_64            2.88-6.dsf.fc17    @koji-override-0/$releasever
 taglib.x86_64                    1.7.2-1.fc17       @fedora                     
-taglib-sharp.x86_64              2.0.3.7-5.fc17     @fedora                     
 talk.x86_64                      0.17-38.fc17       @koji-override-0/$releasever
 tar.x86_64                       2:1.26-5.fc17      @fedora                     
+tbb.x86_64                       4.0-2.20110809.fc17
+                                                    @fedora                     
 tcl.x86_64                       1:8.5.11-2.fc17    @koji-override-0/$releasever
 tcp_wrappers.x86_64              7.6-69.fc17        @koji-override-0/$releasever
 tcp_wrappers-libs.x86_64         7.6-69.fc17        @koji-override-0/$releasever
@@ -1573,22 +1690,29 @@ tig.x86_64                       0.18-2.fc17        @fedora
 tigervnc-license.noarch          1.1.0-5.fc17       @fedora                     
 tigervnc-server-minimal.x86_64   1.1.0-5.fc17       @fedora                     
 time.x86_64                      1.7-40.fc17        @koji-override-0/$releasever
+tinyxml.x86_64                   2.6.1-3.fc17       @fedora                     
 tk.x86_64                        1:8.5.11-2.fc17    @fedora                     
 tmpwatch.x86_64                  2.10.3-2.fc17      @koji-override-0/$releasever
+tnef.x86_64                      1.4.8-5.2.fc17     @fedora                     
+tnef-nautilus.x86_64             1.4.8-5.2.fc17     @fedora                     
 totem.x86_64                     1:3.4.2-1.fc17     @updates-testing            
 totem-mozplugin.x86_64           1:3.4.2-1.fc17     @updates-testing            
 totem-nautilus.x86_64            1:3.4.2-1.fc17     @updates-testing            
 totem-pl-parser.x86_64           3.4.2-1.fc17       @updates-testing            
 traceroute.x86_64                3:2.0.18-3.fc17    @koji-override-0/$releasever
-tracker.x86_64                   0.14.0-2.fc17      @fedora                     
+tracker.x86_64                   0.14.1-1.fc17      @updates                    
 transmission-common.x86_64       2.50-2.fc17        @fedora                     
 transmission-gtk.x86_64          2.50-2.fc17        @fedora                     
 tree.x86_64                      1.6.0-4.fc17       @koji-override-0/$releasever
+tslib.x86_64                     1.0-4.fc17         @fedora                     
+twolame-libs.x86_64              0.3.13-2.fc17      @rpmfusion-free             
 tzdata.noarch                    2012c-1.fc17       @fedora                     
+tzdata-java.noarch               2012c-1.fc17       @fedora                     
 udev.x86_64                      182-1.fc17         @fedora                     
 udisks.x86_64                    1.0.4-6.fc17       @fedora                     
 udisks2.x86_64                   1.94.0-4.fc17      @fedora                     
 uget.x86_64                      1.8.1-1.fc17       @fedora                     
+unique.x86_64                    1.1.6-7.fc17       @fedora                     
 unique3.x86_64                   3.0.2-3.fc17       @koji-override-0/$releasever
 unrar.x86_64                     4.0.7-3.fc17       @rpmfusion-nonfree          
 unzip.x86_64                     6.0-5.fc17         @koji-override-0/$releasever
@@ -1603,12 +1727,14 @@ usermode.x86_64                  1.109-1.fc17       @koji-override-0/$releasever
 usermode-gtk.x86_64              1.109-1.fc17       @koji-override-0/$releasever
 ustr.x86_64                      1.0.4-12.fc17      @koji-override-0/$releasever
 util-linux.x86_64                2.21.1-1.fc17      @fedora                     
+vcdimager.x86_64                 0.7.24-5.fc17      @rpmfusion-free             
+vcdimager-libs.x86_64            0.7.24-5.fc17      @rpmfusion-free             
 vconfig.x86_64                   1.9-10.fc17        @koji-override-0/$releasever
 vgabios.noarch                   0.6c-4.fc17        @fedora                     
-vim-X11.x86_64                   2:7.3.444-1.fc17   @fedora                     
-vim-common.x86_64                2:7.3.444-1.fc17   @fedora                     
-vim-enhanced.x86_64              2:7.3.444-1.fc17   @fedora                     
-vim-filesystem.x86_64            2:7.3.444-1.fc17   @fedora                     
+vim-X11.x86_64                   2:7.3.515-1.fc17   @updates                    
+vim-common.x86_64                2:7.3.515-1.fc17   @updates                    
+vim-enhanced.x86_64              2:7.3.515-1.fc17   @updates                    
+vim-filesystem.x86_64            2:7.3.515-1.fc17   @updates                    
 vim-minimal.x86_64               2:7.3.515-1.fc17   @updates-testing            
 vinagre.x86_64                   3.4.2-1.fc17       @updates-testing            
 vino.x86_64                      3.4.2-1.fc17       @updates-testing            
@@ -1626,9 +1752,7 @@ webkitgtk.x86_64                 1.8.1-1.fc17       @fedora
 webkitgtk3.x86_64                1.8.1-2.fc17       @updates-testing            
 wget.x86_64                      1.13.4-2.fc17      @fedora                     
 which.x86_64                     2.20-3.fc17        @koji-override-0/$releasever
-wicd.x86_64                      1.7.2.1-1.fc17     @fedora                     
-wicd-common.noarch               1.7.2.1-1.fc17     @fedora                     
-wicd-gtk.noarch                  1.7.2.1-1.fc17     @fedora                     
+wildmidi-libs.x86_64             0.2.3.4-4.fc17     @fedora                     
 wireless-tools.x86_64            1:29-7.1.fc17      @koji-override-0/$releasever
 wireshark.x86_64                 1.6.6-2.fc17       @fedora                     
 wireshark-gnome.x86_64           1.6.6-2.fc17       @fedora                     
@@ -1644,9 +1768,9 @@ wxBase.x86_64                    2.8.12-4.fc17      @fedora
 wxGTK.x86_64                     2.8.12-4.fc17      @fedora                     
 x264-libs.x86_64                 0.120-5.20120303.fc17
                                                     @rpmfusion-free             
+x86info.x86_64                   1:1.30-2.fc17      @fedora                     
 xcb-util.x86_64                  0.3.8-2.fc17       @koji-override-0/$releasever
-xchat-gnome.x86_64               0.26.2-6.git40c5bf988.fc17
-                                                    @fedora                     
+xchat.x86_64                     1:2.8.8-13.fc17    @fedora                     
 xchm.x86_64                      1.20-2.fc17        @fedora                     
 xdg-user-dirs.x86_64             0.14-2.fc17        @koji-override-0/$releasever
 xdg-user-dirs-gtk.x86_64         0.9-1.fc17         @fedora                     
@@ -1654,13 +1778,17 @@ xdg-utils.noarch                 1.1.0-0.11.20111207.fc17
                                                     @koji-override-0/$releasever
 xemacs-filesystem.noarch         21.5.31-4.fc17     @fedora                     
 xfsprogs.x86_64                  3.1.8-1.fc17       @fedora                     
-xinetd.x86_64                    2:2.3.14-46.fc17   @fedora                     
+xine-lib.x86_64                  1.1.20.1-3.fc17    @fedora                     
+xine-lib-extras.x86_64           1.1.20.1-3.fc17    @fedora                     
+xine-lib-extras-freeworld.x86_64 1.1.20.1-2.fc17    @rpmfusion-free             
+xinetd.x86_64                    2:2.3.15-1.fc17    @updates                    
 xkeyboard-config.noarch          2.5.1-1.fc17       @koji-override-0/$releasever
 xml-common.noarch                0.6.3-36.fc17      @koji-override-0/$releasever
 xmlrpc-c.x86_64                  1.29.3-1703.svn2290.fc17
                                                     @updates-testing            
 xmlrpc-c-client.x86_64           1.29.3-1703.svn2290.fc17
                                                     @updates-testing            
+xorg-x11-apps.x86_64             7.6-5.fc17         @fedora                     
 xorg-x11-drv-ast.x86_64          0.93.9-6.fc17      @koji-override-0/$releasever
 xorg-x11-drv-ati.x86_64          6.14.4-5.20120417git0bda305f7.fc17
                                                     @fedora                     
@@ -1692,6 +1820,7 @@ xorg-x11-utils.x86_64            7.5-6.fc17         @koji-override-0/$releasever
 xorg-x11-xauth.x86_64            1:1.0.7-1.fc17     @fedora                     
 xorg-x11-xinit.x86_64            1.3.2-5.fc17       @fedora                     
 xorg-x11-xkb-utils.x86_64        7.5-6.fc17         @koji-override-0/$releasever
+xterm.x86_64                     278-1.fc17         @fedora                     
 xulrunner.x86_64                 12.0-1.fc17        @fedora                     
 xvidcore.x86_64                  1.3.2-3.fc17       @rpmfusion-free             
 xz.x86_64                        5.1.1-2alpha.fc17  @koji-override-0/$releasever
@@ -1708,6 +1837,7 @@ yum-plugin-remove-with-leaves.noarch
 yum-plugin-security.noarch       1.1.31-4.fc17      @fedora                     
 yum-presto.noarch                0.7.3-1.fc17       @fedora                     
 yum-utils.noarch                 1.1.31-4.fc17      @koji-override-0/$releasever
+zbar.x86_64                      0.10-11.fc17       @fedora                     
 zd1211-firmware.noarch           1.4-6.fc17         @koji-override-0/$releasever
 zeitgeist.noarch                 0.8.2-3.fc17       @fedora                     
 zeitgeist-datahub.x86_64         0.7.0-4.fc17       @fedora                     

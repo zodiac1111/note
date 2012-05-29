@@ -4,7 +4,7 @@
 现在已经改成不用 imapXXXX的了
 改成 守护进程rpc.nfsd
  
-	rpc.nfsd <数量>		#设置最大线程
+	rpc.nfsd [数量]		#设置最大线程
 	man 8 rpc.nfsd 		#查看 帮助
 ##配置可用NFS的目录
 
@@ -21,7 +21,7 @@
 
 	
 权限:
-ro=readonly
+ro=readonly只读 rw=读写
 sync是设置NFS服务器同步写磁盘，不会导致数据的丢失
 ##关闭防火墙
 
@@ -31,18 +31,19 @@ exportfs -rv   重新读取共享配置文件，马上生效
 exportfs -auv  马上停止所有本机上的NFS共享，并不改变 /etc/exports 文件的内容，只是当前停止共享
 exportfs -av   显示所有当前机器上的NFS共享目录信息
 ##测试
-	1
-	rpc.mountd			#启动
-	否则在下一步挂载可能出现:
-		mount.nfs: access denied by server while mounting 127.0.0.1:/home
-	或者在输入"mount -t nfs 127.0.0.1:"后按Tab键出现
-		:rpc mount export: RPC: Unable to receive; errno = Connection refused
-	
+	1.启用挂载
+	rpc.mountd	
+否则在下一步挂载可能出现:
+mount.nfs: access denied by server while mounting 127.0.0.1:/home
+或者在输入"mount -t nfs 127.0.0.1:"后按Tab键出现
+:rpc mount export: RPC: Unable to receive; errno = Connection refused
+
 	2 挂载
 	mount -t nfs 127.0.0.1:/home 	/mnt
 	挂载 -t 类型 从.....		到...
 	#将127.0.0.1:/home 挂载到本机的/mnt目录下
 
-卸载 unomt /mnt
+	3卸载 
+	unomt /mnt
 
 
