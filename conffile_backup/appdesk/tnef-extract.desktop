@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Type=Application
+Name=Extract TNEF archive
+Comment=Extract files from TNEF archive
+Exec=tnef.sh %f
+Icon=archive-extract
+Terminal=true
+MimeType=application/vnd.ms-tnef;
+NoDisplay=true
+#refresh F5 nautilus to see changes to this file
+X-Desktop-File-Install-Version=0.19
