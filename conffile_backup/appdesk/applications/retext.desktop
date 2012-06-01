@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=ReText
+GenericName=Markdown/reStructuredText Editor
+GenericName[zh_CN]=Markdown/ReST 编辑器 
+GenericName[zh_TW]=Markdown/ReST 編輯器
+Comment=ReText is a simple but powerful Markdown/reStructuredText editor
+Comment[zh_CN]=ReText 是简单高效的 Markdown/ReST 编辑器
+Comment[zh_TW]=ReText 是簡單高效的 Markdown/ReST 編輯器
+Exec=retext
+Icon=/usr/share/retext/icons/retext.png
+Terminal=false
+Type=Application
+Categories=Utility;TextEditor;
+MimeType=text/plain;

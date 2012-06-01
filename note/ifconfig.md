@@ -1,5 +1,5 @@
 ip   和子网掩码   执行这个命令：<br>
-	<code>ifconfig   eth0   10.10.10.220   netmask   255.255.255.0 </code><br>
+	<code>ifconfig   eth0   10.10.10.131   netmask   255.255.255.0 </code><br>
 网关的设定执行这个命令:<br>
 	<code>route   add   default   gw   10.10.10.6</code> 
 把这两个命令写到/etc/rc.local   或者/etc/rc.d/rc.local   里面都可以的，这样就可以永久保存
