@@ -1,6 +1,0 @@
-[CentALT]
-name=CentALT Packages for Enterprise Linux 6 - $basearch
-baseurl=http://centos.alt.ru/repository/centos/6/$basearch/
-enabled=0
-gpgcheck=0
-priority=13
