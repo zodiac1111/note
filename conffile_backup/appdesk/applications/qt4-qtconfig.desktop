@@ -8,4 +8,5 @@ Terminal=false
 Encoding=UTF-8
 Type=Application
 Categories=Qt;Settings;
-X-Desktop-File-Install-Version=0.19
+NoDisplay=true
+X-Desktop-File-Install-Version=0.15

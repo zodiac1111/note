@@ -1,6 +1,6 @@
 
 [Desktop Entry]
-Name=QtDesigner
+Name=Qt4 Designer
 GenericName=Interface Designer
 Comment=Design GUIs for Qt4 applications
 Exec=designer-qt4
@@ -10,4 +10,4 @@ Terminal=false
 Encoding=UTF-8
 Type=Application
 Categories=Qt;Development;
-X-Desktop-File-Install-Version=0.19
+X-Desktop-File-Install-Version=0.15

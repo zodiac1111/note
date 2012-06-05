@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Name=nvclock
+Comment=Change Nvidia settings
+Exec=nvclock_qt
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Application;AudioVideo;X-Red-Hat-Base;
+X-Desktop-File-Install-Version=0.15

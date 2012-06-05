@@ -48,7 +48,8 @@ set encoding=utf-8
 
 "high light
 "cale -a | grep zh_CN
-set cc=81
+"设置80字符高亮
+"set cc=81
 hi colorcolumn guibg=lightgreen
 
 :inoremap ( ()<ESC>i

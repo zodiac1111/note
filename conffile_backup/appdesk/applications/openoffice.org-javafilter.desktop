@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Small Device Format Importer
+Exec=openoffice.org %U
+MimeType=application/x-aportisdoc;application/x-pocket-word;application/x-pocket-excel;
+NoDisplay=true
+X-GIO-NoFuse=true

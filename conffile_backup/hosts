@@ -1,6 +1,7 @@
 127.0.0.1		localhost.localdomain localhost
 ::1		localhost6.localdomain6 localhost6
-
+60.191.124.236 mirror.sohu.com
+#194.44.18.75 pkgs.org
 123.58.173.89 mirrors.163.com
 203.208.46.146 drive.google.com
 74.125.71.94 drive.google.com
