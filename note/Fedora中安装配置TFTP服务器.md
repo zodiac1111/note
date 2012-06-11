@@ -36,10 +36,21 @@
 
 	service xinetd restart
 
-#syslinux 和防火墙都可能(一定)使服务生效但无法访问!
+#selinux 和防火墙都可能(一定)使服务生效但无法访问!
 粗暴但有效的解决办法 关闭syslinux 和防火墙
+##selinux
+*临时关闭SELinux。如果你仅仅只是想临时关闭，可以输入
+	setenforce 0
 
-精准的防火墙设置
+禁用SELinux。在 /etc  下可以看到一个SELinux文件夹，进入后，里面有个config文件，在终端进入到文件夹，输入
+
+	vi config
+更改其中的SELINUX项的值就可以关闭和启用SELinux服务了。
+修改成  SELINUX=disable     禁用SeLinux
+修改成  SELINUX=enforcing 使用SeLinux
+
+
+##精准的防火墙设置
 >http://himme007.blog.163.com/blog/static/3466802520095742420660/
 
 修改<code>/etc/sysconfig/iptables</code> 文件，添加以下内容：
