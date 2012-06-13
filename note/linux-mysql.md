@@ -1,4 +1,11 @@
 #一些mysql的路径
+启动 mysql   
+
+	systemctl start mysqld.service
+	或者 service mysqld start
+后者被重定向到前者	
+
+	
 日志文件 '/var/log/mysqld.log' 
 配置文件 /etc/my.cnf 
 默认数据库所在路径 /var/lib/mysql
