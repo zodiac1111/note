@@ -1,16 +1,20 @@
 [Desktop Entry]
 Name=Release Notes
 Name[nl_NL]=Vrijgave informatie
+Name[it_IT]=Note di rilascio
 Name[ja_JP]=リリースノート
 Name[zh_TW]=發&#x200B;行&#x200B;備&#x200B;註&#x200B;
-Name[zh_CN]=发行注记
+Name[fr_FR]=Notes de version
+Name[zh_CN]=发&#x200B;行&#x200B;注&#x200B;记&#x200B;
 Name[bg_BG]=Бележки към Изданието
 Name[uk_UA]=Нотатки щодо випуску
 GenericName=Release Notes
 Comment=Release Notes for Fedora 17
 Comment[nl_NL]=Vrijgave informatie voor Fedora 17
+Comment[it_IT]=Note di rilascio per Fedora 17
 Comment[ja_JP]=Fedora 17 のリリースノート
 Comment[zh_TW]=Fedora 17 發&#x200B;行&#x200B;備&#x200B;註&#x200B;
+Comment[fr_FR]=Notes de version de Fedora 17
 Comment[zh_CN]=Fedora 17 发&#x200B;行&#x200B;注&#x200B;记&#x200B;
 Comment[bg_BG]=Бележки към Изданието Fedora 17
 Comment[uk_UA]=Нотатки щодо випуску Fedora 17

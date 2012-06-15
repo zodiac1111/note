@@ -4,7 +4,7 @@
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
-set mysoftdir=~/mysoft/bin
+set mysoftdir=~/Mysoft/bin
 export mysoftdir
 set PATH=PATH:mysoftdir
 export PATH

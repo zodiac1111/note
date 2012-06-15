@@ -7,8 +7,8 @@ Comment=ReText is a simple but powerful Markdown/reStructuredText editor
 Comment[zh_CN]=ReText 是简单高效的 Markdown/ReST 编辑器
 Comment[zh_TW]=ReText 是簡單高效的 Markdown/ReST 編輯器
 Exec=retext
-Icon=/usr/share/retext/icons/retext.png
+Icon=retext
 Terminal=false
 Type=Application
 Categories=Utility;TextEditor;
-MimeType=text/plain;
+

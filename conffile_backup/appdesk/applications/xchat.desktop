@@ -1,5 +1,6 @@
 
 [Desktop Entry]
+Encoding=UTF-8
 Name=XChat IRC
 Name[zh_TW]=網路清談
 Comment[de]=IRC-Client
@@ -19,6 +20,6 @@ Exec=xchat
 Icon=xchat
 Terminal=false
 Type=Application
-Categories=Network;
+Categories=Network;IRCClient;GTK;
 StartupNotify=true
-X-Desktop-File-Install-Version=0.15
+X-Desktop-File-Install-Version=0.19

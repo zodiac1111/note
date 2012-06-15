@@ -2,8 +2,6 @@
 >http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre
 
 
-
-
 ****
 #构建GCC交叉编译器
 >http://wiki.osdev.org/GCC_Cross-Compiler
@@ -20,9 +18,9 @@ Now, you can build GCC.
 
 	make all-gcc
 	make install-gcc
-* --disable-nls is the same as for binutils above.
-* --without-headers tells GCC not to rely on any C library (standard or runtime) being present for the target.
-* --enable-languages tells GCC not to compile all the other language frontends it supports, but only C (and optionally C++).
+	* --disable-nls is the same as for binutils above.
+	* --without-headers tells GCC not to rely on any C library (standard or runtime) being present for the target.
+	* --enable-languages tells GCC not to compile all the other language frontends it supports, but only C (and optionally C++).
 其他参数
 arm-linux arm-elf 区别,C语言库区别.
 >http://hi.baidu.com/ajoe/blog/item/1780d100a2270a12728b6582.html

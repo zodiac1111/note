@@ -1,5 +1,5 @@
 
-set columns=118 "设置窗体默认宽度
+set columns=90 "设置窗体默认宽度
 set encoding=utf8
 set langmenu=zh_CN.UTF-8
 set imcmdline

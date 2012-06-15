@@ -1,5 +1,6 @@
+#Fedora 17 x86_64安装配置TFTP服务器
 >http://www.oklinux.cn/html/network/ser/20090729/72351.html
-
+****
 安装环境：Fedora
 1.安装xinetd
 
@@ -36,9 +37,9 @@
 
 	service xinetd restart
 
-#selinux 和防火墙都可能(一定)使服务生效但无法访问!
+ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 粗暴但有效的解决办法 关闭syslinux 和防火墙
-##selinux
+####selinux
 *临时关闭SELinux。如果你仅仅只是想临时关闭，可以输入
 	setenforce 0
 
@@ -50,7 +51,7 @@
 修改成  SELINUX=enforcing 使用SeLinux
 
 
-##精准的防火墙设置
+####精准的防火墙设置
 >http://himme007.blog.163.com/blog/static/3466802520095742420660/
 
 修改<code>/etc/sysconfig/iptables</code> 文件，添加以下内容：

@@ -6,9 +6,9 @@ cp ~/.gvimrc 			~/note/conffile_backup
 cp ~/.bashrc			~/note/conffile_backup
 cp ~/.bash_profile 		~/note/conffile_backup
 cp /etc/hosts			$cfgpath
-cp ~/mysoft/bin			~/note/conffile_backup/ -R
+cp ~/Mysoft/bin			~/note/conffile_backup/ -R
 cp /usr/share/applications 	~/note/conffile_backup/appdesk -R
-cp /etc/yum.repos.d 		~/note/conffile_backup/yum.repos.d -R
+cp /etc/yum.repos.d 		~/note/conffile_backup/ -R
 #cd ~/note
 #~/Mysoft/bin/gitupdate.sh '文件备份'
 
