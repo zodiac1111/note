@@ -33,6 +33,15 @@
 	MimeType=text/plain;
 ####实例文件
  见 ../备份图标
+#打开文件默认方式
+默认方式列表在 '/usr/share/applications/defaults.list' 文件中
+以修改*.md文件默认使用retext程序打开为例
+查看*.md文件的类型,右键文件-属性:类型:Markdown document (text/x-markdown)
+所以类型为 text/x-markdown .
+defaults.list 文件中增加一行(默认需要root权限) 
+		
+	text/x-markdown=retext.desktop
+	<文件类型>     = <执行文件的快捷方式>
 
 
 
