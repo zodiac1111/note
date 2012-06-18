@@ -2,6 +2,15 @@
 
 >minicom是一个文本模式的终端模拟器,for类unix系统类似window下的超级终端.
 
+###查看是有链接成功
+	
+	lsusb
+返回形如
+
+	Bus 003 Device 003: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter
+	<usb-串口 适配器>
+即表示已经成功链接硬件
+
 ###把流控去掉试试<br>
 
 * Ctrl +A 
