@@ -1,0 +1,14 @@
+
+[Desktop Entry]
+Version=1.0
+Name=Ksshaskpass
+GenericName=SSH agent identity adder
+Comment=Add identities to the SSH authentication agent
+Exec=/usr/bin/ssh-add
+TryExec=ssh-add
+Terminal=false
+Type=Application
+Icon=dialog-password
+Categories=Network;Security;
+OnlyShowIn=KDE;
+X-Desktop-File-Install-Version=0.15

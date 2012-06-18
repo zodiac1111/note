@@ -1,0 +1,1 @@
+已加载插件：langpacks, presto, refresh-packagekit, remove-with-leaves, security

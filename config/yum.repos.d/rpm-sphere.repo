@@ -1,0 +1,6 @@
+[rpm-sphere]
+name=RPM Sphere
+baseurl=http://download.opensuse.org/repositories/home:/zhonghuaren/Fedora_16/
+gpgkey=http://download.opensuse.org/repositories/home:/zhonghuaren/Fedora_16/repodata/repomd.xml.key
+enabled=1
+gpgcheck=0

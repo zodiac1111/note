@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=QtEmu
+Comment=QtEmu - a graphical interface for QEmu
+Comment[it]=QtEmu - interfaccia grafica per QEmu
+GenericName=QtEmu - a graphical interface for QEmu
+GenericName[it]=QtEmu - interfaccia grafica per QEmu
+Exec=qtemu
+Icon=/usr/share/pixmaps/qtemu.ico
+Terminal=0
+Type=Application
+Categories=Application;Emulator;System
+X-KDE-StartupNotify=false

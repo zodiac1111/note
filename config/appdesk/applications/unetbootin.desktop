@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Name=UNetbootin
+Comment=Tool for creating Live USB drives
+Categories=System;
+Exec=unetbootin
+Terminal=false
+Type=Application
+Icon=unetbootin
+X-Desktop-File-Install-Version=0.19

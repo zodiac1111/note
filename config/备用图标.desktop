@@ -1,0 +1,24 @@
+
+[Desktop Entry]
+#gnome的默认桌面图标
+#*.desktop文件
+#本用户目录 ~/.local/share/applications 
+#全局目录 :/usr/local/share/....
+Version=1.0
+Encoding=UTF-8
+Name=z备用图标
+#执行文件路径
+Exec=/home/zodiac1111/Mysoft/chrome-linux/chrome-wrapper %U
+#终端
+Terminal=false
+#不显示? false true
+NoDisplay=false
+#在XX中不显示
+NotShowIn=KDE;
+#图标
+Icon=/home/zodiac1111/Mysoft/chrome-linux/product_logo_48.png
+Type=Application
+Categories=Application;Network;WebBrowser;
+MimeType=x-scheme-handler/mailto;x-scheme-handler/unknown;x-scheme-handler/about;x-scheme-handler/https;x-scheme-handler/http;text/html;text/xml;application/xhtml_xml;
+#各种语言的名称
+Name[zh_CN]=备用图标
