@@ -1,8 +1,13 @@
 127.0.0.1		localhost.localdomain localhost
 ::1		localhost6.localdomain6 localhost6
-97.74.104.201 www.godaddy.com
+#<godaddy>
+#97.74.104.201 www.godaddy.com
+#60.191.124.236 idp.godaddy.com
+#216.69.149.215 mya.godaddy.com
+#</godaddy>
 
-123.58.173.89 mirrors.163.com
+
+#123.58.173.89 mirrors.163.com
 203.208.46.146 drive.google.com
 74.125.71.94 drive.google.com
 74.125.227.2 docs.google.com
