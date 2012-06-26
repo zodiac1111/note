@@ -1,7 +1,6 @@
 #Linux操作系统下三种配置环境变量的方法
 >http://www.linuxeden.com/html/sysadmin/20080424/56879.html  
-环境变量:
->http://zh.wikipedia.org/wiki/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F  
+环境变量([wiki](http://zh.wikipedia.org/wiki/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)):  
 现在使用linux的朋友越来越多了，在linux下做开发首先就是需要配置环境变量，下面以配置java环境变量为例介绍三种配置环境变量的方法。  
 这里的环境变量主要是指配置目录.  
 例如a文件绝对路径`执行/文件/所在/目录/a`,每次执行a文件时需要输入全部的路径,或者切换到a文件所在目录然后`./a`运行,这样比较麻烦.作为懒惰的人
