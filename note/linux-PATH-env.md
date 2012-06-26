@@ -59,3 +59,6 @@ gnome下的终端仿真程序每一个标签都是不同的终端.所以这个�
 	export JAVA_HOME=/usr/share/jdk1.5.0_05       	#欲添加的环境变量路径
 	export PATH=$JAVA_HOME/bin:$PATH		#
 	export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+	
+	
+![Alt text](http://cimg2.163.com/catchpic/1/1A/1AE6BA37579B21A3D3C40BB58643952C.jpg)
