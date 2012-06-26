@@ -31,9 +31,9 @@
 这种方法更为安全，它可以把使用这些环境变量的权限控制到用户级别，如果你需要给某个用户权限使用这些环境变量，你只需要修改其个人用户主目录下的.bashrc文件就可以了。
  
 1. 用文本编辑器打开用户目录下的.bashrc文件(我修改的是**~/.bash_profile**文件)
-2. 在.bashrc文件末尾加入：<br>
+2. 在.bashrc文件末尾加入：  
 
-	set JAVA_HOME=/usr/share/jdk1.5.0_05<br>
+	set JAVA_HOME=/usr/share/jdk1.5.0_05
 	export JAVA_HOME<br>
 	set PATH=$JAVA_HOME/bin:$PATH<br>
 	export PATH<br>
@@ -43,14 +43,15 @@
 3. 重新登录
 4. ps: Linux-使环境变量**马上生效**的命令>http://www.cnblogs.com/babyblue/archive/2006/02/14/519179.html
 
-<code>source <filename> ~/.bash_profile</code> 
-仅对**当前**(输入这条命令的)终端(终端模拟器之中一个终端)有效.
+`source <filename> ~/.bash_profile` 
+仅对**当前**(输入这条命令的)终端(终端模拟器之中一个终端/标签)有效.
 
 ##3. 直接在shell下设置变量
-不赞成使用这种方法，因为换个shell，你的设置就无效了，因此这种方法仅仅是临时使用，以后要使用的时候又要重新设置，比较麻烦。
+仅对当前终端有效,重启失效,适用与一次性的/临时的修改.  
+gnome下的终端仿真程序每一个标签都是不同的终端.所以这个方法仅对当前标签有效 :)
  
 只需在shell终端执行下列命令：
 
-	export JAVA_HOME=/usr/share/jdk1.5.0_05
-	export PATH=$JAVA_HOME/bin:$PATH
+	export JAVA_HOME=/usr/share/jdk1.5.0_05       	#欲添加的环境变量路径
+	export PATH=$JAVA_HOME/bin:$PATH		#
 	export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
