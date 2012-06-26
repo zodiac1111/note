@@ -1,5 +1,6 @@
 #Linux操作系统下三种配置环境变量的方法
-参考>http://www.linuxeden.com/html/sysadmin/20080424/56879.html  
+参考 
+>http://www.linuxeden.com/html/sysadmin/20080424/56879.html  
 
 环境变量([wiki](http://zh.wikipedia.org/wiki/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)):  
 现在使用linux的朋友越来越多了，在linux下做开发首先就是需要配置环境变量，下面以配置java环境变量为例介绍三种配置环境变量的方法。  
