@@ -22,7 +22,7 @@ f17下有些东西有所改变,网上一些教程略显陈旧.
 		wait = yes
 		user = root
 		server = /usr/sbin/in.tftpd
-		server_args = -s /home/gerry/tftpboot
+		server_args = -s /home/gerry/tftpboot  #tftp服务器跟目录
 		#disable = yes 
 		disable = no
 		per_source = 11
@@ -41,6 +41,9 @@ f17下有些东西有所改变,网上一些教程略显陈旧.
 5.启动tftp服务器
 
 	service xinetd restart
+
+现在已经被重定向,提示:`Redirecting to /bin/systemctl  restart xinetd.service`  
+没什么影响,推荐按照重定向的命令执行来开启tftp服务`/bin/systemctl  restart xinetd.service`
 
 ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 粗暴但有效的解决办法 关闭syslinux 和防火墙
