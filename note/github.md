@@ -38,7 +38,7 @@
 ###创建一个ssh密钥
 
 	cd ~/.ssh
-1. <可选:备份密钥>
+1. 可选:备份密钥
 
 	cd ~/.ssh
 	cp id_rsa* key_backup
@@ -47,8 +47,7 @@
 2. 创建新的ssh key
 	
 	ssh-keygen -t rsa -C "zodiac8765+github_admin@gmail.com"
-	
-	<创建电子邮件地址>
+	#创建电子邮件地址
 
 3. 测试新的密钥
 
@@ -56,7 +55,7 @@
 
 返回如下信息:
 
-	Hi <username>! You've successfully authenticated, but GitHub does not
+	Hi _username_! You've successfully authenticated, but GitHub does not
 	provide shell access.
 
 则表示已经成功咯 XD
