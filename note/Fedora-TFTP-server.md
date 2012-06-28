@@ -22,7 +22,10 @@ f17下有些东西有所改变,网上一些教程略显陈旧.
 		wait = yes
 		user = root
 		server = /usr/sbin/in.tftpd
-		server_args = -s /home/gerry/tftpboot  #tftp服务器跟目录
+		#tftp服务器跟目录
+		#-c 表示服务端可以创建(create)文件.
+		#更多 man tftpd
+		server_args = -c -s /home/gerry/tftpboot  
 		#disable = yes 
 		disable = no
 		per_source = 11
@@ -67,6 +70,9 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 	-A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT  
 各项参数含义暂时不甚了解,详情搜索iptables.
 
+#参考文献
+tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )
+防火墙设置 http://himme007.blog.163.com/blog/static/3466802520095742420660/
 
 
 
