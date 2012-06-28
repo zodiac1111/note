@@ -71,7 +71,7 @@ ps:selinux 和防火墙都可能(一定)使服务生效但无法访问!
 各项参数含义暂时不甚了解,详情搜索iptables.
 
 #参考文献
-tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )
+tftpd设定[TFTP Trivial File Transfer Protocol](http://std.sssh.tp.edu.tw/lesson/linux/tftp.htm )  
 防火墙设置 http://himme007.blog.163.com/blog/static/3466802520095742420660/
 
 
