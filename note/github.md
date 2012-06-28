@@ -38,18 +38,18 @@
 ###创建一个ssh密钥
 
 	cd ~/.ssh
-1. 可选:备份密钥
+可选:备份密钥
 
 	cd ~/.ssh
 	cp id_rsa* key_backup
 	rm id_rsa*
 
-2. 创建新的ssh key
+创建新的ssh key
 	
 	ssh-keygen -t rsa -C "zodiac8765+github_admin@gmail.com"
 	#创建电子邮件地址
 
-3. 测试新的密钥
+测试新的密钥
 
 	ssh -T git@github.com
 
