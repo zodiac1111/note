@@ -48,7 +48,9 @@
 3. 重新登录
 4. ps: Linux-使环境变量**马上生效**的命令>http://www.cnblogs.com/babyblue/archive/2006/02/14/519179.html
 
-`source <filename> ~/.bash_profile` 
+`source <文件名> `  
+例如:  
+`source ~/.bash_profile`或者`source /etc/profile`   
 仅对**当前**(输入这条命令的)终端(终端模拟器之中一个终端/标签)有效.
 
 ##3. 直接在shell下设置变量
