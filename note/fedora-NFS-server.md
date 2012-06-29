@@ -48,7 +48,7 @@ mount.nfs: access denied by server while mounting 127.0.0.1:/home
 2 挂载
 
 	mount -t nfs 127.0.0.1:/home 	/mnt
-	挂载 -t 类型 从.....		到...
+	挂载 -t 类型 把远端/home    (挂在)   到/mnt
 	#将127.0.0.1:/home 挂载到本机的/mnt目录下
 
 3卸载
