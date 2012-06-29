@@ -59,9 +59,9 @@
 
 
 
-使用minicom传输文件
+#使用minicom传输文件
 --------------------------------------------------
-# minicom
+ minicom  
 (Ctrl + a) --> s --> zmodem --> [Okay] --> 
     
     +-----------------------------------------+ 
@@ -71,7 +71,8 @@
 
 
 
-
-
+#小笔记:
+1. `Device /dev/ttyUSB0 is locked.`  
+一种可能是串口已经(被别的程序)打开着.
 
 注: download kernel by minicom in ubuntu
