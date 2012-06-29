@@ -32,10 +32,10 @@ sync是设置NFS服务器同步写磁盘，不会导致数据的丢失
 ##关闭防火墙
 
 ##启用新的配置
-exportfs 指令主要的三个作用：
-exportfs -rv   重新读取共享配置文件，马上生效
-exportfs -auv  马上停止所有本机上的NFS共享，并不改变 /etc/exports 文件的内容，只是当前停止共享
-exportfs -av   显示所有当前机器上的NFS共享目录信息
+exportfs 指令主要的三个作用：  
+exportfs -rv   重新读取共享配置文件，马上生效   
+exportfs -auv  马上停止所有本机上的NFS共享，并不改变 /etc/exports 文件的内容，只是当前停止共享  
+exportfs -av   显示所有当前机器上的NFS共享目录信息  
 ##测试
 1.启用挂载
 
