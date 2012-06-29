@@ -37,7 +37,13 @@ exportfs -rv   重新读取共享配置文件，马上生效
 exportfs -auv  马上停止所有本机上的NFS共享，并不改变 /etc/exports 文件的内容，只是当前停止共享  
 exportfs -av   显示所有当前机器上的NFS共享目录信息  
 ##测试
-1.启用挂载
+###启用挂载
+
+启动服务:`systemctl restart nfs-server.service`  
+In older versions of Fedora (for instance Fedora 14),`su -c 'service nfs restart'`  
+
+
+或?且   
 
 	rpc.mountd	
 否则在下一步挂载可能出现:
@@ -45,14 +51,24 @@ mount.nfs: access denied by server while mounting 127.0.0.1:/home
 或者在输入"mount -t nfs 127.0.0.1:"后按Tab键补全
 :rpc mount export: RPC: Unable to receive; errno = Connection refused
 
-2 挂载
+###挂载
 
+</del>貌似只能挂载 /home 这样的一级目录 像/home/tom 这样的目录就不行??</del>  
+像/home/tom/doc/nfsroot 这样的目录必须保证这条路径**所有文件夹**都是有相应的权限的.    
+即/home 得有(读写)权限 /home/tom 也一样 /home/tom/doc 也一样. 仅仅nfsroot文件夹有读写权限是不行的.   
+在挂在时还是会提示没有访问权限.....
 	mount -t nfs 127.0.0.1:/home 	/mnt
 	挂载 -t 类型 把远端/home    (挂在)   到/mnt
 	#将127.0.0.1:/home 挂载到本机的/mnt目录下
 
-3卸载
+###卸载
  
 	unomt /mnt
 
 
+#参考
+=====  
+1. [官方帮助文档](http://fedoraproject.org/wiki/Administration_Guide_Draft/NFS)  
+2. 查看错误日志`cat /var/log/messages | grep mount` 来源:  
+[这里](http://liuzhigong.blog.163.com/blog/static/17827237520115305226932/)  
+3. 图形化的配置工具 `yum install system-config-nfs.noarch`
