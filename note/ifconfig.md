@@ -7,8 +7,8 @@ ip   和子网掩码   执行这个命令：<br>
 
 我的<b>备份指令</b>(路由)
 
-	ifconfig   eth0  192.168.18.26   netmask   255.255.255.0
- 	route   add   default   gw   192.168.18.1
+	ifconfig   eth0  192.168.1.103   netmask   255.255.255.0
+ 	route   add   default   gw   192.168.1.253
 
 
 <font stysl color=8888>asda
