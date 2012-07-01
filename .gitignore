@@ -1,6 +1,10 @@
 # swp #
 *.sw[op]
 *~
+
+#qt项目配置文件
+*.user
+
 #ompiled source #
 ###################
 *.com

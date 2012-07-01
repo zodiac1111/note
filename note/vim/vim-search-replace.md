@@ -1,3 +1,4 @@
+
 #vim查找替换
 >http://www.chinavim.org/vivim-%E6%9F%A5%E6%89%BE%E6%9B%BF%E6%8D%A2%E5%A4%A7%E5%85%A8.html
 
@@ -10,3 +11,7 @@
 * <code>:n,$s/vivian/sky/g</code> 替换第 n 行开始到最后一行中每一行**所有** vivian 为 sky
 
 (n 为数字，若 n 为 .<句号>，表示从当前行开始到最后一行)
+# 删除
+删除括号内的东西 不包含括号 di) =delet in )
+光标在一个word内部删除这个整个单词 diw  del in word
+删除并进入insert模式方便修改 ciw change in word 
