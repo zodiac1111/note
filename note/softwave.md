@@ -8,7 +8,7 @@ git	版本控制
 gimp	图形处理/查看
 goldendict	字典/词典/翻译
 retext	markdown语法所见即所得编辑器
-otcopress	轻量级静态blog
+octopress	轻量级静态blog
 gbrainy	逻辑/心算/速记 游戏
 xchat	irc客户端
 ##互联网
