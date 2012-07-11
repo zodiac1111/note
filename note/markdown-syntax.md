@@ -1,6 +1,19 @@
 markdown/博客 基本语法
+代码1:
+	``` [language] [title] [url] [link text]
+	code snippet
+	```
+	例如:
+	``` c  
+	int main()
+	{
+		int i;
+		return 0;
+	}
+	$ sudo make me a sandwich
+	```
 
-代码: http://octopress.org/docs/plugins/codeblock/
+代码2: http://octopress.org/docs/plugins/codeblock/
 
 	{% codeblock [title] [lang:language] [url] [link text] %}
 	code snippet
@@ -8,6 +21,10 @@ markdown/博客 基本语法
 	#例如
 	{% codeblock %}
 	Awesome code snippet
+	{% endcodeblock %}
+	#例如
+	{% codeblock lang:objc %}
+	[rectangle setX: 10 y: 10 width: 20 height: 20];
 	{% endcodeblock %}
 
 图片Tag(博客)
