@@ -1,6 +1,11 @@
+编译进内核
+
+动态加载
+模块 open/relese
+
  创建设备节点
-242 主设备号
-mknod /dev/mem_test c 242 0
+422:主设备号 	0:次设备号	c char dev
+mknod /dev/mem_test c 422 0
 删除节点
 rm /dev/mem_test 
 
