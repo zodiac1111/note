@@ -2,9 +2,9 @@
 >[http://lamp.linux.gov.cn/Linux/kernel_arguments.html](http://lamp.linux.gov.cn/Linux/kernel_arguments.html) 金步国:Linux内核引导参数简介
 
 
-1. 使用`modinfo -p ${模块名}`命令显示可加载模块的所有可用参数.
-2. 已经加载到内核中的模块会在 `/sys/module/${模块名}/parameters/` 中显示出其参数
-3. 并且某些参数的值还可以在运行时通过`echo -n ${value值} > /sys/module/${modulename模块名}/parameters/${parm参数}`命令修改。
+1. 使用`modinfo -p <模块名>`命令显示可加载模块的所有可用参数.
+2. 已经加载到内核中的模块会在 `/sys/module/<模块名>/parameters/` 中显示出其参数
+3. 并且某些参数的值还可以在运行时通过`echo -n <value值> > /sys/module/<modulename模块名>/parameters/<parm参数>`命令修改。
 4. 在内核运行起来之后，可以通过 `cat /proc/cmdline` 命令查看当初使用的引导参数以及相应的值。
 
 绝大部分的内核引导参数的格式如下(每个参数的值列表中最多只能有十项)：
