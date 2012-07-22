@@ -17,7 +17,7 @@ RTP header:(头数据)位于udp包的base+0x33地址(内容)
 	`0b		1bit 扩展? 否
 	`0000b		4bit 特约来源识别码数：0
 1	e0	[1 Byte]
-	`1b		1bit 1重要事件,通常表示一帧结束.
+	`1b		1bit 1重要事件,通常表示一帧结束.MARK
 	`110-0000b	7bit 负载类型(Payload type):DynamicRTP-Type-96 (96)
 2	69	[2 Byte]序列号(Sequence):
 3	37		0x6937=26935(十进制) 
