@@ -52,9 +52,13 @@ jiffise 内核基本时钟,一个调度周期(HZ)加1(?) 内核中 的全局变�
 #中断
 简单但个终端服务程序
 #互斥锁
+创建互斥锁 p101 ldd
 #创建线程
+j几种方法 kthredcreate
+kthreadrun(函数指针,参数,名字)返回 *struct task_stat
 #分配内存
 kmalloc (size,flag) size 最大128k flag __GPF_DMA 
 __GFP_KERNEL 调用分配内核的地址空间 大地址get_free_pages()
 #平台API库
+封装各种操作
 	
