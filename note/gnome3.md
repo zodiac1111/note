@@ -44,4 +44,5 @@ defaults.list 文件中增加一行(默认需要root权限)
 	<文件类型>     = <执行文件的快捷方式>
 
 
-
+#壁纸目录
+/usr/share/backgrounds
