@@ -43,3 +43,5 @@ call: FeboTail(x,1,1) //数组第1项开始
 #*sh: ./hello3: No such file or directory 
 >http://www.newsmth.net/nForum/#!article/Embedded/104992
 ldd 查看库版本,然后检查是否存在该库
+
+#echo -e "1\n2" 

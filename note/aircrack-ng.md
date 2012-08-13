@@ -5,21 +5,21 @@
 iwconfig 
 	
 在Linux下，我们使用Aircrack-ng套装里的airmon-ng工具来实现，具体命令如下：
-airmon-ng start wlan0 
+#airmon-ng start wlan0 
 步骤3：探测无线网络，抓取无线数据包。
 
 在激活无线网卡后，我们就可以开启无线数据包抓包工具了，这里我们使用Aircrack-ng套装里的airmon-ng工具来实现，具体命令如下：
 
 不过在正式抓包之前，一般都是先进行预来探测，来获取当前无线网络概况，包括AP的SSID、MAC地址、工作频道、无线客户端MAC及数量等。只需打开一个Shell，输入具体命令如下：
 
-airodump-ng mon0 
+#airodump-ng mon0 
 参数解释：
 
 mon0为之前已经载入并激活监听模式的无线网卡。如下图8所示。
 
 既然我们看到了本次测试要攻击的目标，就是那个SSID名为TP-LINK的无线路由器，接下来输入命令如下：
 
-airodump-ng --ivs –w longas -c 6 wlan0 
+#airodump-ng --ivs –w longas -c 6 wlan0 
 参数解释：
 
 --ivs 这里的设置是通过设置过滤，不再将所有无线数据保存，而只是保存可用于破解的IVS数据报文，这样可以有效地缩减保存的数据包大小；
