@@ -16,7 +16,7 @@ ps:--db-command=<command> 选项可以指定调试器
 #尾递归
 `
 // 尾递归求阶乘
-unsigned int RefactorialTail(unsigned int i, unsigned int status)
+unsigned int RefactorialTail(unsigned int i,const unsigned int status)
 {
     if(i == 0)
         return status;
@@ -28,13 +28,18 @@ call :RefactorialTail(xs,1);
 `
 `
 // 尾递归求菲波纳锲数列
-unsigned int FeboTail(unsigned int i, 
-                        unsigned int s1,     //上上次结果
-                        unsigned int s2)    //上次结果
+unsigned int FeboTail(unsigned int i,  //输入
+                      const unsigned int s1,     //上上次结果
+                      const unsigned int s2)    //上次结果
 {
     if(i == 0)
         return s1;
     return FeboTail(i-1, s2, s1+s2);
 }
-call: FeboTail(x,0,1)
+call: FeboTail(x,1,1) //数组第0项开始
+call: FeboTail(x,1,1) //数组第1项开始
 `
+
+#*sh: ./hello3: No such file or directory 
+>http://www.newsmth.net/nForum/#!article/Embedded/104992
+ldd 查看库版本,然后检查是否存在该库
