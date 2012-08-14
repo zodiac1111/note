@@ -67,4 +67,18 @@ touch /etc/localtime
 复制代码
 当我把空白文件建立好后，时间立即正确了。
 
-真的很有意思。
+正常情况下 /etc/localtime 也是二进制的（文本编辑器打开看是乱码~~）
+更改后和标准时间相差8个小时。。。
+应该是UTC那个勾，不要点上就好。不严格的说，UTC用的是格林威治时间，跟这边当然会差8小时了。
+
+#关于fedora 17启动时显示cannot open font file true的解决办法
+
+打开/etc/default/grub 文件
+将GRUB_CMDLINE_LINUX=行中的SYSFONT=True 改为SYSFONT=latarcyrheb-sun16 ；
+保存退出；
+运行命令：
+grub2-mkconfig -o /boot/grub2/grub.cfg
+然后reboot；
+问题即可解决。
+
+本办法是搜索来的，原文http://forums.fedoraforum.org/showthread.php?t=277213，感谢原作者！
