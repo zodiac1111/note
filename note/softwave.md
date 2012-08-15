@@ -15,7 +15,10 @@ system-config-nfs 	nfs服务器配置
 miredo-client 	ipv6代理客户端 Teredo IPv6 tunneling client
 
 ##未定义分类
+octave	类似matlab GNU
+scilab	类似matlab
 vlc	视频播放器,流媒体服务器/客户端
+mplayer	视频播放器
 guake	gnome终端(不支持文件夹拖拽复制
 sun-pinyin 	输入法
 gimp	图形处理/查看
