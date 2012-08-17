@@ -1,4 +1,5 @@
-git add . #添加文件新增至工程
+#添加文件新增至工程
+git add . 
 if [ "$1" == "" ]
 then
  	git commit -m '没有说明' #添加说明?
