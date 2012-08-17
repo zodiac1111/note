@@ -2,7 +2,7 @@
 git add . 
 if [ "$1" == "" ]
 then
- 	git commit -a '没有说明' #添加说明?
+ 	git commit -a #'没有说明' #添加说明?
 else
  	git commit -a $1 #添加说明?
 fi
