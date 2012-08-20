@@ -15,3 +15,20 @@ runlevel 5: 支持网络以及图形界面的多用户模式 (runlevel 3 + X Win
 
 选项status可以替换为start, stop, status, reload, restart。对有些服务，有时还有更多选项可用。
 
+#Linux/Fedora systemd系统服务控制(systemctl)配置说明以及和System V启动脚本(service)的区别[注1]
+
+在CentOS/RHEL中,系统服务是System V启动脚本控制,主要使用chkconfig和service两个命令,配置在/etc/init.d/下.
+在Fedora中使用的是新的systemd系统和服务管理程序.主要使用systemctl控制,配置在/etc/systemd/下.
+以下是两种服务管理的却别和对应的命令.
+`
+任务	指令	新指令
+使某服务自动启动	chkconfig –level 3 sshd on	systemctl enable sshd.service
+使某服务不自动启动	chkconfig –level 3 sshd off	systemctl disable sshd.service
+检查服务状态	service sshd status	systemctl status sshd.service （服务详细信息） systemctl is-active sshd.service （仅显示是否 Active)
+显示所有已启动的服务	chkconfig –list	systemctl list-units –type=service
+启动某服务	service sshd start	systemctl start sshd.service
+停止某服务	service sshd stop	systemctl stop sshd.service
+重启某服务	service sshd restart	systemctl restart sshd.service
+`
+
+1. 参考:https://fedoraproject.org/wiki/Systemd/zh-cn#System_V_init_.E4.B8.8E_systemd_.E7.9A.84.E5.AF.B9.E6.8E.A5
