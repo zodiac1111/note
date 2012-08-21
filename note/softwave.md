@@ -1,6 +1,9 @@
 #好用的软件
 ##互联网
 chromium	web浏览器
+elinks	A text-mode Web browser
+w3m	 A pager with Web browsing abilities
+
 
 ##开发
 indent	代码格式化
