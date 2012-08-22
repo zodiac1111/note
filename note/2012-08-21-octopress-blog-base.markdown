@@ -1,12 +1,20 @@
+---
+layout: post
+title: "hello world"
+date: 2012-07-03 09:01
+comments: true
+categories: 
+---
+
 octopress blog基本操作
 >http://octopress.org/docs/blogging/
 
-1. 转到博客根目录
+1. 传到博客根目录
 
 	`cd /home/zodiac1111/blog/octopress`
 
 2. 新建日志
-	
+	在博客根目录,例如`/home/zodiac1111/blog/octopress`执行:
 	`rake new_post["<文章标题>"]`来创建一篇新文章.
 3. 预览&发布 
 
