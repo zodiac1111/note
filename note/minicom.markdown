@@ -79,7 +79,7 @@ categories:
 
 
 
-#小笔记:
+#ps:
 1. `Device /dev/ttyUSB0 is locked.`  
 一种可能是串口已经(被别的程序)打开着.
 
