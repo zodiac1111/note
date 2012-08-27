@@ -7,7 +7,7 @@ octopress blog基本操作
 
 2. 新建日志
 	
-	`rake new_post["<文章标题>"]`来创建一篇新文章.
+	`rake new_post["文章标题"]`来创建一篇新文章.
 3. 预览&发布 
 
 	#在本地预览blog
