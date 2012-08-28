@@ -5,6 +5,7 @@ set -x
 #git add . 
 if [ "$1" == "" ]
 then
+	#-a 只能跟踪已经被跟踪的内容,不能跟踪新增的文件
 	git commit -a -m '没有说明' #添加说明? m提交 a默认跟踪
 else
  	git commit -a -m $1 #添加说明?

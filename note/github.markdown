@@ -38,7 +38,7 @@ categories:
 	git remote add origin git@github.com:zodiac1111/test.git
 	<添加已有项目的网址,git形式的ssh,不用每次都写用户名密码>
 	git push -u origin master
-	<提交>
+	<提交 到远程 master分支>
 
 ##SSH Keys设置
 对于第一次在本机提交,ssh设置是必须的,设置好后很方便.
