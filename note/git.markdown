@@ -47,4 +47,7 @@ git stash apply `#显示当前修改
 情况2 rebase:(主分支在子分支 分出之后 又**更新**了)
 
 所以,组员在修改自己的东西前最好先checkout自己的branch,而不是直接修改主分支master
+###ref:
+1. `man git-config`
+2. `man git`
 
