@@ -1,6 +1,6 @@
 ###git diff --color /auto
 在shell中 :
-`
+
 # auto
 `$ git config --global color.diff auto`
 # always
