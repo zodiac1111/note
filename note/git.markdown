@@ -1,12 +1,13 @@
 ###git diff --color /auto
-sheel :
+在shell中 :
 `
 # auto
-$ git config --global color.diff auto
+`$ git config --global color.diff auto`
 # always
 `$ git config --global color.diff always`
 
-then ,in the file ~/.gitconfig
+then,in the file `~/.gitconfig`(becase of the `--global` option)
+
 ```
 [color]
 	diff = auto     #<-diff color =auto :)
