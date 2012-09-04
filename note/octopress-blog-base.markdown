@@ -11,7 +11,7 @@ octopress blog基本操作
 
 1. 传到博客根目录
 
-	`cd /home/zodiac1111/blog/octopress`
+	`cd ~/blog/octopress`
 
 2. 新建日志
 	在博客根目录,例如`/home/zodiac1111/blog/octopress`执行:
