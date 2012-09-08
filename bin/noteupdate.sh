@@ -4,7 +4,7 @@ cd ~/note
 #date +%Y/%m/%d_%H:%M:%S
 if [ "$1" == "" ]
 then
-	~/Mysoft/bin/gitupdatenote.sh '笔记备份'`date +%Y/%m/%d_%H:%M:%S`
+	~/Mysoft/bin/gitnoteupdate.sh '笔记备份'`date +%Y/%m/%d_%H:%M:%S`
 else
-	~/Mysoft/bin/gitupdatenote.sh $1'->笔记备份'`date +%Y/%m/%d_%H:%M:%S`
+	~/Mysoft/bin/gitnoteupdate.sh $1'->笔记备份'`date +%Y/%m/%d_%H:%M:%S`
 fi
