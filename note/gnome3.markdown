@@ -1,13 +1,5 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
-
-#Gnome3 中增加快捷方式
->http://tinyz.github.com/2012/04/23/custom-shortcut-for-gnome/
+##Gnome3 中增加快捷方式
+[来源](http://tinyz.github.com/2012/04/23/custom-shortcut-for-gnome/)
 
 全局程序视图位于 /usr/share/applications 目录，单个用户则位于 ~/.local/share/applications/ 目录。Nautilus 不把他们识别为纯文本文件，可以使用终端显示或编辑它们。
 
@@ -41,7 +33,7 @@ categories:
 	MimeType=text/plain;
 ####实例文件
  见 ../备份图标
-#打开文件默认方式
+##打开文件默认方式
 默认方式列表在 '/usr/share/applications/defaults.list' 文件中
 以修改*.md文件默认使用retext程序打开为例
 查看*.md文件的类型,右键文件-属性:类型:Markdown document (text/x-markdown)
@@ -52,5 +44,5 @@ defaults.list 文件中增加一行(默认需要root权限)
 	<文件类型>     = <执行文件的快捷方式>
 
 
-#壁纸目录
+##壁纸目录
 /usr/share/backgrounds
