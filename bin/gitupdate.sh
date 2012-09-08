@@ -10,6 +10,7 @@ then
 	echo "为了可追溯,请填写commit说明"
 	echo "<gitupdate> <修改的某某某>"
 else
+	git add .
  	git commit -a -m $1 #添加说明?
 	git push -u origin master  #上传至服务器
 fi
