@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #update loacl date(conf back and note) to remote sever
 cd ~/note
 #date +%Y/%m/%d_%H:%M:%S
