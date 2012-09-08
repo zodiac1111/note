@@ -9,6 +9,8 @@
 * `:n,$s/vivian/sky/` 替换第 n 行开始到最后一行中每一行的**第一个** vivian 为 sky
 
 * `:n,$s/vivian/sky/g` 替换第 n 行开始到最后一行中每一行**所有** vivian 为 sky
+===
+###基本语法:
 
 	:[地址/范围]s/<搜索字>/<替换字>[/g]
 
@@ -23,7 +25,7 @@
 * g  表示继续匹配(没有 表示匹配一次)
 
 ps:更多sed语法请搜索sed
-## 删除
+### 删除
 删除括号内的东西 不包含括号 di) =delet in )
 光标在一个word内部删除这个整个单词 diw  del in word
 删除并进入insert模式方便修改 ciw change in word 
