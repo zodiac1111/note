@@ -1,5 +1,5 @@
 #!/bin/bash
-set +x
+set -x
 set -v on
 #update loacl date(conf back and note) to remote sever
 cd ~/note
