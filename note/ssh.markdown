@@ -10,8 +10,9 @@
 http://blog.sina.com.cn/s/blog_643493600100uje6.html
 
 ===================================
-$ sudo systemctl start sshd.service                                                                                               
+
+	$ sudo systemctl start sshd.service
                               
-$ sudo systemctl enable sshd.service                                                                                              
-ln -s '/usr/lib/systemd/system/sshd.service' '/etc/systemd/system/multi-user.target.wants/sshd.service'   
+	$ sudo systemctl enable sshd.service
+	ln -s '/usr/lib/systemd/system/sshd.service' '/etc/systemd/system/multi-user.target.wants/sshd.service' 
 ===================================
