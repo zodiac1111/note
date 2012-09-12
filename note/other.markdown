@@ -7,6 +7,7 @@ categories:
 ---
 #使用valgrind测试程序的内存泄露/多线程竞争/等等
 http://www.ibm.com/developerworks/cn/linux/l-cn-valgrind/
+c语言代码分析工具**splint**
 
 
 #在执行 Valgrind 期间连接 gdb
