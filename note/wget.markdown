@@ -14,3 +14,6 @@ wget下载站点网页
 
        比如我想下载gentoo网站上的英文文档，可输入如下命令：
 wget -r -p -np -k http://www.gentoo.org/doc/en/。
+-c,  --continue                断点续传下载文件。
+ -x,  --force-directories        强制创建目录。
+  -A,  --accept=LIST               逗号分隔的可接受的扩展名列表。
