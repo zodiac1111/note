@@ -6,8 +6,8 @@ comments: true
 categories: 
 ---
 
-octopress blog基本操作
->http://octopress.org/docs/blogging/
+octopress blog基本操作  
+http://octopress.org/docs/blogging/
 
 1. 传到博客根目录
 
@@ -15,7 +15,7 @@ octopress blog基本操作
 
 2. 新建日志
 	在博客根目录,例如`/home/zodiac1111/blog/octopress`执行:
-	`rake new_post["<文章标题>"]`来创建一篇新文章.
+	`rake new_post["Title"]`来创建一篇新文章.
 3. 预览&发布 
 
 	#在本地预览blog
@@ -27,6 +27,8 @@ octopress blog基本操作
 	rake preview
 	#发布
 	rake deploy	
+	#生成和发布也可以合并成为一句:
+	rake gen_deploy
 
 4. 保存source(可选)
 
