@@ -33,3 +33,5 @@ ifconfig   eth0   10.10.10.131   netmask   255.255.255.0
 route   add   default   gw   10.10.10.6
 insmod /var/ftp/motor.ko &
 /var/ftp/motor &
+
+ifconfig em1:1 192.168.2.212
