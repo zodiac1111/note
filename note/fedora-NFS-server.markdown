@@ -1,6 +1,6 @@
 
 
-#NFS服务器配置
+#NFS服务器安装和配置
 
 OS:fedora17.i686 & fedora17.x86_64 & f17beta.i686 & f17beta.x86-64   
 现在已经改成不用 imapXXXX的了
