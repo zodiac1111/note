@@ -5,7 +5,9 @@ date: 2012-07-03 09:01
 comments: true
 categories: 
 ---
-
+#集成构建工具:
+1. Buildroot
+2. crosstool
 #简明构建交叉编译器指导提示(gcc)
 [来源](http://www.ifp.illinois.edu/~nakazato/tips/xgcc.html#pre)
 
@@ -32,7 +34,8 @@ Now, you can build GCC.
 其他参数
 arm-linux arm-elf 区别,C语言库区别.
 [来源](http://hi.baidu.com/ajoe/blog/item/1780d100a2270a12728b6582.html)
-#2.Clibrary
-#3.Full Cross-Compiler整个编译器
-#4.本地编译器
+##2.Clibrary
+##3.Full Cross-Compiler整个编译器
+##4.本地编译器
 运行在arm上,且编译出运行在arm平台的可执行文件的gcc for arm 而不是 gcc for host build target for arm.
+

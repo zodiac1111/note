@@ -1,13 +1,16 @@
 >所有的警告都是错误.
 gcc/g++ 编译警告选项:
 
-	-Wall -Werror -Wfloat-equal -Wshadow -Wconversion -Winline
+	-O -Wall -Werror -Wfloat-equal -Wshadow -Wconversion -Winline
 
-##-Wall
+## -Wall
 我们平时可能大多数情况只使用-Wall编译警告选项，实际上-Wall选项是一系列警告编译选项的集合。
-##-Werror
+## -Werror
 所有警告强制升级为错误提示
-##-Wshadow
+## -pedantic
+## -ansi
+## -Wcomment (-Wall)
+## -Wshadow
 当局部变量遮蔽(shadow)了参数、全局变量或者是其他局部变量时，该警告选项会给我们以警告信息。例如:
 ```
 //test_shadow.c
@@ -41,6 +44,9 @@ int main(void)
 检测结构体内存对齐
 
 ## -Wunreachable-code
+不可到达的代码
+## -Woverloaded-virtual
+## -Wundef
 
 
 #参考资料:
