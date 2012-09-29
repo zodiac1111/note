@@ -1,10 +1,3 @@
----
-layout: post
-title: "hello world"
-date: 2012-07-03 09:01
-comments: true
-categories: 
----
 
 #github一些使用笔记
 ##初始化
