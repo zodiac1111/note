@@ -42,7 +42,7 @@ categories:
 
 ##SSH Keys设置
 对于第一次在本机提交,ssh设置是必须的,设置好后很方便.
-官方关于SSH密钥设置的帮助 >https://help.github.com/categories/56/articles
+官方关于SSH密钥设置的帮助 [这里](https://help.github.com/categories/56/articles)
 ###创建一个ssh密钥
 
 	cd ~/.ssh
@@ -55,7 +55,9 @@ categories:
 创建新的ssh key
 	
 	ssh-keygen -t rsa -C "zodiac8765+github_admin@gmail.com"
-	#创建电子邮件地址
+
+在github上添加新的SSH,网址:
+	https://github.com/settings/ssh
 
 测试新的密钥
 
