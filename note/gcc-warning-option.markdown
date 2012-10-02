@@ -10,15 +10,17 @@ gcc/g++ 编译警告选项:
 ## -pedantic
 ## -ansi
 ## -Wcomment (-Wall)
+
 ## -Wshadow
 当局部变量遮蔽(shadow)了参数、全局变量或者是其他局部变量时，该警告选项会给我们以警告信息。例如:
 ```
-//test_shadow.c
+// test_shadow.c
 int g;
-void test(int i)
+int main(int argc,char **argv)
 {
         short   i;
         double  g;
+	retrun 0;
 }
 ```
 ##inline
@@ -41,11 +43,12 @@ int main(void)
 }
 ```
 ## -Wpacked -Wpadded 
-检测结构体内存对齐
+检测结构体内存对齐/手动packed提示效率问题,自动padded也有提示.
 
 ## -Wunreachable-code
 不可到达的代码
 ## -Woverloaded-virtual
+
 ## -Wundef
 
 
