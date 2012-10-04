@@ -1,14 +1,77 @@
->所有的警告都是错误.
+所有的警告都是错误.
+
 gcc/g++ 编译警告选项:
 
-	-O -Wall -Werror -Wfloat-equal -Wshadow -Wconversion -Winline
+` -Wall -Wextra`
 
-## -Wall
-我们平时可能大多数情况只使用-Wall编译警告选项，实际上-Wall选项是一系列警告编译选项的集合。
-## -Werror
+官方: <http://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html>
+
+
+`-Werror`
+
 所有警告强制升级为错误提示
-## -pedantic
-## -ansi
+
+`-Wpedantic`    
+`-pedantic `
+
+Issue all the warnings demanded by strict ISO C and ISO C++.
+
+`-pedantic-errors`
+	
+`-pedantic ` Warning to Error.
+
+` -Wall`
+
+我们平时可能大多数情况只使用-Wall编译警告选项，实际上-Wall选项是一系列警告编译选项的集合。
+
+-Wall turns on the following warning flags:
+
+          -Waddress   
+          -Warray-bounds (only with -O2)  
+          -Wc++11-compat  
+          -Wchar-subscripts  
+          -Wenum-compare (in C/ObjC; this is on by default in C++) 
+          -Wimplicit-int (C and Objective-C only) 
+          -Wimplicit-function-declaration (C and Objective-C only) 
+          -Wcomment  
+          -Wformat   
+          -Wmain (only for C/ObjC and unless -ffreestanding)  
+          -Wmaybe-uninitialized 
+          -Wmissing-braces (only for C/ObjC) 
+          -Wnonnull  
+          -Wparentheses  
+          -Wpointer-sign  
+          -Wreorder   
+          -Wreturn-type  
+          -Wsequence-point  
+          -Wsign-compare (only in C++)  
+          -Wstrict-aliasing  
+          -Wstrict-overflow=1  
+          -Wswitch  
+          -Wtrigraphs  
+          -Wuninitialized  
+          -Wunknown-pragmas  
+          -Wunused-function  
+          -Wunused-label     
+          -Wunused-value     
+          -Wunused-variable  
+          -Wvolatile-register-var 
+
+-Wextra 
+
+	-Wall扩展版
+        -Wclobbered  
+          -Wempty-body  
+          -Wignored-qualifiers 
+          -Wmissing-field-initializers  
+          -Wmissing-parameter-type (C only)  
+          -Wold-style-declaration (C only)  
+          -Woverride-init  
+          -Wsign-compare  
+          -Wtype-limits  
+          -Wuninitialized  
+          -Wunused-parameter (only with -Wunused or -Wall) 
+          -Wunused-but-set-parameter (only with -Wunused or -Wall)  
 ## -Wcomment (-Wall)
 
 ## -Wshadow
@@ -48,6 +111,8 @@ int main(void)
 ## -Wunreachable-code
 不可到达的代码
 ## -Woverloaded-virtual
+
+-Wmissing-include-dirs
 
 ## -Wundef
 
