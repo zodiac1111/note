@@ -69,6 +69,8 @@ Buildroot大概每三个月发布.也支持直接git访问和每日快照.
 链接到构建根目录下的`dl`目录.
 
 ##3.3
+#4. 定制
+##4.1 定制生成的目标文件系统
 
 #过程 错误 解决
 0. host:Linux localhost.localdomain 3.5.4-1.fc17.i686.PAE #1 SMP Mon Sep 17 15:19:42 UTC 2012 i686 i686 i386 GNU/Linux
