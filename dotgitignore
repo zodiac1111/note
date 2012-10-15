@@ -5,6 +5,7 @@ a.out
 #qt项目配置文件
 *.user
 *.user.*
+*.orig
 
 #ompiled source #
 ###################
