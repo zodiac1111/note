@@ -6,5 +6,5 @@ cd `pwd`
 # find 中使用正则匹配的是全路径。
 find . -regextype "posix-egrep" -regex '.*\.(h|cpp)' \
 	-exec astyle --style=linux --indent=tab --delete-empty-lines \
-	--add-one-line-brackets  {} \;
+	  {} \;
 
