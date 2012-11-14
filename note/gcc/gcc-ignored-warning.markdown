@@ -10,16 +10,27 @@
 指定该变量为"未使用的".即使这个变量没有被使用,编译时也会忽略则个警告输出.
 
 ##文件级:在源代码文件中诊断(忽略/警告)
+语法:
 
-诊断-忽略:
+	#pragma GCC diagnostic [error|warning|ignored] "<警告选项>"
+
+诊断-忽略:(关闭警告)
 
 	#pragma  GCC diagnostic ignored  "-Wunused"
 	#pragma  GCC diagnostic ignored  "-Wunused-parameter"
 
-诊断-警告:
+诊断-警告:(开启警告)
 
 	#pragma  GCC diagnostic warning  "-Wunused"
 	#pragma  GCC diagnostic warning  "-Wunused-parameter"
+
+诊断-错误:(开启警告-升级为错误)
+
+	#pragma  GCC diagnostic error  "-Wunused"
+	#pragma  GCC diagnostic error  "-Wunused-parameter"
+
+用法:
+在文件开头处关闭警告,在文件结尾出再开启警告,这样可以忽略该文件中的指定警告.
 
 ##项目级:命令行/编译参数指定
 
