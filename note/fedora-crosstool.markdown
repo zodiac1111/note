@@ -1,4 +1,4 @@
-##crosstool在fedora 17下的编译一到的问题/解决
+##crosstool在fedora 17下的编译遇到的问题/解决
 >参考 http://blog.chinaunix.net/space.php?uid=20543672&do=blog&id=94268
 问题:
 ###解决gcc: error trying to exec ‘cc1obj’: execvp: No such file or directory问题
