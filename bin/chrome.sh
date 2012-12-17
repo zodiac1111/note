@@ -6,7 +6,7 @@
 #  http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html
 #可能需要IPv6支持! 需要 wget
 #参数设置:
-cd ~zodiac1111/Mysoft
+cd ~/Mysoft
 #架构:x86=Linux |x86_64=Linux_86 ? |window=Win 详见网站
 ARCH=Linux
 #得到版本号文件 LAST_CHANGE
