@@ -18,9 +18,34 @@
 203.208.46.148 encrypted-tbn8.google.com 
 203.208.46.148 encrypted-tbn9.google.com 
 203.208.46.148 encrypted.google.com.hk 
+
+#<youtube>youtube 我自己ping的
+74.125.235.37 www.youtube.com
+74.125.128.139 s.ytimg.com
+74.125.128.100 i1.ytimg.com
+74.125.128.100 i2.ytimg.com
+74.125.128.100 i2.ytimg.com
+74.125.128.100 i3.ytimg.com
+74.125.128.100 i4.ytimg.com
+74.125.128.100 i2.ytimg.com
+#</youtube>
+
+#twitter 的图片
+203.211.153.17 twimg0-a.akamaihd.net
+203.211.153.17 a0.twimg.com
+60.191.124.236 deucqe5ih3kaf.cloudfront.net
 #google group
-74.125.91.113 groups.google.com
+74.125.139.138 groups.google.com
 #
+#Group 论坛
+2404:6800:8005::71 groups.google.com #groups.l.google.com
+####2401:3800:c001::68 groups.google.cn
+2404:6800:8005::71 groups.google.com.hk #groups.l.google.com
+2404:6800:8005::71 groups-beta.google.com #groups.l.google.com
+2404:6800:8005::71 groups.l.google.com
+2404:6800:8005::66 productforums.google.com #groups.l.google.com
+2404:6800:8005::89 blob-s-docs.googlegroups.com #googlegroups.l.google.com
+2404:6800:8005::89 *.googlegroups.com #googlegroups.l.google.com
 #</e google>
 #freenode
 94.125.182.252 chat.freenote.net
