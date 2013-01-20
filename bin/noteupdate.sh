@@ -8,9 +8,9 @@ cd ~/note
 if [ "$1" == "" ]
 then
 	echo "默认说明"
-	~/Mysoft/bin/gitnoteupdate.sh '这次笔记修改没有特殊的说明:P'
+	./bin/gitnoteupdate.sh '这次笔记修改没有特殊的说明:P'
 else
 	echo "手动说明"
-	~/Mysoft/bin/gitnoteupdate.sh $1
+	./bin/gitnoteupdate.sh $1
 fi
 exit 0
