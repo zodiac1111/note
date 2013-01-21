@@ -1,3 +1,5 @@
+#github
+207.97.227.239 github.com
 127.0.0.1		localhost.localdomain localhost
 ::1		localhost6.localdomain6 localhost6
 #<godaddy>
@@ -18,7 +20,6 @@
 203.208.46.148 encrypted-tbn8.google.com 
 203.208.46.148 encrypted-tbn9.google.com 
 203.208.46.148 encrypted.google.com.hk 
-
 #<youtube>youtube 我自己ping的
 74.125.235.37 www.youtube.com
 74.125.128.139 s.ytimg.com
