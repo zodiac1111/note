@@ -1,5 +1,16 @@
+#谷歌扩展
+74.125.224.235 lh1.googleusercontent.com
+74.125.224.235 lh2.googleusercontent.com
+74.125.224.235 lh3.googleusercontent.com
+74.125.224.235 lh4.googleusercontent.com
+74.125.224.235 lh5.googleusercontent.com
+74.125.224.235 lh6.googleusercontent.com
+74.125.224.235 lh7.googleusercontent.com
+#
+#50.112.143.8 fc2.com
+#50.112.161.43 video.fc2.com
 #github
-#207.97.227.239 github.com
+207.97.227.239 github.com
 127.0.0.1		localhost.localdomain localhost
 ::1		localhost6.localdomain6 localhost6
 #<godaddy>
@@ -8,18 +19,18 @@
 #216.69.149.215 mya.godaddy.com
 #</godaddy>
 #<encrypted google>
-203.208.46.148 encrypted.google.com 
-203.208.46.148 encrypted-tbn0.google.com 
-203.208.46.148 encrypted-tbn1.google.com 
-203.208.46.148 encrypted-tbn2.google.com 
-203.208.46.148 encrypted-tbn3.google.com 
-203.208.46.148 encrypted-tbn4.google.com 
-203.208.46.148 encrypted-tbn5.google.com 
-203.208.46.148 encrypted-tbn6.google.com 
-203.208.46.148 encrypted-tbn7.google.com 
-203.208.46.148 encrypted-tbn8.google.com 
-203.208.46.148 encrypted-tbn9.google.com 
-203.208.46.148 encrypted.google.com.hk 
+74.125.227.4 encrypted.google.com 
+#203.208.46.148 encrypted-tbn0.google.com 
+#203.208.46.148 encrypted-tbn1.google.com 
+#203.208.46.148 encrypted-tbn2.google.com 
+#203.208.46.148 encrypted-tbn3.google.com 
+#203.208.46.148 encrypted-tbn4.google.com 
+#203.208.46.148 encrypted-tbn5.google.com 
+#203.208.46.148 encrypted-tbn6.google.com 
+#203.208.46.148 encrypted-tbn7.google.com 
+#203.208.46.148 encrypted-tbn8.google.com 
+#203.208.46.148 encrypted-tbn9.google.com 
+#203.208.46.148 encrypted.google.com.hk 
 #<youtube>youtube 我自己ping的
 74.125.235.37 www.youtube.com
 74.125.128.139 s.ytimg.com
