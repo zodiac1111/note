@@ -32,7 +32,7 @@ system-config-nfs 	nfs服务器配置
 miredo-client 	ipv6代理客户端 Teredo IPv6 tunneling client
 ###硬件
 lm_sensors-sensord 温度/传感器
-
+hardinfo 硬件信息
 ##未定义分类
 octave	类似matlab GNU
 scilab	类似matlab
