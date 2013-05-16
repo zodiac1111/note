@@ -6,6 +6,12 @@ comments: true
 categories: 
 ---
 
+#有用的配置
+
+~/.vimrc ~/.gvimrc
+~/.bash
+.configue/
+
 #好用的软件
 ##互联网
 chromium	web浏览器
@@ -15,7 +21,7 @@ w3m	 A pager with Web browsing abilities
 
 ##开发
 indent	代码格式化
-git	版本控制
+git&tig	版本控制
 valgrind	代码动态分析工具;c语言内存泄露/数组越界检测
 splint	代码静态分析工具;检查源代码潜在错误.
 
