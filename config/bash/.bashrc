@@ -41,6 +41,7 @@ export PATH=$PATH:/home/zodiac1111/gitbin
 # User specific aliases and functions
 #export HL3104_HOME='/home/zodiac1111/hl3104/trunk/hl3104-v2.3'
 
+export PATH=$PATH:/sbin
 # 项目导出2.3版本
 # 编译器路径
 export PATH=$PATH:/home/zodiac1111/Mysoft/usr/bin
