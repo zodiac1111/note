@@ -1,0 +1,16 @@
+[user]
+	name = zodiac1111
+	email = zodiac8765+github_admin@gmail.com
+[color]
+	diff = auto
+	log = auto
+	branch = auto
+	ui = true
+[alias]  
+	co = checkout  
+	ci = commit -a  
+	st = status  
+	br = branch 
+[push]
+	# 1.8.2.3 版本才支持的参数
+	default = simple
