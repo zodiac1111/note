@@ -1,5 +1,9 @@
 # .bashrc
 
+# 我的终端提示符, \W 基本目录名
+# 参考 http://venus585625.iteye.com/blog/1174567
+export PS1="[\u@\h:\W]$ "
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
