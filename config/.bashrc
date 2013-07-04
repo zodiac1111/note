@@ -15,3 +15,5 @@ set PATH=PATH:cross
 export PATH
 # User specific aliases and functions
 
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

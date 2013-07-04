@@ -5,6 +5,14 @@ date: 2012-07-03 09:01
 comments: true
 categories: 
 ---
+#安装:
+gem:
+yum install gem
+bundler:
+gem install bundler
+
+git clone 项目.
+rake等操作
 
 octopress blog基本操作  
 http://octopress.org/docs/blogging/
@@ -27,6 +35,8 @@ http://octopress.org/docs/blogging/
 	rake preview
 	#发布
 	rake deploy	
+	#生成和发布也可以合并成为一句:
+	rake gen_deploy
 
 4. 保存source(可选)
 

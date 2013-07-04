@@ -5,6 +5,22 @@ date: 2012-07-03 09:01
 comments: true
 categories: 
 ---
+#安装:
+
+gem:
+`yum install gem`
+
+bundler:
+`gem install bundler`
+
+rake:
+`gem install rake`
+
+Could not find rake-0.9.6 in any of the sources
+`bundle install`
+
+git clone 项目.
+rake等操作
 
 octopress blog基本操作  
 http://octopress.org/docs/blogging/
