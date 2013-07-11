@@ -7,6 +7,7 @@ aRepo=(
 "$HOME/note"
 "$HOME/blog/octopress"
 "$HOME/Dropbox/qt_tcp_client_server"
+"$HOME/Documents/wiki"
 )
 
 n=0 #未push的仓库数量
