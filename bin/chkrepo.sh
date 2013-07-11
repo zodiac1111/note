@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
-#file chkreop.sh  检查所有仓库是否push
+# file chkreop.sh  检查所有仓库是否push
 
-#初始化,所有仓库路径
-aRepo=("$HOME/dotvim"
-	"$HOME/note"
-	"$HOME/blog/octopress")
+# 初始化,所有仓库路径 **在这里指定所有仓库的路径**
+aRepo=(
+"$HOME/dotvim"
+"$HOME/note"
+"$HOME/blog/octopress"
+"$HOME/Dropbox/qt_tcp_client_server"
+)
 
 n=0 #未push的仓库数量
 lenRepo=${#aRepo[@]} 
