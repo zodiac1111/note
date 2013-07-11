@@ -5,7 +5,7 @@
 aRepo=(
 "$HOME/dotvim"
 "$HOME/note"
-"$HOME/blog/octopress"
+#"$HOME/blog/octopress"
 "$HOME/Dropbox/qt_tcp_client_server"
 "$HOME/Documents/wiki"
 )
