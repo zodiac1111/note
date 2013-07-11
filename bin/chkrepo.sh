@@ -19,14 +19,14 @@ function isPushed()
 {
 	#echo dir=$1
 	cd $1
-	git st|grep clean >>/dev/null
+	git st|grep "git" >>/dev/null
 	ret=$?
-	if [ $ret = "0" ]; then
+	if [ $ret = "1" ]; then
 		echo -e "[\e[32m Pushed \e[0m] "`pwd`
-		return 0
+		return 1
 	else
 		echo -e "[\e[33m Unpush \e[0m] "`pwd`
-		return 1
+		return 0
 	fi
 }
 
@@ -37,7 +37,7 @@ while [ $i -lt $lenRepo ]
 do
 	#echo i=$i ${aRepo[$i]}
 	isPushed ${aRepo[$i]}
-	if [ $? = "1" ] ; then
+	if [ $? = "0" ] ; then
 		let n++
 	fi
 	let i++
