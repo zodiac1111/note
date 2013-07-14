@@ -7,7 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/Mysoft/bin
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/Mysoft/bin:$HOME/gitbin
 
 #set mysoftdir=$HOME/Mysoft/bin #加入我的软件启动目录
 
