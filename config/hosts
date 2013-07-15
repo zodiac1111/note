@@ -5,7 +5,7 @@
 211.154.128.144	 	360GoToHell.cnzz.com
 #twitter embr.in
 50.93.194.9 embr.in
-216.34.181.99  sourceforge.net
+#216.34.181.99  sourceforge.net
 
 #gmail
 #74.125.31.101 talkgadget.google.com
@@ -50,6 +50,8 @@
 
 #github
 #207.97.227.239 github.com
+127.0.0.1 lee
+127.0.0.1 l
 127.0.0.1	Lee-laptop Lee-Laptop.localdomain
 ::1		Lee-Laptop6.localdomain6 Lee-Laptop6
 #<godaddy>
