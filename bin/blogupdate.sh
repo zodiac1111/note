@@ -3,7 +3,7 @@
 #切换到博客目录
 cd /home/zodiac1111/blog/octopress
 #产生日志
-rake generate
+bundle exec rake generate
 #发布日志
-rake deploy  
+bundle exec rake deploy  
 
