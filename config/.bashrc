@@ -17,3 +17,4 @@ export PATH
 
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export CHROME_DEVEL_SANDBOX="/home/zodiac1111/Mysoft/chrome-linux/chrome_sandbox"
