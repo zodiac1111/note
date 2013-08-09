@@ -19,13 +19,23 @@ function isPushed()
 {
 	#echo dir=$1
 	cd $1
-	git st|grep "git" >>/dev/null
-	ret=$?
-	if [ $ret = "1" ]; then
+
+	# 判断返回的字符
+	git st|grep "您的分支领先" >>/dev/null
+	ret=$? #没有push显示的提示字符 0领先 1不领先
+	git st|grep "修改尚未加入提交" >>/dev/null
+	ret_m=$? #修改,但没有commit显示的提示 0:没有commit 1:committed
+
+	# 返回提示
+	if [ $ret == "1" ] && [ $ret_m == "1" ]; then
 		echo -e "[\e[32m Pushed \e[0m] "`pwd`
 		return 1
 	else
-		echo -e "[\e[33m Unpush \e[0m] "`pwd`
+		if [ $ret_m == "0" ]; then 
+			echo -e "[\e[31m Commit \e[0m] "`pwd`
+		else
+			echo -e "[\e[33m Unpush \e[0m] "`pwd`
+		fi
 		return 0
 	fi
 }
