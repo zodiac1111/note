@@ -109,13 +109,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-## 以下为自己添加 
-set mysoftdir=~/Mysoft/bin
-export mysoftdir
-set PATH=$PATH:mysoftdir
-export PATH=$PATH:/home/zodiac1111/Mysoft/cross-compile-gcc/bin
-export PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-PATH=$PATH:$HOME/gitbin # Add RVM to PATH for scripting
-# 支持断点续传的scp
-alias rscp='rsync -v -P -e ssh'
+#######    以下为自己添加    #######
+# PATH 路径
+export PATH=$PATH:$HOME/Mysoft/cross-compile-gcc/bin #交叉编译器
+export PATH=$PATH:$HOME/Mysoft/bin #自己的软件
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$PATH:$HOME/gitbin # Add RVM to PATH for scripting
+
+# alias
+alias rscp='rsync -v -P -e ssh' # 支持断点续传的scp

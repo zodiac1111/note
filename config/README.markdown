@@ -1,4 +1,4 @@
-###hosts
+### hosts
 hosts文件应该是一个链接到这里的软连接(需要root权限)
 
 ln -s ~zodiac1111/note/config/hosts /etc/hosts
@@ -10,7 +10,8 @@ ln -s ~zodiac1111/note/config/hosts /etc/hosts
 * bash: bashrc
 * git: .gitconfig
 
-###bashrc
-TODO
+### bash配置文件
 
+ln -s ~/note/config/.bashrc ~/.bashrc
+ln -s ~/note/config/.bash_profile ~/.bash_profile
 
