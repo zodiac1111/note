@@ -9,6 +9,7 @@ aRepo=(
 "$HOME/Dropbox/qt_tcp_client_server"
 "$HOME/Dropbox/wiki"
 "$HOME/tmp/curses"
+"$HOME/Dropbox/mySnippets"
 )
 
 n=0 #未push的仓库数量
