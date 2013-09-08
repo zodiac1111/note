@@ -1,5 +1,7 @@
+;;;; 设定启动大小和位置(失效中...)
 (setq default-farme-alist
-      '((heught . 100)(width . 100)(menubar-lines . 0)(tool-bar-lines . 0)))
+      '((height . 150)(width . 200)(menubar-lines . 20)(tool-bar-lines . 0)))
+
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
@@ -56,3 +58,5 @@
 	(local-set-key (kbd "\"") 'skeleton-pair-insert-maybe)
 	(local-set-key (kbd "[") 'skeleton-pair-insert-maybe))
 (add-hook 'c-mode-hook 'my-c-mode-auto-pair)
+
+
