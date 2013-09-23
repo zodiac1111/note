@@ -1,9 +1,15 @@
+# local host
+127.0.0.1 lee
+127.0.0.1 l
+127.0.0.1	Lee-laptop Lee-Laptop.localdomain
+::1		Lee-Laptop6.localdomain6 Lee-Laptop6
+
 #bt search engine
 #193.105.134.117 btdigg.org
 
 74.125.31.191 blogspot.com 
 #yundianbo
-205.209.142.50	lixian.qq.com
+#205.209.142.50	lixian.qq.com
 
 #360 go to hell
 211.154.128.144	 	360GoToHell.cnzz.com
@@ -56,10 +62,6 @@
 
 #github
 #207.97.227.239 github.com
-127.0.0.1 lee
-127.0.0.1 l
-127.0.0.1	Lee-laptop Lee-Laptop.localdomain
-::1		Lee-Laptop6.localdomain6 Lee-Laptop6
 #<godaddy>
 #97.74.104.201 www.godaddy.com
 #60.191.124.236 idp.godaddy.com
