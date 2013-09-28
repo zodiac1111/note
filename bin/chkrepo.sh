@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # file chkreop.sh  检查所有仓库是否push
 
-# 初始化,所有仓库路径 **在这里指定所有仓库的路径**
+# 初始化,所有仓库路径 
+# ********  在这里指定所有仓库的路径  *********
 aRepo=(
 "$HOME/dotvim"
 "$HOME/note"
@@ -10,6 +11,7 @@ aRepo=(
 "$HOME/Dropbox/wiki"
 "$HOME/tmp/curses"
 "$HOME/Dropbox/mySnippets"
+"$HOME/workspace/blink"
 )
 
 n=0 #未push的仓库数量
