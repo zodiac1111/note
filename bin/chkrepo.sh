@@ -12,8 +12,10 @@ aRepo=(
 "$HOME/tmp/curses"
 "$HOME/Dropbox/mySnippets"
 "$HOME/workspace/blink"
+"$HOME/workspace/lcd_4bit_allport"
 )
 
+# **********************************************
 n=0 #未push的仓库数量
 lenRepo=${#aRepo[@]} 
 
