@@ -31,17 +31,21 @@ function isPushed()
 	ret=$? #没有push显示的提示字符 0领先 1不领先
 	git st|grep "修改尚未加入提交" >>/dev/null
 	ret_m=$? #修改,但没有commit显示的提示 0:没有commit 1:committed
+	git st|grep "未跟踪" >>/dev/null
+	ret_a=$? #修改,但没有commit显示的提示 0:没有commit 1:committed
 
 	# 返回提示
-	if [ $ret == "1" ] && [ $ret_m == "1" ]; then
+	if [ $ret == "1" ] && [ $ret_m == "1" ] && [ $ret_a == "1" ]; then
 		echo -e "[\e[32m Pushed \e[0m] "`pwd`
 		return 1
-	else
-		if [ $ret_m == "0" ]; then 
-			echo -e "[\e[31m Commit \e[0m] "`pwd`
-		else
-			echo -e "[\e[33m Unpush \e[0m] "`pwd`
-		fi
+	elif [ $ret_m == "0" ]; then
+		echo -e "[\e[31m Commit \e[0m] "`pwd`
+		return 0
+	elif [ $ret == "0" ]; then
+		echo -e "[\e[33m Unpush \e[0m] "`pwd`
+		return 0
+	elif [ $ret_a == "0" ]; then
+		echo -e "[\e[31m NonAdd \e[0m] "`pwd`
 		return 0
 	fi
 }
