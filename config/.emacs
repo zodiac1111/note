@@ -59,4 +59,9 @@
 	(local-set-key (kbd "[") 'skeleton-pair-insert-maybe))
 (add-hook 'c-mode-hook 'my-c-mode-auto-pair)
 
+;;;; emacs-ide set
+(add-to-list 'load-path "~/.emacs.d/site-lisp/")
+(require 'eide)
+(eide-start)
+
 
