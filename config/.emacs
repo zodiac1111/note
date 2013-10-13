@@ -1,3 +1,8 @@
+;;;; emacs-ide 设置
+(add-to-list 'load-path "~/.emacs.d/site-lisp/")
+(require 'eide)
+(eide-start)
+
 ;;;; 设定启动大小和位置(失效中...)
 (setq default-farme-alist
       '((height . 150)(width . 200)(menubar-lines . 20)(tool-bar-lines . 0)))
@@ -7,14 +12,15 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
-  '(ede-project-directories (quote ("/home/zodiac1111/tmp/ldd/init")))
-  '(inhibit-startup-screen t))
+ '(ede-project-directories (quote ("/home/zodiac1111/tmp/ldd/init")))
+ '(eide-custom-override-emacs-settings nil)
+ '(inhibit-startup-screen t))
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
-  )
+ )
 
 ;;;; 缩进设置
 (setq tab-width 8)
@@ -59,9 +65,5 @@
 	(local-set-key (kbd "[") 'skeleton-pair-insert-maybe))
 (add-hook 'c-mode-hook 'my-c-mode-auto-pair)
 
-;;;; emacs-ide set
-(add-to-list 'load-path "~/.emacs.d/site-lisp/")
-(require 'eide)
-(eide-start)
 
 
