@@ -6,13 +6,14 @@
 aRepo=(
 "$HOME/dotvim"
 "$HOME/note"
-#"$HOME/blog/octopress"
+"$HOME/blog/octopress"
 "$HOME/Dropbox/qt_tcp_client_server"
 "$HOME/Dropbox/wiki"
 "$HOME/tmp/curses"
 "$HOME/Dropbox/mySnippets"
 "$HOME/workspace/blink"
 "$HOME/workspace/lcd_4bit_allport"
+"$HOME/tmp/i2c-test"
 )
 
 # **********************************************
