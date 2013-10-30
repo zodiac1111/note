@@ -1,18 +1,16 @@
 # local host
-127.0.0.1 lee
-127.0.0.1 l
-127.0.0.1	Lee-laptop Lee-Laptop.localdomain
-::1		Lee-Laptop6.localdomain6 Lee-Laptop6
+127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain ehgt.org
+::1 Lee-Laptop6.localdomain6 Lee-Laptop6
 
 #bt search engine
 #193.105.134.117 btdigg.org
 
-74.125.31.191 blogspot.com 
+74.125.31.191 blogspot.com
 #yundianbo
 #205.209.142.50	lixian.qq.com
 
 #360 go to hell
-211.154.128.144	 	360GoToHell.cnzz.com
+211.154.128.144 360GoToHell.cnzz.com
 #twitter embr.in
 50.93.194.9 embr.in
 #216.34.181.99  sourceforge.net
@@ -28,11 +26,12 @@
 # hentaiverse game :)
 #95.211.174.23 hentaiverse.org
 95.211.91.104 hentaiverse.org
+#95.211.91.105 hentaiverse.org
 #95.211.174.25 hentaiverse.org
 #5.79.76.154 hentaiverse.org
+#5.79.76.155 hentaiverse.org
 
 #hentai图片
-127.0.0.1 ehgt.org
 #95.211.210.166 ehgt.org
 #62.212.82.89 ehgt.org
 #95.211.210.150 ehgt.org
@@ -48,13 +47,7 @@
 #221.238.20.165 cdn.baidupcs.com
 #222.73.6.35 www.tudou.com
 #谷歌扩展
-74.125.224.235 lh1.googleusercontent.com
-74.125.224.235 lh2.googleusercontent.com
-74.125.224.235 lh3.googleusercontent.com
-74.125.224.235 lh4.googleusercontent.com
-74.125.224.235 lh5.googleusercontent.com
-74.125.224.235 lh6.googleusercontent.com
-74.125.224.235 lh7.googleusercontent.com
+74.125.224.235 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com
 #
 #50.112.143.8 fc2.com
 #50.112.161.43 video.fc2.com
@@ -94,62 +87,34 @@
 #74.125.128.100 i2.ytimg.com
 #</youtube>
 #Twitter
-2001:778:0:ffff:64:0:c73b:940a twitter.com
-2001:778:0:ffff:64:0:c73b:940b ads.twitter.com
-2001:778:0:ffff:64:0:c73b:940b assets0.twitter.com #s.twitter.com
-2001:778:0:ffff:64:0:c73b:940b assets1.twitter.com #s.twitter.com
-2001:778:0:ffff:64:0:c73b:962a assets2.twitter.com #s.twitter.com
+2001:778:0:ffff:64:0:c73b:940a twitter.com twttr.com
+2001:778:0:ffff:64:0:c73b:940b ads.twitter.com assets0.twitter.com assets1.twitter.com
+2001:778:0:ffff:64:0:c73b:962a assets2.twitter.com search.twitter.com #s.twitter.com
 2001:778:0:ffff:64:0:c73b:9454 assets3.twitter.com #s.twitter.com
-2001:778:0:ffff:64:0:c73b:960a assets4.twitter.com #s.twitter.com
+2001:778:0:ffff:64:0:c73b:960a assets4.twitter.com oauth.twitter.com scribe.twitter.com #s.twitter.com
 2001:778:0:ffff:64:0:c73b:9609 api.twitter.com
 2001:778:0:ffff:64:0:5f64:4f90 cdn.api.twitter.com #e3826.g.akamaiedge.net
 2001:778:0:ffff:64:0:214:b613 urls.api.twitter.com #a1697.g.akamai.net
-2001:778:0:ffff:64:0:c73b:94d4 business.twitter.com
+2001:778:0:ffff:64:0:c73b:94d4 business.twitter.com fly.twitter.com help.twitter.com m.twitter.com media.twitter.com pic.twitter.com static-site.twitter.com
 2001:778:0:ffff:64:0:c73b:9589 dev.twitter.com
-2001:778:0:ffff:64:0:c73b:94d4 fly.twitter.com
-2001:778:0:ffff:64:0:c73b:94d4 help.twitter.com #static-site.twitter.com
-2001:778:0:ffff:64:0:c73b:94d4 m.twitter.com #static-site.twitter.com
-2001:778:0:ffff:64:0:c73b:94d4 media.twitter.com #static-site.twitter.com
 2001:778:0:ffff:64:0:c73b:9460 mobile.twitter.com
-2001:778:0:ffff:64:0:c73b:960a oauth.twitter.com #s.twitter.com
-2001:778:0:ffff:64:0:c73b:94d4 pic.twitter.com #static-site.twitter.com
-2001:778:0:ffff:64:0:215:6f90 platform.twitter.com #e3826.g.akamaiedge.net
+2001:778:0:ffff:64:0:215:6f90 platform.twitter.com p.twimg.com #e3826.g.akamaiedge.net
 2001:778:0:ffff:64:0:214:b609 anywhere.platform.twitter.com #a948.g.akamai.net
-2001:778:0:ffff:64:0:214:b61a platform0.twitter.com #a1017.g.akamai.net
-2001:778:0:ffff:64:0:214:b61a platform1.twitter.com #a1093.g.akamai.net
+2001:778:0:ffff:64:0:214:b61a platform0.twitter.com platform1.twitter.com platform3.twitter.com #a1017.g.akamai.net
 2001:778:0:ffff:64:0:214:b629 platform2.twitter.com #a1095.g.akamai.net
-2001:778:0:ffff:64:0:214:b61a platform3.twitter.com #a1213.g.akamai.net
-2001:778:0:ffff:64:0:c73b:960a scribe.twitter.com #s.twitter.com
-2001:778:0:ffff:64:0:c73b:962a search.twitter.com #s.twitter.com
 2001:778:0:ffff:64:0:c73b:95f3 static.twitter.com #s.twitter.com
-2001:778:0:ffff:64:0:c73b:94d4 static-site.twitter.com
 2001:778:0:ffff:64:0:4820:e708 status.twitter.com
 2001:778:0:ffff:64:0:c73b:948a stream.twitter.com
 2001:778:0:ffff:64:0:c73b:94ce support.twitter.com
 2001:778:0:ffff:64:0:c73b:948b userstream.twitter.com
 2001:778:0:ffff:64:0:c73b:94d5 upload.twitter.com
-2001:778:0:ffff:64:0:c73b:9607 www.twitter.com #twitter.com
+2001:778:0:ffff:64:0:c73b:9607 www.twitter.com www.twttr.com translate.twttr.com #twitter.com
 2001:778:0:ffff:64:0:c73b:940c t.co
-2001:778:0:ffff:64:0:c73b:940a twttr.com
-2001:778:0:ffff:64:0:c73b:9607 www.twttr.com #twitter.com
-2001:778:0:ffff:64:0:c73b:9607 translate.twttr.com #twitter.com
 2001:778:0:ffff:64:0:214:b639 twimg0-a.akamaihd.net #a756.l.akamai.net
-68.232.44.169 a0.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.169 a1.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.169 a2.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.169 a3.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.169 a4.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.169 a5.twimg.com #a1441.l.akamai.net
-2001:778:0:ffff:64:0:215:6f90 p.twimg.com #e3826.g.akamaiedge.net
-68.232.44.139 pbs.twimg.com #orig-10014.twitter.cotcdn.net
+68.232.44.169 a0.twimg.com a1.twimg.com a2.twimg.com a3.twimg.com a4.twimg.com a5.twimg.com #orig-10004.twitter.cotcdn.net
+68.232.44.139 pbs.twimg.com si0.twimg.com si1.twimg.com si2.twimg.com si3.twimg.com si4.twimg.com si5.twimg.com #orig-10014.twitter.cotcdn.net
 2001:778:0:ffff:64:0:c73b:95eb r.twimg.com
 2001:778:0:ffff:64:0:36f0:a850 s.twimg.com #d2rdfnizen5apl.cloudfront.net
-68.232.44.139 si0.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.139 si1.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.139 si2.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.139 si3.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.139 si4.twimg.com #orig-10004.twitter.cotcdn.net
-68.232.44.139 si5.twimg.com #e3826.g.akamaiedge.net
 2001:778:0:ffff:64:0:b8a9:4f21 widgets.twimg.com #orig-10012.twitter.cotcdn.net
 #hackaday
 66.155.11.243 hackadaycom.files.wordpress.com
@@ -158,14 +123,10 @@
 #
 74.125.128.191 blogspot.com
 #Group 论坛
-2404:6800:8005::71 groups.google.com #groups.l.google.com
+2404:6800:8005::71 groups.google.com groups.google.com.hk groups-beta.google.com groups.l.google.com #groups.l.google.com
 ####2401:3800:c001::68 groups.google.cn
-2404:6800:8005::71 groups.google.com.hk #groups.l.google.com
-2404:6800:8005::71 groups-beta.google.com #groups.l.google.com
-2404:6800:8005::71 groups.l.google.com
 2404:6800:8005::66 productforums.google.com #groups.l.google.com
-2404:6800:8005::89 blob-s-docs.googlegroups.com #googlegroups.l.google.com
-2404:6800:8005::89 *.googlegroups.com #googlegroups.l.google.com
+2404:6800:8005::89 blob-s-docs.googlegroups.com *.googlegroups.com #googlegroups.l.google.com
 #</e google>
 #freenode
 94.125.182.252 chat.freenote.net
@@ -173,74 +134,15 @@
 #123.58.173.89 mirrors.163.com
 #203.208.46.146 drive.google.com
 #74.125.71.94 drive.google.com
-203.208.45.200 drive.google.com
-203.208.45.200 0.drive.google.com
-203.208.45.200 1.drive.google.com
-203.208.45.200 2.drive.google.com
-203.208.45.200 3.drive.google.com
-203.208.45.200 4.drive.google.com
-203.208.45.200 5.drive.google.com
-203.208.45.200 6.drive.google.com
-203.208.45.200 7.drive.google.com
-203.208.45.200 8.drive.google.com
-203.208.45.200 9.drive.google.com
+203.208.45.200 drive.google.com 0.drive.google.com 1.drive.google.com 2.drive.google.com 3.drive.google.com 4.drive.google.com 5.drive.google.com 6.drive.google.com 7.drive.google.com 8.drive.google.com 9.drive.google.com
 74.125.235.67 drive.google.com
-74.125.227.2 docs.google.com
-74.125.227.2 docs0.google.com
-74.125.227.2 docs1.google.com
-74.125.227.2 docs2.google.com
-74.125.227.2 docs3.google.com
-74.125.227.2 spreadsheets.google.com
-74.125.227.2 spreadsheets0.google.com
-74.125.227.2 spreadsheets1.google.com
-74.125.227.2 spreadsheets2.google.com
-74.125.227.2 spreadsheets3.google.com
+74.125.227.2 docs.google.com docs0.google.com docs1.google.com docs2.google.com docs3.google.com spreadsheets.google.com spreadsheets0.google.com spreadsheets1.google.com spreadsheets2.google.com spreadsheets3.google.com
 #google+
-209.85.175.132 images1-focus-opensocial.googleusercontent.com
-209.85.175.132 images2-focus-opensocia2.googleusercontent.com
-209.85.175.132 s2.googleusercontent.com
-209.85.143.132 lh1.googleusercontent.com
-209.85.175.132 lh1.googleusercontent.com
-209.85.143.132 lh2.googleusercontent.com
-209.85.175.132 lh2.googleusercontent.com
-209.85.143.132 lh3.googleusercontent.com
-209.85.175.132 lh3.googleusercontent.com
-209.85.175.132 lh4.googleusercontent.com
-209.85.143.132 lh4.googleusercontent.com
-209.85.143.132 lh5.googleusercontent.com
-209.85.175.132 lh5.googleusercontent.com
-209.85.143.132 lh6.googleusercontent.com
-209.85.175.132 lh6.googleusercontent.com
-203.208.46.29 picadaweb.google.com
-203.208.46.29 lh1.ggpht.com
-203.208.46.29 lh2.ggpht.com
-203.208.46.29 lh3.ggpht.com
-203.208.46.29 lh4.ggpht.com
-203.208.46.29 lh5.ggpht.com
-203.208.46.29 lh6.ggpht.com
-203.208.46.29 lh6.googleusercontent.com
-203.208.46.29 lh5.googleusercontent.com
-203.208.46.29 lh4.googleusercontent.com
-203.208.46.29 lh3.googleusercontent.com
-203.208.46.29 lh2.googleusercontent.com
-203.208.46.29 lh1.googleusercontent.com
+209.85.175.132 images1-focus-opensocial.googleusercontent.com images2-focus-opensocia2.googleusercontent.com s2.googleusercontent.com lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com
+209.85.143.132 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com
+203.208.46.29 picadaweb.google.com lh1.ggpht.com lh2.ggpht.com lh3.ggpht.com lh4.ggpht.com lh5.ggpht.com lh6.ggpht.com lh6.googleusercontent.com lh5.googleusercontent.com lh4.googleusercontent.com lh3.googleusercontent.com lh2.googleusercontent.com lh1.googleusercontent.com talkgadget.google.com talkgadget.google.com picasaweb.google.com lh1.ggpht.com lh2.ggpht.com lh3.ggpht.com lh4.ggpht.com lh5.ggpht.com lh6.ggpht.com lh6.googleusercontent.com lh5.googleusercontent.com lh4.googleusercontent.com lh3.googleusercontent.com lh2.googleusercontent.com lh1.googleusercontent.com
 #203.208.46.29 plus.google.com
-203.208.46.29 talkgadget.google.com
 #
-203.208.46.29 talkgadget.google.com
-203.208.46.29 picasaweb.google.com
-203.208.46.29 lh1.ggpht.com
-203.208.46.29 lh2.ggpht.com
-203.208.46.29 lh3.ggpht.com
-203.208.46.29 lh4.ggpht.com
-203.208.46.29 lh5.ggpht.com
-203.208.46.29 lh6.ggpht.com
-203.208.46.29 lh6.googleusercontent.com
-203.208.46.29 lh5.googleusercontent.com
-203.208.46.29 lh4.googleusercontent.com
-203.208.46.29 lh3.googleusercontent.com
-203.208.46.29 lh2.googleusercontent.com
-203.208.46.29 lh1.googleusercontent.com
 #/google+
 #https:// ??0527
 #72.14.203.104  www.google.com
