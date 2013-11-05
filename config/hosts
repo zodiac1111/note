@@ -1,5 +1,6 @@
 # local host
-127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain ehgt.org
+127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain 
+127.0.0.1 ehgt.org
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
 
 #bt search engine
