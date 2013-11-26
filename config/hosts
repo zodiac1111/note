@@ -1,6 +1,9 @@
 # local host
+192.192.1.2 pro
 127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain 
 127.0.0.1 ehgt.org youtube.com
+# free 广告
+127.0.0.1 cloudfront.net googlesyndication.com google-analytics.com
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
 
 #bt search engine
