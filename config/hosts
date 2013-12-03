@@ -1,9 +1,6 @@
 # local host
-192.192.1.2 pro
-127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain 
-127.0.0.1 ehgt.org youtube.com
+127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain ehgt.org debian
 # free 广告
-127.0.0.1 cloudfront.net googlesyndication.com google-analytics.com
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
 
 #bt search engine
@@ -239,3 +236,4 @@
 #2404:6800:4003:2::7 v6.lscache3.c.youtube.com
 #2404:6800:4003:3::7 v6.lscache4.c.youtube.com
 #2404:6800:4003:4::7 v6.lscache5.c.youtube.com
+5.79.76.154 hentaiverse.org
