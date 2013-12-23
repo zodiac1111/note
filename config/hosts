@@ -1,6 +1,7 @@
 # local host
-127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain ehgt.org debian
+127.0.0.1 lee l Lee-laptop Lee-Laptop.localdomain debian
 # free 广告
+127.0.0.1 ehgt.org
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
 
 #bt search engine
@@ -29,13 +30,6 @@
 #95.211.91.105 hentaiverse.org
 #5.79.76.154 hentaiverse.org
 #5.79.76.155 hentaiverse.org
-
-#hentai图片
-#62.212.82.89 ehgt.org
-#95.211.210.150 ehgt.org
-#95.211.211.101 ehgt.org
-#95.211.211.109 ehgt.org
-#95.211.201.43 ehgt.org
 
 #no 114!
 #127.0.0.1 114so.cn

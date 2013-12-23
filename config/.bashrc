@@ -123,7 +123,7 @@ export PATH=$PATH:$HOME/Mysoft/bin #自己的软件
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:$HOME/gitbin # Add RVM to PATH for scripting
 export PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin # 超级用户使用的一些程序
-
+export CHROME_DEVEL_SANDBOX=/home/zodiac1111/Mysoft/chrome-linux/chrome_sandbox
 # alias TODO 按照debian的方式将alias放到特定文件中分开管理
 #alias rscp='rsync -v -P -e ssh' # 支持断点续传的scp
 #alias vps='ssh root@1.gbzdsq.com' #登录vps
