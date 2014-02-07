@@ -118,7 +118,7 @@ fi
 
 #######    以下为自己添加    #######
 # PATH 路径
-export PATH=$PATH:$HOME/Mysoft/cross-compile-gcc/bin #交叉编译器
+#export PATH=$PATH:$HOME/Mysoft/cross-compile-gcc/bin #交叉编译器
 export PATH=$PATH:$HOME/Mysoft/bin #自己的软件
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:$HOME/gitbin # Add RVM to PATH for scripting
