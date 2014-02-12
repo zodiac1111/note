@@ -14,7 +14,7 @@ aRepo=(
 "$HOME/workspace/blink"
 "$HOME/workspace/lcd_4bit_allport"
 "$HOME/tmp/i2c-test"
-"$HOME/tmp/helloworld"
+"$HOME/workspace/webbox/01-Trunk/01-Code/src_linux"
 )
 
 # **********************************************
