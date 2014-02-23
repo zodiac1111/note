@@ -4,3 +4,6 @@ alias vps='ssh root@1.gbzdsq.com' #登录vps
 alias vh='vim /etc/hosts' # 快速打开hosts文件
 alias yum='apt-get' #习惯
 alias yum-search="apt-cache search" #习惯2
+
+#tmux 脱离后快速返回
+alias tmuxattach="tmux attach" #
