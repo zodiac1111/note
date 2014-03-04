@@ -3,7 +3,14 @@
 # free 广告
 127.0.0.1 ehgt.org
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
+
+
+#自己的一些设备的默认别名
+192.168.7.2 bbb
 192.227.163.117 vps
+192.168.1.230 mini2440
+
+
 #bt search engine
 #193.105.134.117 btdigg.org
 
@@ -50,7 +57,6 @@
 #50.112.143.8 fc2.com
 #50.112.161.43 video.fc2.com
 #220.181.107.36 baidupcs.com
-192.168.1.230 mini2440
 #GitHub START
 185.31.16.184 github.global.ssl.fastly.net
 #192.30.252.129	github.com
