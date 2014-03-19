@@ -8,6 +8,8 @@
 #自己的一些设备的默认别名
 192.168.7.2 bbb
 192.227.163.117 vps
+192.161.54.213 vps2
+192.227.135.162 vps3
 192.168.1.230 mini2440
 
 
@@ -41,7 +43,7 @@
 #95.211.91.105 hentaiverse.org
 #5.79.76.154 hentaiverse.org
 #5.79.76.155 hentaiverse.org
-37.48.71.1 hentaiverse.org
+#37.48.71.1 hentaiverse.org
 #37.48.64.206 hentaiverse.org
 
 #no 114!
