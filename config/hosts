@@ -13,7 +13,8 @@
 192.227.233.132 vps4
 5.2.16.74 vps_en
 192.168.1.230 mini2440
-
+2a00:e740:1::1:b6ea:6069 vps_en
+2a00:e740:1::1:b6ea:6069 v6
 
 #95.100.146.234 paypal.com
 
@@ -49,10 +50,13 @@
 #5.79.76.155 hentaiverse.org
 #37.48.71.1 hentaiverse.org
 #37.48.64.206 hentaiverse.org
+#127.0.0.1 e-hentai.org
+
 
 #no 114!
 #127.0.0.1 114so.cn
-
+127.0.0.1 189so.cn
+127.0.0.1 189.cn
 #百度网盘 铁通用户
 #58.217.200.14 www.baidupcs.com
 #221.238.20.165 cdn.baidupcs.com
@@ -219,3 +223,31 @@
 #2404:6800:4003:2::7 v6.lscache3.c.youtube.com
 #2404:6800:4003:3::7 v6.lscache4.c.youtube.com
 #2404:6800:4003:4::7 v6.lscache5.c.youtube.com
+
+# <wordpress>
+2001:778:0:ffff:64:0:4c4a:fe7e wordpress.com
+2001:778:0:ffff:64:0:48e9:687c wordpress.com
+2001:778:0:ffff:64:0:4ac8:f7bc wordpress.com
+2001:778:0:ffff:64:0:48e9:246 theme.wordpress.com
+2001:778:0:ffff:64:0:48e9:246 support.wordpress.com
+2001:778:0:ffff:64:0:48e9:246 en.search.wordpress.com
+2001:778:0:ffff:64:0:5db8:dc14 s0.wp.com
+2001:778:0:ffff:64:0:5db8:dc14 s1.wp.com
+2001:778:0:ffff:64:0:5db8:dc14 s2.wp.com
+
+2001:778:0:ffff:64:0:48e9:388e codex.wordpress.org
+2001:778:0:ffff:64:0:48e9:388a wordpress.org
+2001:778:0:ffff:64:0:48e9:388b wordpress.org
+2001:778:0:ffff:64:0:48e9:388a www.wordpress.org
+2001:778:0:ffff:64:0:48e9:388b www.wordpress.org
+2001:778:0:ffff:64:0:48e9:388a cn.wordpress.org
+2001:778:0:ffff:64:0:48e9:388b cn.wordpress.org
+
+#其他凡 CNAME 为 lb.wordpress.com 的二级域名都可以用下面任一地址
+2001:778:0:ffff:64:0:4c4a:fe7b www.wordpress.com
+2001:778:0:ffff:64:0:48e9:23a www.wordpress.com
+2001:778:0:ffff:64:0:48e9:4506 www.wordpress.com
+2001:778:0:ffff:64:0:4ac8:f3fb www.wordpress.com
+2001:778:0:ffff:64:0:4ac8:f43b www.wordpress.com
+2001:778:0:ffff:64:0:4c4a:fe78 www.wordpress.com
+# </wordpress>
