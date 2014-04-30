@@ -4,6 +4,7 @@
 127.0.0.1 ehgt.org
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
 
+8.25.217.25 midomi.com
 
 #自己的一些设备的默认别名
 192.168.7.2 bbb
@@ -36,6 +37,9 @@
 #216.34.181.99  sourceforge.net
 
 #gmail
+203.208.46.213	mail.google.com
+203.208.46.200	m.googlemail.com
+#2a00:1450:400f:803::1016 gmail.com
 #74.125.31.101 talkgadget.google.com
 #173.194.72.17 mail.google.com
 #173.194.72.83 mail.google.com
@@ -43,6 +47,8 @@
 #203.208.39.22 mail.google.com
 #2404:6800:4005:c00::11 mail.google.com
 
+#facebook pic
+2402:7800::11:0:0:77a1:5b11 fbcdn-profile-a.akamaihd.net
 # hentaiverse game :)
 #95.211.91.104 hentaiverse.org
 #95.211.91.105 hentaiverse.org
@@ -801,37 +807,37 @@
 2404:6800:4005:c00::6a fusion.google.com #www2.l.google.com
 
 #Gmail 邮箱
-2404:6800:4005:c00::12 mail.google.com #googlemail.l.google.com
-2404:6800:4005:c00::11 googlemail.l.google.com
-2404:6800:4005:c00::bd chatenabled.mail.google.com #b.googlemail.l.google.com #Gmail 中 Gtalk 聊天服务
-2404:6800:4005:c00::bd filetransferenabled.mail.google.com #b.googlemail.l.google.com #可能会造成 GTalk 客户端异常
-2404:6800:4005:c00::bd b.googlemail.l.google.com
+#2404:6800:4005:c00::12 mail.google.com #googlemail.l.google.com
+#2404:6800:4005:c00::11 googlemail.l.google.com
+#2404:6800:4005:c00::bd chatenabled.mail.google.com #b.googlemail.l.google.com #Gmail 中 Gtalk 聊天服务
+#2404:6800:4005:c00::bd filetransferenabled.mail.google.com #b.googlemail.l.google.com #可能会造成 GTalk 客户端异常
+#2404:6800:4005:c00::bd b.googlemail.l.google.com
 ###2404:6800:4005:c00::62 talk.gmail.com #Gmail中Gtalk聊天服务
-2404:6800:4005:c00::64 gmail.google.com #www3.l.google.com
-2404:6800:4005:c00::13 www.gmail.com #googlemail.l.google.com
-2404:6800:4005:c00::12 gmail.com
-2404:6800:4005:c00::12 m.gmail.com #googlemail.l.google.com
-2404:6800:4005:c00::13 m.googlemail.com #googlemail.l.google.com
-2607:f8b0:400e:c00::6d pop.gmail.com #gmail-pop.l.google.com #Foxmail 等客户端不支持 ipv6 连接，参阅 Issue 33
-2607:f8b0:400e:c00::6d gmail-pop.l.google.com
-2607:f8b0:400e:c00::10 pop.googlemail.com #googlemail-pop.l.google.com
-2607:f8b0:400e:c00::10 googlemail-pop.l.google.com
-2607:f8b0:400e:c00::6d smtp.gmail.com #gmail-smtp-msa.l.google.com #Foxmail 暂不支持
-2607:f8b0:400e:c00::6d gmail-smtp-msa.l.google.com
-2404:6800:4005:c00::62 smtp1.google.com
+#2404:6800:4005:c00::64 gmail.google.com #www3.l.google.com
+#2404:6800:4005:c00::13 www.gmail.com #googlemail.l.google.com
+#2404:6800:4005:c00::12 gmail.com
+#2404:6800:4005:c00::12 m.gmail.com #googlemail.l.google.com
+#2404:6800:4005:c00::13 m.googlemail.com #googlemail.l.google.com
+#2607:f8b0:400e:c00::6d pop.gmail.com #gmail-pop.l.google.com #Foxmail 等客户端不支持 ipv6 连接，参阅 Issue 33
+#2607:f8b0:400e:c00::6d gmail-pop.l.google.com
+#2607:f8b0:400e:c00::10 pop.googlemail.com #googlemail-pop.l.google.com
+#2607:f8b0:400e:c00::10 googlemail-pop.l.google.com
+#2607:f8b0:400e:c00::6d smtp.gmail.com #gmail-smtp-msa.l.google.com #Foxmail 暂不支持
+#2607:f8b0:400e:c00::6d gmail-smtp-msa.l.google.com
+#2404:6800:4005:c00::62 smtp1.google.com
 ###2404:6800:4005:c00::62 smtp2.google.com
-2404:6800:4005:c00::62 smtp3.google.com
-2404:6800:4005:c00::62 smtp-out.google.com
-2404:6800:4005:c00::62 smtp-out3.google.com
-2001:4860:8002::6d gmail-smtp.l.google.com
-2001:4860:8002::62 gmail-smtp-in.l.google.com
-2404:6800:4005:c00::62 gmr-smtp-in.l.google.com
-2607:f8b0:400e:c00::10 smtp.googlemail.com #googlemail-smtp.l.google.com
-2607:f8b0:400e:c00::10 googlemail-smtp.l.google.com
-2607:f8b0:400e:c03::6d imap.gmail.com #gmail-imap.l.google.com #Foxmail 暂不支持
-2607:f8b0:400e:c03::6d gmail-imap.l.google.com
-2607:f8b0:400e:c01::10 imap.googlemail.com #googlemail-imap.l.google.com
-2607:f8b0:400e:c01::10 googlemail-imap.l.google.com
+#2404:6800:4005:c00::62 smtp3.google.com
+#2404:6800:4005:c00::62 smtp-out.google.com
+#2404:6800:4005:c00::62 smtp-out3.google.com
+#2001:4860:8002::6d gmail-smtp.l.google.com
+#2001:4860:8002::62 gmail-smtp-in.l.google.com
+#2404:6800:4005:c00::62 gmr-smtp-in.l.google.com
+#2607:f8b0:400e:c00::10 smtp.googlemail.com #googlemail-smtp.l.google.com
+#2607:f8b0:400e:c00::10 googlemail-smtp.l.google.com
+#2607:f8b0:400e:c03::6d imap.gmail.com #gmail-imap.l.google.com #Foxmail 暂不支持
+#2607:f8b0:400e:c03::6d gmail-imap.l.google.com
+#2607:f8b0:400e:c01::10 imap.googlemail.com #googlemail-imap.l.google.com
+#2607:f8b0:400e:c01::10 googlemail-imap.l.google.com
 
 #Group 论坛
 2404:6800:4005:c00::71 groups.google.com #groups.l.google.com
@@ -6136,7 +6142,8 @@
 2001:778:0:ffff:64:0:b8a9:4f21 a4.twimg.com #orig-10004.twitter.cotcdn.net
 2001:778:0:ffff:64:0:214:b60a a5.twimg.com #a1441.l.akamai.net
 2001:778:0:ffff:64:0:215:6f90 p.twimg.com #e3826.g.akamaiedge.net
-2001:778:0:ffff:64:0:b8a9:4f21 pbs.twimg.com #orig-10014.twitter.cotcdn.net
+#2001:778:0:ffff:64:0:b8a9:4f21 pbs.twimg.com #orig-10014.twitter.cotcdn.net
+93.184.216.146 pbs.twimg.com
 2001:778:0:ffff:64:0:c73b:95eb r.twimg.com
 2001:778:0:ffff:64:0:36f0:a850 s.twimg.com #d2rdfnizen5apl.cloudfront.net
 2001:778:0:ffff:64:0:b8a9:4f21 si0.twimg.com #orig-10004.twitter.cotcdn.net
