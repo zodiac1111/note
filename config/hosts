@@ -33,12 +33,13 @@
 #360 go to hell
 211.154.128.144 360GoToHell.cnzz.com
 #twitter embr.in
-50.93.194.9 embr.in
+2400:8900::f03c:91ff:fedb:df76 embr.in
 #216.34.181.99  sourceforge.net
 
 #gmail
-203.208.46.213	mail.google.com
-203.208.46.200	m.googlemail.com
+203.208.46.145	mail.google.com
+#203.208.46.200	m.googlemail.com
+#203.208.46.145	mail.google.com
 #2a00:1450:400f:803::1016 gmail.com
 #74.125.31.101 talkgadget.google.com
 #173.194.72.17 mail.google.com
@@ -54,7 +55,9 @@
 #95.211.91.105 hentaiverse.org
 #5.79.76.154 hentaiverse.org
 #5.79.76.155 hentaiverse.org
+# 联通可行
 #37.48.71.1 hentaiverse.org
+
 #37.48.64.206 hentaiverse.org
 #127.0.0.1 e-hentai.org
 
@@ -108,7 +111,8 @@
 #74.125.128.100 i2.ytimg.com
 #</youtube>
 #hackaday
-66.155.11.243 hackadaycom.files.wordpress.com
+#66.155.11.243
+192.0.72.3 hackadaycom.files.wordpress.com
 #google group
 74.125.139.138 groups.google.com
 #
@@ -254,6 +258,7 @@
 #2404:6800:4003:4::7 v6.lscache5.c.youtube.com
 
 # <wordpress>
+#2001:778:0:ffff:64:0:4c4a:fe7e hackadaycom.files.wordpress.com
 2001:778:0:ffff:64:0:4c4a:fe7e wordpress.com
 2001:778:0:ffff:64:0:48e9:687c wordpress.com
 2001:778:0:ffff:64:0:4ac8:f7bc wordpress.com
@@ -282,7 +287,8 @@
 # </wordpress>
 #
 #<twitter>
-2001:778:0:ffff:64:0:c73b:95e6 twitter.com 
+2001:778:0:ffff:64:0:c73b:940a apps.twitter.com 
+#2001:778:0:ffff:64:0:c73b:95e6 twitter.com 
 2001:778:0:ffff:64:0:c73b:940a twitter.com 
 2001:778:0:ffff:64:0:c73b:9452 twitter.com 
 2001:778:0:ffff:64:0:c73b:9415 assets0.twitter.com 
