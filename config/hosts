@@ -3,6 +3,7 @@
 # free 广告
 127.0.0.1 ehgt.org
 ::1 Lee-Laptop6.localdomain6 Lee-Laptop6
+#127.0.0.1 cdn.bitbucket.org
 
 8.25.217.25 midomi.com
 
@@ -60,6 +61,9 @@
 
 #37.48.64.206 hentaiverse.org
 #127.0.0.1 e-hentai.org
+# 给联通的
+#37.48.64.204 e-hentai.org
+5.79.76.160 e-hentai.org
 
 
 #no 114!
@@ -69,7 +73,7 @@
 #百度网盘 铁通用户
 #58.217.200.14 www.baidupcs.com
 #221.238.20.165 cdn.baidupcs.com
-#222.73.6.35 www.tudou.com
+#123.126.98.151 www.tudou.com
 #谷歌扩展
 74.125.224.235 lh1.googleusercontent.com lh2.googleusercontent.com lh3.googleusercontent.com lh4.googleusercontent.com lh5.googleusercontent.com lh6.googleusercontent.com lh7.googleusercontent.com
 #
