@@ -9,7 +9,7 @@
 stoptime=300
 
 # 2. 转换时间 (秒)
-changetime=0
+changetime=5
 
 # 3 .生成的xml文件名称.默认在当前路径生成
 filename="background-1.xml"
