@@ -72,4 +72,9 @@ do
 done
 
 #检查完毕,总结
-echo -e "\e[32m检查完毕\e[0m:$n个仓库没有push"
+if [ $n == "0" ]; then
+	echo -e "\e[32m 检查完毕\e[0m: 所有仓库均已push"
+else
+	echo -e "\e[32m 检查完毕\e[0m: \e[31m$n\e[0m 个仓库没有push"
+fi
+
