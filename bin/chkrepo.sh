@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # file chkreop.sh  检查所有仓库是否push
-
+# set -x
 # 初始化,所有仓库路径 
 # ********  在这里指定所有仓库的路径  *********
-aRepo=(
+aRepos=(
 "$HOME/dotvim"
 "$HOME/note"
 "$HOME/blog/octopress"
@@ -19,7 +19,7 @@ aRepo=(
 
 # **********************************************
 n=0 #未push的仓库数量
-lenRepo=${#aRepo[@]} 
+lenRepo=${#aRepos[@]} 
 
 #函数 检查是否有未push的提交 
 # pro <dir> 转到dir目录下,查询git是否提交,提交返回0,否则返回1
@@ -27,7 +27,10 @@ function isPushed()
 {
 	#echo dir=$1
 	cd $1
-
+	# 发生错误,可能是没有这个仓库,退出
+	if [ $? != "0" ]; then
+		return 1	
+	fi
 	# 判断返回的字符
 	git st|grep "您的分支领先" >>/dev/null
 	ret=$? #没有push显示的提示字符 0领先 1不领先
@@ -55,13 +58,13 @@ function isPushed()
 	fi
 }
 
-#echo de: $aRepo n= $lenRepo .
+#echo de: $aRepos n= $lenRepo .
 #检查所有仓库
 i=0
 while [ $i -lt $lenRepo ]
 do
-	#echo i=$i ${aRepo[$i]}
-	isPushed ${aRepo[$i]}
+	#echo i=$i ${aRepos[$i]}
+	isPushed ${aRepos[$i]}
 	if [ $? = "0" ] ; then
 		let n++
 	fi
