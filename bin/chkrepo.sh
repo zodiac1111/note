@@ -44,9 +44,10 @@ function isPushed()
 		echo -e "[\e[31m Commit \e[0m] "`pwd`
 		return 0
 	elif [ $ret == "0" ]; then
-		echo -en "[\e[33m Unpush \e[0m] "`pwd`" \e[32m(Pushing...)\e[0m\r"
+		echo -en "[\e[33m Unpush \e[0m] "`pwd`
+		echo -en "\r[\e[32mPushing \e[0m] "
 		git push > /dev/null 2>&1
-		echo -e "[\e[32m   OK   \e[0m] Pushed: "`pwd`
+		echo -e "\r[\e[32m   OK   \e[0m] "
 		return 1
 	elif [ $ret_a == "0" ]; then
 		echo -e "[\e[31m NonAdd \e[0m] "`pwd`
