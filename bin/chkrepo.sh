@@ -59,7 +59,7 @@ function isPushed()
 		echo -en "[\e[33m Unpush \e[0m] "`pwd`
 		echo -en "\r[\e[31m Push.. \e[0m] "
 		git push > /dev/null 2>&1
-		echo -e "\r[\e[32m Pushed \e[0m] "
+		echo -e "\r[\e[33m Pushed \e[0m] "
 		return 0
 	elif [ $ret_a == "0" ]; then
 		echo -e "[\e[31m NonAdd \e[0m] \e[33m"`pwd`"\e[0m"
