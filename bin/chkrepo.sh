@@ -57,7 +57,7 @@ function isPushed()
 		return 1
 	elif [ $ret == "0" ]; then
 		echo -en "[\e[33m Unpush \e[0m] "`pwd`
-		echo -en "\r[\e[32m Push.. \e[0m] "
+		echo -en "\r[\e[31m Push.. \e[0m] "
 		git push > /dev/null 2>&1
 		echo -e "\r[\e[32m Pushed \e[0m] "
 		return 0
