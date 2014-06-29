@@ -45,6 +45,9 @@ function isPushed()
 		return 0
 	elif [ $ret == "0" ]; then
 		echo -e "[\e[33m Unpush \e[0m] "`pwd`
+		echo -e "\t\e[32m Pushing... \e[0m"
+		git push > /dev/null
+		echo -e "\v[\e[32m   OK   \e[0m] Pushed"
 		return 0
 	elif [ $ret_a == "0" ]; then
 		echo -e "[\e[31m NonAdd \e[0m] "`pwd`
