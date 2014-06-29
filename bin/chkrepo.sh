@@ -44,7 +44,7 @@ function isPushed()
 		echo -e "[\e[32m Pushed \e[0m] "`pwd`
 		return 1
 	elif [ $ret_m == "0" ]; then
-		echo -e "[\e[31m Commit \e[0m] "`pwd`
+		echo -e "[\e[31m Commit \e[0m] \e[33m"`pwd`"\e[0m"
 		return 0
 	elif [ $ret == "0" ]; then
 		echo -en "[\e[33m Unpush \e[0m] "`pwd`
@@ -53,7 +53,7 @@ function isPushed()
 		echo -e "\r[\e[32m Pushed \e[0m] "
 		return 1
 	elif [ $ret_a == "0" ]; then
-		echo -e "[\e[31m NonAdd \e[0m] "`pwd`
+		echo -e "[\e[31m NonAdd \e[0m] \e[33m"`pwd`"\e[0m"
 		return 0
 	fi
 }
@@ -72,9 +72,11 @@ do
 done
 
 #检查完毕,总结
+echo -en "\e[32m 检查完毕\e[0m: "
 if [ $n == "0" ]; then
-	echo -e "\e[32m 检查完毕\e[0m: 所有仓库均已push"
+	echo -en "所有仓库均已push"
 else
-	echo -e "\e[32m 检查完毕\e[0m: \e[31m$n\e[0m 个仓库没有push"
+	echo -en "有 \e[31m$n\e[0m 个仓库没有push"
 fi
+echo ""
 
