@@ -8,3 +8,12 @@ alias yum-search="apt-cache search" #习惯2
 
 #tmux 脱离后快速返回
 alias tmuxattach="tmux attach" #
+
+#快速转化gb2312到文本 ,先备份,在转换
+#alias 2utf8='iconv -f gb2312 -t utf-8 '
+function 2utf8
+{
+	file=$1;
+	cp $file $file.bak;
+	iconv -f gb2312 -t utf-8 $file.bak > $file; 
+}
