@@ -12,9 +12,10 @@ alias tmuxattach="tmux attach" #
 #快速转化gb2312到文本 ,先备份,在转换,仅接受一个参数为文件名.
 # 2utf8 file-with-gb2312-encode.txt 
 #alias 2utf8='iconv -f gb2312 -t utf-8 '
+# set -x
 function 2utf8
 {
-	file=$1;
-	cp $file $file.bak;
-	iconv -f gb2312 -t utf-8 $file.bak > $file; 
+	file=$1 ;
+	cp "$file" "$file.txt" ;
+	iconv -f gb2312 -t utf-8 "$file.txt" > "$file" ; 
 }
