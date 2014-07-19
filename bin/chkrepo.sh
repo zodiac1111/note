@@ -19,6 +19,7 @@ aRepos=(
 "$HOME/tmp/i2c-test"
 "$HOME/workspace/webbox/01-Trunk/01-Code/src_linux"
 "$HOME/workspace/webbox/01-Trunk/01-Code/website/ChiticBank-OverseasV1.0"
+"$HOME/Dropbox/hv插件/freeshop发送"
 )
 
 # **********************************************
