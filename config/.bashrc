@@ -130,3 +130,5 @@ export CHROME_DEVEL_SANDBOX=/home/zodiac1111/Mysoft/chrome-linux/chrome_sandbox
 #alias vh='vim /etc/hosts' # 快速打开hosts文件
 #alias yum='apt-get' #习惯
 #alias yum-search="apt-cache search" #习惯2
+
+QMAKESPEC=/home/zodiac1111/Mysoft/ti-sdk-am335x-evm-05.05.00.00/linux-devkit/arm-arago-linux-gnueabi/usr/share/qtopia/mkspecs/linux-g++;export QMAKESPEC; # ADDED BY INSTALLER - DO NOT EDIT OR DELETE THIS COMMENT - AB1C36D0-2B62-930A-B1CF-1B15CF69BE47 FABC53D4-F612-8422-4A73-937597A1366E
