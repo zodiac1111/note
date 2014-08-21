@@ -19,3 +19,9 @@ function 2utf8
 	cp "$file" "$file.txt" ;
 	iconv -f gb2312 -t utf-8 "$file.txt" > "$file" ; 
 }
+# git 和svn一起提交, git + svn + commit
+function gitci
+{
+	git ci -am"$1";
+	svn ci -m"$1";
+}
