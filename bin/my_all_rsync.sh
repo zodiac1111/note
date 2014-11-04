@@ -7,7 +7,10 @@ echo "开始备份home目录"
 
 backdir=/media/zodiac1111/bcb95e11-a242-494e-bd4c-b88f5fd3308d/
 echo "start rsync @" `date +"%Y-%m-%d %H:%M:%S"` >> /home/zodiac1111/rsync.log
-rsync --exclude .cache --exclude .local/share/Trash -avH ~/  ${backdir}  
+
+rsync --exclude .cache --exclude .local/share/Trash \
+ --hard-links --archive --verbose --progress --stats --delete $HOME/  ${backdir}  
+
 #rsync '/home/zodiac1111/tmp/' ${backdir}/tmp/'  -avH
 #rsync '/home/zodiac1111/Mysoft/' ${backdir}/Mysoft/' -avH
 #rsync '/home/zodiac1111/Downloads/' '/media/usb0/Downloads/' -avH
