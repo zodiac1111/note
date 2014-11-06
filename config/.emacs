@@ -65,5 +65,11 @@
 	(local-set-key (kbd "[") 'skeleton-pair-insert-maybe))
 (add-hook 'c-mode-hook 'my-c-mode-auto-pair)
 
+;;;; 设置
+(setq inferior-lisp-program "/usr/bin/sbcl")
+
+(add-to-list 'load-path "/usr/share/common-lisp/source/slime/")
+(require 'slime)
+(slime-setup)
 
 
