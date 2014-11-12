@@ -22,6 +22,7 @@ aRepos=(
 "$HOME/workspace/webbox/01-Trunk/01-Code/website/ChiticBank-OverseasV1.0"
 "$HOME/Dropbox/hv插件/freeshop发送"
 "$HOME/tmp/webbox_manual"
+"$HOME/tmp/lisp"
 )
 
 # **********************************************
