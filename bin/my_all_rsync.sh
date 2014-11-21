@@ -8,9 +8,9 @@ echo "开始备份home目录"
 backdir=/media/zodiac1111/bcb95e11-a242-494e-bd4c-b88f5fd3308d/
 echo "start rsync @" `date +"%Y-%m-%d %H:%M:%S"` >> /home/zodiac1111/rsync.log
 
-rsync --exclude .cache --exclude .local/share/Trash \
-  --exclude ~/VirtualBox VMs/ShareFiles/itunes	\
- --hard-links --archive --verbose --progress --stats  $HOME/  ${backdir}  
+rsync \
+	--exclude-from "/home/zodiac1111/gitbin/rsync_exclude.txt"	\
+	--hard-links --archive --verbose --progress --stats  $HOME/  ${backdir}  
 
 # --delete
 
