@@ -45,7 +45,7 @@ echo "start rsync @" `date +"%Y-%m-%d %H:%M:%S"` >> ${log}
 rsync \
 	--exclude-from  ${exclude}	\
 	${opt_delete} \
-	--hard-links --archive --verbose --progress --stats  $HOME/  ${backdir}  
+	--hard-links --archive --verbose --progress --stats ${HOME}/  ${backdir}  
 
 ret=$?
 
