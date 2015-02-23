@@ -5,7 +5,7 @@
 # 反注销以下语句以调试脚本
  set -x
 
-backdir=/media/zodiac1111/bcb95e11-a242-494e-bd4c-b88f5fd3308d/
+backdir=/media/zodiac1111/88/
 log=/home/zodiac1111/rsync.log
 exclude="/home/zodiac1111/gitbin/rsync_exclude.txt"
 opt_delete= 
@@ -60,7 +60,7 @@ echo "end rsync @" $? `date +"%Y-%m-%d %H:%M:%S"` >> ${log}
 
 echo "卸载备份硬盘"
 # 用完卸载
-umount /media/zodiac1111/bcb95e11-a242-494e-bd4c-b88f5fd3308d
+umount ${backdir}
 echo -en "\007 ret="$ret
 # 可能可以关机
 #sudo 
