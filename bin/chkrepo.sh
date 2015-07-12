@@ -32,7 +32,7 @@ n_push=0
 lenRepo=${#aRepos[@]} 
 
 # 仓库状态
-local rstat=0
+rstat=0
 
 function main() {
 	echo "main function";
