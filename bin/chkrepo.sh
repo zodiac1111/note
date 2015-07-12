@@ -2,7 +2,7 @@
 # file chkreop.sh  检查所有仓库是否push
 
 # 反注释以调试脚本
-# set -x
+#set -x
 
 # 初始化,所有仓库路径 
 # ********  在这里指定所有仓库的路径  *********
@@ -31,14 +31,23 @@ n_add=0
 n_push=0
 lenRepo=${#aRepos[@]} 
 
+# 仓库状态
+local rstat=0
+
+function main() {
+	echo "main function";
+}
+
+function repo_stat() {
+	return
+}
 #函数 检查是否有未push的提交 
 # pro <dir> 转到dir目录下,查询git是否提交,提交返回0,否则返回1
 # 检查仓库状态,
 # 0 pushed
 # 1 commit 但是未push
 # 2 add 但是未commit
-function isPushed()
-{
+function isPushed() {
 	#echo dir=$1
 	cd $1
 	# 发生错误,可能是没有这个仓库,退出
@@ -63,7 +72,12 @@ function isPushed()
 	elif [ $ret == "0" ]; then
 		echo -en "[\e[33m UnPush \e[0m] "`pwd`
 		echo -en "\r[\e[31m Push.. \e[0m] "
+		#git push #> /dev/null 2>&1
 		git push > /dev/null 2>&1
+		p_ret=$?
+		if [ ${p_ret} -ne 0 ] ; then
+			echo -e "\n[\e[31m PUSH \e[0m] \e[33m${p_ret}\e[0m" 
+		fi
 		echo -e "\r[\e[33m Pushed \e[0m] "
 		return 0
 	elif [ $ret_a == "0" ]; then
@@ -98,4 +112,6 @@ else
 	echo -en "有 \e[31m$n_commit\e[0m 个仓库没有commit"
 fi
 echo ""
+
+main
 
