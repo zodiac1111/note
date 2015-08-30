@@ -110,7 +110,7 @@ function isPushed() {
 		if [ ${p_ret} -ne 0 ] ; then
 			echo -e "\n[${CL_RED} PUSH ${CL_END}] ${CL_YELLOW}${p_ret}${CL_END}"
 		fi
-		echo -e "\r[${CL_YELLOW} Pushed ${CL_END}] "
+		echo -e "\r[${CL_PURP} Pushed ${CL_END}] "
 		return 0
 	elif [ $ret_a == "0" ]; then
 		echo -e "[${CL_RED} Un-Add ${CL_END}] ${CL_YELLOW}"`pwd`${CL_END}
