@@ -57,7 +57,7 @@ function main() {
 	#检查完毕,总结
 	echo -en "[${CL_GREEN}检查完毕${CL_END}]"
 	if [ $n_commit == "0" ] && [ $n_add == "0" ]; then
-		echo -e "所有仓库均已push"
+		echo -e " 所有仓库均已push"
 	else
 		if [ $n_commit != "0" ]; then
 			echo -e "\n* 有 ${CL_RED}${n_commit}${CL_END} 个仓库没有commit"
