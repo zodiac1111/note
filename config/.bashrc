@@ -117,6 +117,13 @@ if ! shopt -oq posix; then
 fi
 
 #######    以下为自己添加    #######
+# tty color define
+CL_RED="\033[31m"
+CL_YELLOW="\033[33m"
+CL_GREEN="\033[32m"
+CL_PURP="\033[35m"
+CL_END="\033[0m"
+## start script
 # PATH 路径
 #export PATH=$PATH:$HOME/Mysoft/cross-compile-gcc/bin #交叉编译器
 export PATH=$PATH:$HOME/Mysoft/bin #自己的软件
@@ -133,9 +140,20 @@ export CHROME_DEVEL_SANDBOX=/home/zodiac1111/Mysoft/chrome-linux/chrome_sandbox
 
 # 控制风扇
 function fan() {
-  sensors
   if [ $# -eq 1 ] ; then
-    echo level $@ | sudo tee /proc/acpi/ibm/fan
+	sensors
+	# 使用温度闭环控制
+	if [ "$@" == "tpfan"  ] ; then
+		sudo thinkfan -n  -s 3
+    else
+		echo -e "${CL_YELLOW}Be careful!${CL_END}use \"${CL_GREEN}fan auto${CL_END}\" to reset."
+		echo level $@ | sudo tee /proc/acpi/ibm/fan
+	fi
+  else
+	echo -e "Usage:"
+	echo -e "	fan [0,1,2,3,4,5,6,7,auto,fullspeed,tpfan]"
+	echo -e "	${CL_GREEN}0~7${CL_END}   : manual set fan speed"
+	echo -e "	${CL_GREEN}tpfan${CL_END} : use thinkpad fan ctrl"
   fi
 }
 
