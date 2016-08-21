@@ -7,24 +7,10 @@
 
 # 初始化,所有仓库路径
 # ********  在这里指定所有仓库的路径  *********
+# 按照一下格式一行一个仓库,因为可能泄露隐私,迁移到Mysoft上.同时这个不再更新.
 aRepos=(
 "$HOME/dotvim"
 "$HOME/note"
-"$HOME/blog/octopress"
-"$HOME/Dropbox/qt_tcp_client_server"
-"$HOME/Dropbox/wiki"
-"$HOME/tmp/curses"
-"$HOME/Dropbox/mySnippets"
-"$HOME/workspace/blink"
-"$HOME/workspace/lcd_4bit_allport"
-"$HOME/workspace/spi_nokia5110lcd"
-"$HOME/tmp/i2c-test"
-"$HOME/workspace/webbox/01-Trunk/01-Code/src_linux"
-"$HOME/workspace/webbox/01-Trunk/01-Code/website/ChiticBank-OverseasV1.0"
-"$HOME/Dropbox/hv插件/freeshop发送"
-"$HOME/tmp/webbox_manual"
-"$HOME/tmp/lisp"
-"$HOME/workspace/lua/c_call_lua_pass_data_to_lua"
 )
 
 # **********************************************
@@ -127,5 +113,5 @@ CL_PURP="\033[35m"
 CL_END="\033[0m"
 ## start script
 
-main
+main "$@"
 
