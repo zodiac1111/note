@@ -1,1 +1,1 @@
-cd ~/Documents/wiki && gollum
+cd ~/Dropbox/wiki && gollum
