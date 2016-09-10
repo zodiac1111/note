@@ -1,5 +1,4 @@
 #!/bin/sh
 
-cd ~/Dropbox/wiki
-screen gollum &
+cd ~/Dropbox/wiki && gollum &
 
