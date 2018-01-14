@@ -126,6 +126,7 @@ CL_END="\033[0m"
 ## start script
 # PATH 路径
 #export PATH=$PATH:$HOME/Mysoft/cross-compile-gcc/bin #交叉编译器
+export PATH=$PATH:$HOME/Dropbox/z-bin #放在远程的
 export PATH=$PATH:$HOME/Mysoft/bin #自己的软件
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:$HOME/gitbin # Add RVM to PATH for scripting

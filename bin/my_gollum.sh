@@ -2,7 +2,7 @@
 
 cd ~/Dropbox/wiki && \
 	gollum \
-		-h1-title \
+		--h1-title \
 		--allow-uploads dir \
 		--collapse-tree &
 
