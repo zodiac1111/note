@@ -5,10 +5,10 @@
 # 反注销以下语句以调试脚本
  set -x
 
-backdir=/media/zodiac1111/88/
+backdir=/media/zodiac1111/b02fe0e5-aa4c-429b-bac2-6546fc5fe6c2/
 log=/home/zodiac1111/rsync.log
 exclude="/home/zodiac1111/gitbin/rsync_exclude.txt"
-opt_delete= 
+opt_delete=
 opt=
 
 
@@ -45,7 +45,7 @@ echo "start rsync @" `date +"%Y-%m-%d %H:%M:%S"` >> ${log}
 rsync \
 	--exclude-from  ${exclude}	\
 	${opt_delete} \
-	--hard-links --archive --verbose --progress --stats ${HOME}/  ${backdir}  
+	--hard-links --archive --verbose --progress --stats ${HOME}/  ${backdir}
 
 ret=$?
 
@@ -63,4 +63,4 @@ echo "卸载备份硬盘"
 umount ${backdir}
 echo -en "\007 ret="$ret
 # 可能可以关机
-#sudo 
+#sudo
